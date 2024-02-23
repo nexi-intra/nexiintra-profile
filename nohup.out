@@ -1,0 +1,1959 @@
+Error from server (NotFound): namespaces "percona" not found
+Forwarding from 127.0.0.1:27017 -> 27017
+Forwarding from [::1]:27017 -> 27017
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:20:33.012942   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Create stream
+I0222 16:20:33.013342   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream added, broadcasting: 1
+I0222 16:20:33.014283   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Create stream
+I0222 16:20:33.014304   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream added, broadcasting: 3
+I0222 16:20:33.045234   73315 log.go:194] (0x1400016d1e0) Reply frame received for 1
+I0222 16:20:33.045272   73315 log.go:194] (0x1400016d1e0) Reply frame received for 3
+I0222 16:20:33.045288   73315 log.go:194] (0x140007d0000) (3) Writing data frame
+I0222 16:20:33.045307   73315 log.go:194] (0x140000ca000) (1) Writing data frame
+I0222 16:20:33.045376   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Create stream
+I0222 16:20:33.045384   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream added, broadcasting: 5
+I0222 16:20:33.045593   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Create stream
+I0222 16:20:33.045600   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Stream added, broadcasting: 7
+I0222 16:20:33.078854   73315 log.go:194] (0x1400016d1e0) Reply frame received for 7
+I0222 16:20:33.078899   73315 log.go:194] (0x1400016d1e0) Reply frame received for 5
+I0222 16:20:33.078995   73315 log.go:194] (0x140005b2000) (7) Writing data frame
+I0222 16:20:33.079048   73315 log.go:194] (0x140007d00a0) (5) Writing data frame
+I0222 16:20:33.199188   73315 log.go:194] (0x1400016d1e0) Data frame received for 7
+I0222 16:20:33.199238   73315 log.go:194] (0x140005b2000) (7) Data frame handling
+I0222 16:20:33.199249   73315 log.go:194] (0x140005b2000) (7) Data frame sent
+I0222 16:20:33.199264   73315 log.go:194] (0x1400016d1e0) Data frame received for 5
+I0222 16:20:33.199295   73315 log.go:194] (0x140007d00a0) (5) Data frame handling
+I0222 16:20:33.199307   73315 log.go:194] (0x140007d00a0) (5) Data frame sent
+I0222 16:20:33.200326   73315 log.go:194] (0x140005b2000) (7) Writing data frame
+I0222 16:20:39.217545   73315 log.go:194] (0x140005b2000) (7) Writing data frame
+I0222 16:20:39.217764   73315 log.go:194] (0x140007d00a0) (5) Writing data frame
+I0222 16:20:40.255033   73315 log.go:194] (0x1400016d1e0) Data frame received for 3
+I0222 16:20:40.255075   73315 log.go:194] (0x140007d0000) (3) Data frame handling
+I0222 16:20:40.255096   73315 log.go:194] (0x1400016d1e0) Data frame received for 1
+I0222 16:20:40.255126   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream removed, broadcasting: 3
+I0222 16:20:40.255204   73315 log.go:194] (0x140000ca000) (1) Data frame handling
+I0222 16:20:40.255214   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream removed, broadcasting: 1
+I0222 16:20:40.255220   73315 log.go:194] (0x1400016d1e0) Data frame received for 7
+I0222 16:20:40.255226   73315 log.go:194] (0x140005b2000) (7) Data frame handling
+I0222 16:20:40.255232   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Stream removed, broadcasting: 7
+I0222 16:20:40.255237   73315 log.go:194] (0x1400016d1e0) Data frame received for 5
+I0222 16:20:40.255242   73315 log.go:194] (0x140007d00a0) (5) Data frame handling
+I0222 16:20:40.255247   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream removed, broadcasting: 5
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:21:16.954008   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Create stream
+I0222 16:21:16.954046   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream added, broadcasting: 9
+I0222 16:21:16.954739   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Create stream
+I0222 16:21:16.954755   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream added, broadcasting: 11
+I0222 16:21:16.985124   73315 log.go:194] (0x1400016d1e0) Reply frame received for 9
+I0222 16:21:16.985158   73315 log.go:194] (0x140007d0000) (9) Writing data frame
+I0222 16:21:16.985240   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Create stream
+I0222 16:21:16.985265   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream added, broadcasting: 13
+I0222 16:21:16.986821   73315 log.go:194] (0x1400016d1e0) Reply frame received for 11
+I0222 16:21:16.986846   73315 log.go:194] (0x140007d00a0) (11) Writing data frame
+I0222 16:21:16.987263   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Create stream
+I0222 16:21:16.987280   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Stream added, broadcasting: 15
+I0222 16:21:17.015001   73315 log.go:194] (0x1400016d1e0) Reply frame received for 13
+I0222 16:21:17.015207   73315 log.go:194] (0x140007d0140) (13) Writing data frame
+I0222 16:21:17.022281   73315 log.go:194] (0x1400016d1e0) Reply frame received for 15
+I0222 16:21:17.022336   73315 log.go:194] (0x140005b2000) (15) Writing data frame
+I0222 16:21:17.051155   73315 log.go:194] (0x1400016d1e0) Data frame received for 13
+I0222 16:21:17.051179   73315 log.go:194] (0x140007d0140) (13) Data frame handling
+I0222 16:21:17.051188   73315 log.go:194] (0x140007d0140) (13) Data frame sent
+I0222 16:21:17.051710   73315 log.go:194] (0x140007d0140) (13) Writing data frame
+I0222 16:21:17.059303   73315 log.go:194] (0x1400016d1e0) Data frame received for 15
+I0222 16:21:17.059324   73315 log.go:194] (0x140005b2000) (15) Data frame handling
+I0222 16:21:17.059330   73315 log.go:194] (0x140005b2000) (15) Data frame sent
+I0222 16:21:20.034545   73315 log.go:194] (0x140005b2000) (15) Writing data frame
+I0222 16:21:20.034594   73315 log.go:194] (0x140007d0140) (13) Writing data frame
+I0222 16:21:21.064839   73315 log.go:194] (0x1400016d1e0) Data frame received for 9
+I0222 16:21:21.064880   73315 log.go:194] (0x140007d0000) (9) Data frame handling
+I0222 16:21:21.064890   73315 log.go:194] (0x1400016d1e0) Data frame received for 13
+I0222 16:21:21.064910   73315 log.go:194] (0x1400016d1e0) Data frame received for 11
+I0222 16:21:21.064920   73315 log.go:194] (0x1400016d1e0) Data frame received for 15
+I0222 16:21:21.064933   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream removed, broadcasting: 9
+I0222 16:21:21.064944   73315 log.go:194] (0x140005b2000) (15) Data frame handling
+I0222 16:21:21.064990   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Stream removed, broadcasting: 15
+I0222 16:21:21.065007   73315 log.go:194] (0x140007d0140) (13) Data frame handling
+I0222 16:21:21.065018   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream removed, broadcasting: 13
+I0222 16:21:21.065091   73315 log.go:194] (0x140007d00a0) (11) Data frame handling
+I0222 16:21:21.065151   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream removed, broadcasting: 11
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:21:21.619182   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Create stream
+I0222 16:21:21.619218   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream added, broadcasting: 17
+I0222 16:21:21.619445   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Create stream
+I0222 16:21:21.619463   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Stream added, broadcasting: 19
+I0222 16:21:21.650821   73315 log.go:194] (0x1400016d1e0) Reply frame received for 19
+I0222 16:21:21.650851   73315 log.go:194] (0x14000140320) (19) Writing data frame
+I0222 16:21:21.650880   73315 log.go:194] (0x1400016d1e0) Reply frame received for 17
+I0222 16:21:21.650910   73315 log.go:194] (0x140000ca000) (17) Writing data frame
+I0222 16:21:21.650929   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Create stream
+I0222 16:21:21.650943   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Stream added, broadcasting: 21
+I0222 16:21:21.651066   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Create stream
+I0222 16:21:21.651083   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream added, broadcasting: 23
+I0222 16:21:21.682360   73315 log.go:194] (0x1400016d1e0) Reply frame received for 21
+I0222 16:21:21.682409   73315 log.go:194] (0x1400016d1e0) Reply frame received for 23
+I0222 16:21:21.682445   73315 log.go:194] (0x140001403c0) (21) Writing data frame
+I0222 16:21:21.682475   73315 log.go:194] (0x140007d01e0) (23) Writing data frame
+I0222 16:21:21.713208   73315 log.go:194] (0x1400016d1e0) Data frame received for 21
+I0222 16:21:21.713240   73315 log.go:194] (0x140001403c0) (21) Data frame handling
+I0222 16:21:21.713245   73315 log.go:194] (0x140001403c0) (21) Data frame sent
+I0222 16:21:21.713255   73315 log.go:194] (0x1400016d1e0) Data frame received for 23
+I0222 16:21:21.713265   73315 log.go:194] (0x140007d01e0) (23) Data frame handling
+I0222 16:21:21.713274   73315 log.go:194] (0x140007d01e0) (23) Data frame sent
+I0222 16:21:21.713701   73315 log.go:194] (0x140007d01e0) (23) Writing data frame
+I0222 16:21:23.016661   73315 log.go:194] (0x140001403c0) (21) Writing data frame
+I0222 16:21:23.017041   73315 log.go:194] (0x140007d01e0) (23) Writing data frame
+I0222 16:21:24.053426   73315 log.go:194] (0x1400016d1e0) Data frame received for 21
+I0222 16:21:24.053477   73315 log.go:194] (0x140001403c0) (21) Data frame handling
+I0222 16:21:24.053494   73315 log.go:194] (0x1400016d1e0) Data frame received for 19
+I0222 16:21:24.053536   73315 log.go:194] (0x1400016d1e0) Data frame received for 17
+I0222 16:21:24.053545   73315 log.go:194] (0x1400016d1e0) Data frame received for 23
+I0222 16:21:24.053562   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Stream removed, broadcasting: 21
+I0222 16:21:24.053571   73315 log.go:194] (0x140007d01e0) (23) Data frame handling
+I0222 16:21:24.053586   73315 log.go:194] (0x14000140320) (19) Data frame handling
+I0222 16:21:24.053642   73315 log.go:194] (0x140000ca000) (17) Data frame handling
+I0222 16:21:24.053669   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream removed, broadcasting: 23
+I0222 16:21:24.053682   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Stream removed, broadcasting: 19
+I0222 16:21:24.053691   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream removed, broadcasting: 17
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:21:46.217901   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Create stream
+I0222 16:21:46.217936   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Stream added, broadcasting: 25
+I0222 16:21:46.218365   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Create stream
+I0222 16:21:46.218406   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Stream added, broadcasting: 27
+I0222 16:21:46.247358   73315 log.go:194] (0x1400016d1e0) Reply frame received for 27
+I0222 16:21:46.247403   73315 log.go:194] (0x14000530460) (27) Writing data frame
+I0222 16:21:46.247475   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Create stream
+I0222 16:21:46.247483   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Stream added, broadcasting: 29
+I0222 16:21:46.249395   73315 log.go:194] (0x1400016d1e0) Reply frame received for 25
+I0222 16:21:46.249414   73315 log.go:194] (0x14000140500) (25) Writing data frame
+I0222 16:21:46.249462   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Create stream
+I0222 16:21:46.249469   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Stream added, broadcasting: 31
+I0222 16:21:46.279622   73315 log.go:194] (0x1400016d1e0) Reply frame received for 29
+I0222 16:21:46.279714   73315 log.go:194] (0x140005312c0) (29) Writing data frame
+I0222 16:21:46.281079   73315 log.go:194] (0x1400016d1e0) Reply frame received for 31
+I0222 16:21:46.281182   73315 log.go:194] (0x14000531860) (31) Writing data frame
+I0222 16:21:46.314189   73315 log.go:194] (0x1400016d1e0) Data frame received for 29
+I0222 16:21:46.314221   73315 log.go:194] (0x140005312c0) (29) Data frame handling
+I0222 16:21:46.314229   73315 log.go:194] (0x140005312c0) (29) Data frame sent
+I0222 16:21:46.315025   73315 log.go:194] (0x140005312c0) (29) Writing data frame
+I0222 16:21:46.316187   73315 log.go:194] (0x1400016d1e0) Data frame received for 31
+I0222 16:21:46.316215   73315 log.go:194] (0x14000531860) (31) Data frame handling
+I0222 16:21:46.316223   73315 log.go:194] (0x14000531860) (31) Data frame sent
+I0222 16:21:47.381471   73315 log.go:194] (0x14000531860) (31) Writing data frame
+I0222 16:21:47.381545   73315 log.go:194] (0x140005312c0) (29) Writing data frame
+I0222 16:21:48.419371   73315 log.go:194] (0x1400016d1e0) Data frame received for 31
+I0222 16:21:48.419553   73315 log.go:194] (0x14000531860) (31) Data frame handling
+I0222 16:21:48.419923   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Stream removed, broadcasting: 31
+I0222 16:21:48.422640   73315 log.go:194] (0x1400016d1e0) Data frame received for 27
+I0222 16:21:48.422667   73315 log.go:194] (0x14000530460) (27) Data frame handling
+I0222 16:21:48.422676   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Stream removed, broadcasting: 27
+I0222 16:21:48.422755   73315 log.go:194] (0x1400016d1e0) Data frame received for 25
+I0222 16:21:48.422761   73315 log.go:194] (0x14000140500) (25) Data frame handling
+I0222 16:21:48.422849   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Stream removed, broadcasting: 25
+I0222 16:21:48.426015   73315 log.go:194] (0x1400016d1e0) Data frame received for 29
+I0222 16:21:48.426054   73315 log.go:194] (0x140005312c0) (29) Data frame handling
+I0222 16:21:48.427382   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Stream removed, broadcasting: 29
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:22:25.045611   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Create stream
+I0222 16:22:25.045648   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream added, broadcasting: 33
+I0222 16:22:25.046005   73315 log.go:194] (0x1400016d1e0) (0x140005b2960) Create stream
+I0222 16:22:25.046144   73315 log.go:194] (0x1400016d1e0) (0x140005b2960) Stream added, broadcasting: 35
+I0222 16:22:25.077658   73315 log.go:194] (0x1400016d1e0) Reply frame received for 35
+I0222 16:22:25.077691   73315 log.go:194] (0x1400016d1e0) Reply frame received for 33
+I0222 16:22:25.077732   73315 log.go:194] (0x140000ca140) (33) Writing data frame
+I0222 16:22:25.077749   73315 log.go:194] (0x140005b2960) (35) Writing data frame
+I0222 16:22:25.077827   73315 log.go:194] (0x1400016d1e0) (0x140005b3540) Create stream
+I0222 16:22:25.077835   73315 log.go:194] (0x1400016d1e0) (0x140005b3540) Stream added, broadcasting: 37
+I0222 16:22:25.077937   73315 log.go:194] (0x1400016d1e0) (0x140000ca3c0) Create stream
+I0222 16:22:25.077946   73315 log.go:194] (0x1400016d1e0) (0x140000ca3c0) Stream added, broadcasting: 39
+I0222 16:22:25.110959   73315 log.go:194] (0x1400016d1e0) Reply frame received for 39
+I0222 16:22:25.111235   73315 log.go:194] (0x1400016d1e0) Reply frame received for 37
+I0222 16:22:25.111718   73315 log.go:194] (0x140000ca3c0) (39) Writing data frame
+I0222 16:22:25.111755   73315 log.go:194] (0x140005b3540) (37) Writing data frame
+I0222 16:22:25.141027   73315 log.go:194] (0x1400016d1e0) Data frame received for 39
+I0222 16:22:25.141065   73315 log.go:194] (0x140000ca3c0) (39) Data frame handling
+I0222 16:22:25.141076   73315 log.go:194] (0x140000ca3c0) (39) Data frame sent
+I0222 16:22:25.141120   73315 log.go:194] (0x1400016d1e0) Data frame received for 37
+I0222 16:22:25.141128   73315 log.go:194] (0x140005b3540) (37) Data frame handling
+I0222 16:22:25.141133   73315 log.go:194] (0x140005b3540) (37) Data frame sent
+I0222 16:22:25.143229   73315 log.go:194] (0x140000ca3c0) (39) Writing data frame
+I0222 16:22:25.521982   73315 log.go:194] (0x140005b3540) (37) Writing data frame
+I0222 16:22:25.522022   73315 log.go:194] (0x140000ca3c0) (39) Writing data frame
+Handling connection for 27017
+I0222 16:22:25.555357   73315 log.go:194] (0x1400016d1e0) (0x140000ca640) Create stream
+I0222 16:22:25.555371   73315 log.go:194] (0x1400016d1e0) (0x140000ca640) Stream added, broadcasting: 41
+Handling connection for 27017
+I0222 16:22:25.555523   73315 log.go:194] (0x1400016d1e0) (0x140000ca8c0) Create stream
+I0222 16:22:25.555535   73315 log.go:194] (0x1400016d1e0) (0x140000ca8c0) Stream added, broadcasting: 43
+I0222 16:22:25.590808   73315 log.go:194] (0x1400016d1e0) Reply frame received for 41
+I0222 16:22:25.590854   73315 log.go:194] (0x140000ca640) (41) Writing data frame
+I0222 16:22:25.590888   73315 log.go:194] (0x1400016d1e0) Reply frame received for 43
+I0222 16:22:25.590941   73315 log.go:194] (0x140000ca8c0) (43) Writing data frame
+I0222 16:22:25.590950   73315 log.go:194] (0x1400016d1e0) (0x140000caa00) Create stream
+I0222 16:22:25.590962   73315 log.go:194] (0x1400016d1e0) (0x140000caa00) Stream added, broadcasting: 45
+I0222 16:22:25.591120   73315 log.go:194] (0x1400016d1e0) (0x140000caaa0) Create stream
+I0222 16:22:25.591127   73315 log.go:194] (0x1400016d1e0) (0x140000caaa0) Stream added, broadcasting: 47
+I0222 16:22:25.620945   73315 log.go:194] (0x1400016d1e0) Reply frame received for 45
+I0222 16:22:25.621023   73315 log.go:194] (0x140000caa00) (45) Writing data frame
+I0222 16:22:25.621108   73315 log.go:194] (0x140000caa00) (45) Writing data frame
+I0222 16:22:25.621792   73315 log.go:194] (0x1400016d1e0) Reply frame received for 47
+I0222 16:22:25.621830   73315 log.go:194] (0x140000caaa0) (47) Writing data frame
+I0222 16:22:25.621891   73315 log.go:194] (0x140000caaa0) (47) Writing data frame
+I0222 16:22:25.651641   73315 log.go:194] (0x1400016d1e0) Data frame received for 45
+I0222 16:22:25.651676   73315 log.go:194] (0x140000caa00) (45) Data frame handling
+I0222 16:22:25.651682   73315 log.go:194] (0x140000caa00) (45) Data frame sent
+I0222 16:22:25.651686   73315 log.go:194] (0x1400016d1e0) Data frame received for 47
+I0222 16:22:25.651690   73315 log.go:194] (0x140000caaa0) (47) Data frame handling
+I0222 16:22:25.651720   73315 log.go:194] (0x140000caaa0) (47) Data frame sent
+I0222 16:22:26.554966   73315 log.go:194] (0x1400016d1e0) Data frame received for 35
+I0222 16:22:26.555047   73315 log.go:194] (0x140005b2960) (35) Data frame handling
+I0222 16:22:26.555110   73315 log.go:194] (0x1400016d1e0) (0x140005b2960) Stream removed, broadcasting: 35
+I0222 16:22:26.555127   73315 log.go:194] (0x1400016d1e0) Data frame received for 37
+I0222 16:22:26.555140   73315 log.go:194] (0x140005b3540) (37) Data frame handling
+I0222 16:22:26.555155   73315 log.go:194] (0x1400016d1e0) (0x140005b3540) Stream removed, broadcasting: 37
+I0222 16:22:26.555167   73315 log.go:194] (0x1400016d1e0) Data frame received for 33
+I0222 16:22:26.555180   73315 log.go:194] (0x140000ca140) (33) Data frame handling
+I0222 16:22:26.555192   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream removed, broadcasting: 33
+I0222 16:22:26.555203   73315 log.go:194] (0x1400016d1e0) Data frame received for 39
+I0222 16:22:26.555247   73315 log.go:194] (0x140000ca3c0) (39) Data frame handling
+I0222 16:22:26.555259   73315 log.go:194] (0x1400016d1e0) (0x140000ca3c0) Stream removed, broadcasting: 39
+I0222 16:22:26.652561   73315 log.go:194] (0x1400016d1e0) Data frame received for 43
+I0222 16:22:26.652631   73315 log.go:194] (0x140000ca8c0) (43) Data frame handling
+I0222 16:22:26.652665   73315 log.go:194] (0x1400016d1e0) Data frame received for 47
+I0222 16:22:26.652689   73315 log.go:194] (0x1400016d1e0) Data frame received for 41
+I0222 16:22:26.652705   73315 log.go:194] (0x1400016d1e0) Data frame received for 45
+I0222 16:22:26.652731   73315 log.go:194] (0x1400016d1e0) (0x140000ca8c0) Stream removed, broadcasting: 43
+I0222 16:22:26.652752   73315 log.go:194] (0x140000caa00) (45) Data frame handling
+I0222 16:22:26.652771   73315 log.go:194] (0x140000caaa0) (47) Data frame handling
+I0222 16:22:26.652807   73315 log.go:194] (0x140000ca640) (41) Data frame handling
+I0222 16:22:26.652829   73315 log.go:194] (0x1400016d1e0) (0x140000caa00) Stream removed, broadcasting: 45
+I0222 16:22:26.652846   73315 log.go:194] (0x1400016d1e0) (0x140000caaa0) Stream removed, broadcasting: 47
+I0222 16:22:26.652862   73315 log.go:194] (0x1400016d1e0) (0x140000ca640) Stream removed, broadcasting: 41
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:22:30.103154   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Create stream
+I0222 16:22:30.103179   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Stream added, broadcasting: 49
+I0222 16:22:30.103465   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Create stream
+I0222 16:22:30.103477   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream added, broadcasting: 51
+I0222 16:22:30.143622   73315 log.go:194] (0x1400016d1e0) Reply frame received for 51
+I0222 16:22:30.143662   73315 log.go:194] (0x1400043aaa0) (51) Writing data frame
+I0222 16:22:30.143760   73315 log.go:194] (0x1400016d1e0) (0x14000250640) Create stream
+I0222 16:22:30.143767   73315 log.go:194] (0x1400016d1e0) (0x14000250640) Stream added, broadcasting: 53
+I0222 16:22:30.145633   73315 log.go:194] (0x1400016d1e0) Reply frame received for 49
+I0222 16:22:30.145653   73315 log.go:194] (0x1400043a0a0) (49) Writing data frame
+I0222 16:22:30.145740   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Create stream
+I0222 16:22:30.145746   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream added, broadcasting: 55
+I0222 16:22:30.175542   73315 log.go:194] (0x1400016d1e0) Reply frame received for 53
+I0222 16:22:30.175581   73315 log.go:194] (0x1400016d1e0) Reply frame received for 55
+I0222 16:22:30.175612   73315 log.go:194] (0x14000250640) (53) Writing data frame
+I0222 16:22:30.175860   73315 log.go:194] (0x14000250d20) (55) Writing data frame
+I0222 16:22:30.214123   73315 log.go:194] (0x1400016d1e0) Data frame received for 55
+I0222 16:22:30.214150   73315 log.go:194] (0x14000250d20) (55) Data frame handling
+I0222 16:22:30.214156   73315 log.go:194] (0x14000250d20) (55) Data frame sent
+I0222 16:22:30.214161   73315 log.go:194] (0x1400016d1e0) Data frame received for 53
+I0222 16:22:30.214165   73315 log.go:194] (0x14000250640) (53) Data frame handling
+I0222 16:22:30.214170   73315 log.go:194] (0x14000250640) (53) Data frame sent
+I0222 16:22:30.214619   73315 log.go:194] (0x14000250640) (53) Writing data frame
+I0222 16:22:31.260976   73315 log.go:194] (0x14000250640) (53) Writing data frame
+I0222 16:22:31.261229   73315 log.go:194] (0x14000250d20) (55) Writing data frame
+I0222 16:22:32.293738   73315 log.go:194] (0x1400016d1e0) Data frame received for 49
+I0222 16:22:32.293792   73315 log.go:194] (0x1400043a0a0) (49) Data frame handling
+I0222 16:22:32.293849   73315 log.go:194] (0x1400016d1e0) Data frame received for 55
+I0222 16:22:32.293900   73315 log.go:194] (0x1400016d1e0) Data frame received for 53
+I0222 16:22:32.293909   73315 log.go:194] (0x1400016d1e0) Data frame received for 51
+I0222 16:22:32.293922   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Stream removed, broadcasting: 49
+I0222 16:22:32.293933   73315 log.go:194] (0x1400043aaa0) (51) Data frame handling
+I0222 16:22:32.293949   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream removed, broadcasting: 51
+I0222 16:22:32.293954   73315 log.go:194] (0x14000250d20) (55) Data frame handling
+I0222 16:22:32.293965   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream removed, broadcasting: 55
+I0222 16:22:32.294015   73315 log.go:194] (0x14000250640) (53) Data frame handling
+I0222 16:22:32.294023   73315 log.go:194] (0x1400016d1e0) (0x14000250640) Stream removed, broadcasting: 53
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:22:42.300120   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Create stream
+I0222 16:22:42.300168   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream added, broadcasting: 57
+I0222 16:22:42.300516   73315 log.go:194] (0x1400016d1e0) (0x140000cad20) Create stream
+I0222 16:22:42.300543   73315 log.go:194] (0x1400016d1e0) (0x140000cad20) Stream added, broadcasting: 59
+I0222 16:22:42.331029   73315 log.go:194] (0x1400016d1e0) Reply frame received for 57
+I0222 16:22:42.331065   73315 log.go:194] (0x1400016d1e0) Reply frame received for 59
+I0222 16:22:42.331081   73315 log.go:194] (0x140000cad20) (59) Writing data frame
+I0222 16:22:42.331103   73315 log.go:194] (0x1400043b400) (57) Writing data frame
+I0222 16:22:42.331169   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Create stream
+I0222 16:22:42.331183   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream added, broadcasting: 61
+I0222 16:22:42.331360   73315 log.go:194] (0x1400016d1e0) (0x140000cae60) Create stream
+I0222 16:22:42.331376   73315 log.go:194] (0x1400016d1e0) (0x140000cae60) Stream added, broadcasting: 63
+I0222 16:22:42.367915   73315 log.go:194] (0x1400016d1e0) Reply frame received for 61
+I0222 16:22:42.367950   73315 log.go:194] (0x1400016d1e0) Reply frame received for 63
+I0222 16:22:42.368100   73315 log.go:194] (0x1400043b9a0) (61) Writing data frame
+I0222 16:22:42.368221   73315 log.go:194] (0x140000cae60) (63) Writing data frame
+I0222 16:22:42.400435   73315 log.go:194] (0x1400016d1e0) Data frame received for 61
+I0222 16:22:42.400460   73315 log.go:194] (0x1400043b9a0) (61) Data frame handling
+I0222 16:22:42.400467   73315 log.go:194] (0x1400043b9a0) (61) Data frame sent
+I0222 16:22:42.400479   73315 log.go:194] (0x1400016d1e0) Data frame received for 63
+I0222 16:22:42.400512   73315 log.go:194] (0x140000cae60) (63) Data frame handling
+I0222 16:22:42.400522   73315 log.go:194] (0x140000cae60) (63) Data frame sent
+I0222 16:22:42.401033   73315 log.go:194] (0x1400043b9a0) (61) Writing data frame
+I0222 16:22:44.121489   73315 log.go:194] (0x1400043b9a0) (61) Writing data frame
+I0222 16:22:44.121686   73315 log.go:194] (0x140000cae60) (63) Writing data frame
+I0222 16:22:45.153306   73315 log.go:194] (0x1400016d1e0) Data frame received for 57
+I0222 16:22:45.153346   73315 log.go:194] (0x1400043b400) (57) Data frame handling
+I0222 16:22:45.153397   73315 log.go:194] (0x1400016d1e0) Data frame received for 63
+I0222 16:22:45.153428   73315 log.go:194] (0x1400016d1e0) Data frame received for 61
+I0222 16:22:45.153438   73315 log.go:194] (0x1400016d1e0) Data frame received for 59
+I0222 16:22:45.153452   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream removed, broadcasting: 57
+I0222 16:22:45.153464   73315 log.go:194] (0x140000cad20) (59) Data frame handling
+I0222 16:22:45.153472   73315 log.go:194] (0x140000cae60) (63) Data frame handling
+I0222 16:22:45.153488   73315 log.go:194] (0x1400043b9a0) (61) Data frame handling
+I0222 16:22:45.153522   73315 log.go:194] (0x1400016d1e0) (0x140000cad20) Stream removed, broadcasting: 59
+I0222 16:22:45.153555   73315 log.go:194] (0x1400016d1e0) (0x140000cae60) Stream removed, broadcasting: 63
+I0222 16:22:45.153565   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream removed, broadcasting: 61
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:37:54.590488   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Create stream
+I0222 16:37:54.590548   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Stream added, broadcasting: 65
+I0222 16:37:54.591098   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Create stream
+I0222 16:37:54.591272   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream added, broadcasting: 67
+I0222 16:37:54.620208   73315 log.go:194] (0x1400016d1e0) Reply frame received for 65
+I0222 16:37:54.620241   73315 log.go:194] (0x1400043a0a0) (65) Writing data frame
+I0222 16:37:54.620329   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Create stream
+I0222 16:37:54.620338   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream added, broadcasting: 69
+I0222 16:37:54.621188   73315 log.go:194] (0x1400016d1e0) Reply frame received for 67
+I0222 16:37:54.621199   73315 log.go:194] (0x140007d0000) (67) Writing data frame
+I0222 16:37:54.621241   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Create stream
+I0222 16:37:54.621247   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream added, broadcasting: 71
+I0222 16:37:54.652059   73315 log.go:194] (0x1400016d1e0) Reply frame received for 71
+I0222 16:37:54.652094   73315 log.go:194] (0x1400016d1e0) Reply frame received for 69
+I0222 16:37:54.652198   73315 log.go:194] (0x140007d00a0) (71) Writing data frame
+I0222 16:37:54.652230   73315 log.go:194] (0x1400043aaa0) (69) Writing data frame
+I0222 16:37:54.681997   73315 log.go:194] (0x1400016d1e0) Data frame received for 69
+I0222 16:37:54.682036   73315 log.go:194] (0x1400043aaa0) (69) Data frame handling
+I0222 16:37:54.682045   73315 log.go:194] (0x1400043aaa0) (69) Data frame sent
+I0222 16:37:54.682064   73315 log.go:194] (0x1400016d1e0) Data frame received for 71
+I0222 16:37:54.682102   73315 log.go:194] (0x140007d00a0) (71) Data frame handling
+I0222 16:37:54.682133   73315 log.go:194] (0x140007d00a0) (71) Data frame sent
+I0222 16:37:54.682537   73315 log.go:194] (0x140007d00a0) (71) Writing data frame
+I0222 16:37:54.978101   73315 log.go:194] (0x1400043aaa0) (69) Writing data frame
+I0222 16:37:54.978170   73315 log.go:194] (0x140007d00a0) (71) Writing data frame
+I0222 16:37:56.027125   73315 log.go:194] (0x1400016d1e0) Data frame received for 65
+I0222 16:37:56.027197   73315 log.go:194] (0x1400043a0a0) (65) Data frame handling
+I0222 16:37:56.027222   73315 log.go:194] (0x1400016d1e0) Data frame received for 69
+I0222 16:37:56.027247   73315 log.go:194] (0x1400016d1e0) Data frame received for 67
+I0222 16:37:56.027268   73315 log.go:194] (0x1400016d1e0) Data frame received for 71
+I0222 16:37:56.027315   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Stream removed, broadcasting: 65
+I0222 16:37:56.027346   73315 log.go:194] (0x140007d00a0) (71) Data frame handling
+I0222 16:37:56.027361   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream removed, broadcasting: 71
+I0222 16:37:56.027373   73315 log.go:194] (0x1400043aaa0) (69) Data frame handling
+I0222 16:37:56.027388   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream removed, broadcasting: 69
+I0222 16:37:56.027399   73315 log.go:194] (0x140007d0000) (67) Data frame handling
+I0222 16:37:56.027411   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream removed, broadcasting: 67
+Handling connection for 27017
+I0222 16:41:37.596388   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Create stream
+I0222 16:41:37.596435   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Stream added, broadcasting: 73
+I0222 16:41:37.627074   73315 log.go:194] (0x1400016d1e0) Reply frame received for 73
+I0222 16:41:37.627114   73315 log.go:194] (0x1400043a0a0) (73) Writing data frame
+I0222 16:41:37.627204   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Create stream
+I0222 16:41:37.627214   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream added, broadcasting: 75
+I0222 16:41:37.666050   73315 log.go:194] (0x1400016d1e0) Reply frame received for 75
+I0222 16:41:37.666145   73315 log.go:194] (0x140007d0000) (75) Writing data frame
+I0222 16:41:37.704599   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:41:37.704646   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:41:37.704664   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:41:37.705110   73315 log.go:194] (0x140007d0000) (75) Writing data frame
+Handling connection for 27017
+I0222 16:41:37.706020   73315 log.go:194] (0x1400016d1e0) (0x14000250640) Create stream
+I0222 16:41:37.706029   73315 log.go:194] (0x1400016d1e0) (0x14000250640) Stream added, broadcasting: 77
+I0222 16:41:37.829909   73315 log.go:194] (0x1400016d1e0) Reply frame received for 77
+I0222 16:41:37.829954   73315 log.go:194] (0x14000250640) (77) Writing data frame
+I0222 16:41:37.830029   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Create stream
+I0222 16:41:37.830037   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream added, broadcasting: 79
+I0222 16:41:37.862047   73315 log.go:194] (0x1400016d1e0) Reply frame received for 79
+I0222 16:41:37.862123   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:41:37.893203   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:41:37.893243   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:41:37.893252   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:41:47.805197   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:41:47.806604   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:41:47.806680   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:41:47.895102   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:41:47.925074   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:41:47.925109   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:41:47.925117   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:41:57.755531   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:41:57.755794   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:41:57.755812   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:41:57.895074   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:41:57.923808   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:41:57.923843   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:41:57.923853   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:42:07.767216   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:42:07.767603   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:42:07.767643   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:42:07.896657   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:42:07.927497   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:42:07.927599   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:42:07.927644   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:42:17.771727   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:42:17.772595   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:42:17.772608   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:42:17.894903   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:42:17.924840   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:42:17.924900   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:42:17.924940   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:42:27.781331   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:42:27.782229   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:42:27.782267   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:42:27.895076   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:42:27.926879   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:42:27.926921   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:42:27.926930   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:42:37.790164   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:42:37.791137   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:42:37.791179   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:42:37.895223   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:42:37.925597   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:42:37.925777   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:42:37.926283   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:42:47.798563   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:42:47.799489   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:42:47.799528   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:42:47.895679   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:42:47.931920   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:42:47.931972   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:42:47.931985   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:42:57.805122   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:42:57.806092   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:42:57.806154   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:42:57.896014   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:42:58.017249   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:42:58.017376   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:42:58.017422   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:42:59.629325   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Create stream
+I0222 16:42:59.629366   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream added, broadcasting: 81
+I0222 16:42:59.629869   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Create stream
+I0222 16:42:59.629895   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream added, broadcasting: 83
+I0222 16:42:59.660569   73315 log.go:194] (0x1400016d1e0) Reply frame received for 81
+I0222 16:42:59.660598   73315 log.go:194] (0x1400043aaa0) (81) Writing data frame
+I0222 16:42:59.660691   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Create stream
+I0222 16:42:59.660700   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream added, broadcasting: 85
+I0222 16:42:59.667421   73315 log.go:194] (0x1400016d1e0) Reply frame received for 83
+I0222 16:42:59.667447   73315 log.go:194] (0x140007d0140) (83) Writing data frame
+I0222 16:42:59.667525   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Create stream
+I0222 16:42:59.667532   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream added, broadcasting: 87
+I0222 16:42:59.693291   73315 log.go:194] (0x1400016d1e0) Reply frame received for 85
+I0222 16:42:59.693376   73315 log.go:194] (0x14000250d20) (85) Writing data frame
+I0222 16:42:59.697708   73315 log.go:194] (0x1400016d1e0) Reply frame received for 87
+I0222 16:42:59.697751   73315 log.go:194] (0x1400043b400) (87) Writing data frame
+I0222 16:42:59.722418   73315 log.go:194] (0x1400016d1e0) Data frame received for 85
+I0222 16:42:59.722436   73315 log.go:194] (0x14000250d20) (85) Data frame handling
+I0222 16:42:59.722441   73315 log.go:194] (0x14000250d20) (85) Data frame sent
+I0222 16:42:59.727829   73315 log.go:194] (0x1400016d1e0) Data frame received for 87
+I0222 16:42:59.727853   73315 log.go:194] (0x1400043b400) (87) Data frame handling
+I0222 16:42:59.727860   73315 log.go:194] (0x1400043b400) (87) Data frame sent
+I0222 16:42:59.728194   73315 log.go:194] (0x1400043b400) (87) Writing data frame
+I0222 16:43:00.245723   73315 log.go:194] (0x1400043b400) (87) Writing data frame
+I0222 16:43:00.245848   73315 log.go:194] (0x14000250d20) (85) Writing data frame
+I0222 16:43:01.288098   73315 log.go:194] (0x1400016d1e0) Data frame received for 83
+I0222 16:43:01.288137   73315 log.go:194] (0x140007d0140) (83) Data frame handling
+I0222 16:43:01.288455   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream removed, broadcasting: 83
+I0222 16:43:01.288474   73315 log.go:194] (0x1400016d1e0) Data frame received for 87
+I0222 16:43:01.288482   73315 log.go:194] (0x1400043b400) (87) Data frame handling
+I0222 16:43:01.288487   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream removed, broadcasting: 87
+I0222 16:43:01.288493   73315 log.go:194] (0x1400016d1e0) Data frame received for 81
+I0222 16:43:01.288513   73315 log.go:194] (0x1400043aaa0) (81) Data frame handling
+I0222 16:43:01.288530   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream removed, broadcasting: 81
+I0222 16:43:01.288537   73315 log.go:194] (0x1400016d1e0) Data frame received for 85
+I0222 16:43:01.288541   73315 log.go:194] (0x14000250d20) (85) Data frame handling
+I0222 16:43:01.288545   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream removed, broadcasting: 85
+I0222 16:43:07.861045   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:43:07.861322   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:43:07.861355   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:43:07.906116   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:43:08.077004   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:43:08.077026   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:43:08.077036   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:43:17.895303   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:43:17.935415   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:43:17.935513   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:43:17.935579   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:43:17.961956   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:43:17.961999   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:43:17.962006   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:43:27.902664   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:43:27.912441   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:43:27.912526   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:43:27.912564   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:43:27.931637   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:43:27.931726   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:43:27.931757   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:43:37.883743   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:43:37.884267   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:43:37.884290   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:43:37.895951   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:43:37.925341   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:43:37.925378   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:43:37.925387   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:43:47.891946   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:43:47.892211   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:43:47.892227   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:43:47.895567   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:43:47.925894   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:43:47.925926   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:43:47.925934   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:43:57.896400   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:43:57.899027   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:43:57.899076   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:43:57.899099   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:43:57.927403   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:43:57.927445   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:43:57.927454   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+Handling connection for 27017
+I0222 16:43:59.414903   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Create stream
+I0222 16:43:59.414922   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream added, broadcasting: 89
+I0222 16:43:59.457554   73315 log.go:194] (0x1400016d1e0) Reply frame received for 89
+I0222 16:43:59.457598   73315 log.go:194] (0x14000250d20) (89) Writing data frame
+I0222 16:43:59.457724   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Create stream
+I0222 16:43:59.457740   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream added, broadcasting: 91
+I0222 16:43:59.490558   73315 log.go:194] (0x1400016d1e0) Reply frame received for 91
+I0222 16:43:59.490739   73315 log.go:194] (0x1400043aaa0) (91) Writing data frame
+I0222 16:43:59.521782   73315 log.go:194] (0x1400016d1e0) Data frame received for 91
+I0222 16:43:59.521811   73315 log.go:194] (0x1400043aaa0) (91) Data frame handling
+I0222 16:43:59.521819   73315 log.go:194] (0x1400043aaa0) (91) Data frame sent
+I0222 16:43:59.523534   73315 log.go:194] (0x1400043aaa0) (91) Writing data frame
+Handling connection for 27017
+I0222 16:43:59.526858   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Create stream
+I0222 16:43:59.526887   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream added, broadcasting: 93
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:43:59.595420   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Create stream
+I0222 16:43:59.595436   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream added, broadcasting: 95
+I0222 16:43:59.595922   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Create stream
+I0222 16:43:59.596066   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream added, broadcasting: 97
+I0222 16:43:59.634351   73315 log.go:194] (0x1400016d1e0) Reply frame received for 93
+I0222 16:43:59.634378   73315 log.go:194] (0x140007d0140) (93) Writing data frame
+I0222 16:43:59.634452   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Create stream
+I0222 16:43:59.634458   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream added, broadcasting: 99
+I0222 16:43:59.660596   73315 log.go:194] (0x1400016d1e0) Reply frame received for 95
+I0222 16:43:59.660624   73315 log.go:194] (0x1400043b400) (95) Writing data frame
+I0222 16:43:59.660643   73315 log.go:194] (0x1400016d1e0) Reply frame received for 97
+I0222 16:43:59.660697   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Create stream
+I0222 16:43:59.660719   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream added, broadcasting: 101
+I0222 16:43:59.660868   73315 log.go:194] (0x1400043b9a0) (97) Writing data frame
+I0222 16:43:59.660895   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Create stream
+I0222 16:43:59.660900   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Stream added, broadcasting: 103
+I0222 16:43:59.670105   73315 log.go:194] (0x1400016d1e0) Reply frame received for 99
+I0222 16:43:59.670164   73315 log.go:194] (0x140002514a0) (99) Writing data frame
+I0222 16:43:59.691226   73315 log.go:194] (0x1400016d1e0) Reply frame received for 103
+I0222 16:43:59.691264   73315 log.go:194] (0x1400016d1e0) Reply frame received for 101
+I0222 16:43:59.691307   73315 log.go:194] (0x1400043bf40) (103) Writing data frame
+I0222 16:43:59.691337   73315 log.go:194] (0x140007d01e0) (101) Writing data frame
+I0222 16:43:59.704854   73315 log.go:194] (0x1400016d1e0) Data frame received for 99
+I0222 16:43:59.704875   73315 log.go:194] (0x140002514a0) (99) Data frame handling
+I0222 16:43:59.704881   73315 log.go:194] (0x140002514a0) (99) Data frame sent
+I0222 16:43:59.719934   73315 log.go:194] (0x1400016d1e0) Data frame received for 103
+I0222 16:43:59.719947   73315 log.go:194] (0x1400043bf40) (103) Data frame handling
+I0222 16:43:59.719955   73315 log.go:194] (0x1400043bf40) (103) Data frame sent
+I0222 16:43:59.719975   73315 log.go:194] (0x1400016d1e0) Data frame received for 101
+I0222 16:43:59.720000   73315 log.go:194] (0x140007d01e0) (101) Data frame handling
+I0222 16:43:59.720010   73315 log.go:194] (0x140007d01e0) (101) Data frame sent
+I0222 16:43:59.720699   73315 log.go:194] (0x140007d01e0) (101) Writing data frame
+I0222 16:44:00.143686   73315 log.go:194] (0x1400043bf40) (103) Writing data frame
+I0222 16:44:00.143755   73315 log.go:194] (0x140007d01e0) (101) Writing data frame
+I0222 16:44:01.292361   73315 log.go:194] (0x1400016d1e0) Data frame received for 97
+I0222 16:44:01.292389   73315 log.go:194] (0x1400043b9a0) (97) Data frame handling
+I0222 16:44:01.292403   73315 log.go:194] (0x1400016d1e0) Data frame received for 103
+I0222 16:44:01.292415   73315 log.go:194] (0x1400016d1e0) Data frame received for 95
+I0222 16:44:01.292421   73315 log.go:194] (0x1400016d1e0) Data frame received for 101
+I0222 16:44:01.292435   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream removed, broadcasting: 97
+I0222 16:44:01.292442   73315 log.go:194] (0x140007d01e0) (101) Data frame handling
+I0222 16:44:01.292447   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream removed, broadcasting: 101
+I0222 16:44:01.292451   73315 log.go:194] (0x1400043bf40) (103) Data frame handling
+I0222 16:44:01.292457   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Stream removed, broadcasting: 103
+I0222 16:44:01.292466   73315 log.go:194] (0x1400043b400) (95) Data frame handling
+I0222 16:44:01.292487   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream removed, broadcasting: 95
+I0222 16:44:02.941004   73315 log.go:194] (0x140002514a0) (99) Writing data frame
+I0222 16:44:02.941049   73315 log.go:194] (0x1400043aaa0) (91) Writing data frame
+I0222 16:44:03.973718   73315 log.go:194] (0x1400016d1e0) Data frame received for 99
+I0222 16:44:03.973758   73315 log.go:194] (0x140002514a0) (99) Data frame handling
+I0222 16:44:03.973766   73315 log.go:194] (0x1400016d1e0) Data frame received for 93
+I0222 16:44:03.973797   73315 log.go:194] (0x1400016d1e0) Data frame received for 91
+I0222 16:44:03.973803   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream removed, broadcasting: 99
+I0222 16:44:03.973821   73315 log.go:194] (0x1400016d1e0) Data frame received for 89
+I0222 16:44:03.973833   73315 log.go:194] (0x14000250d20) (89) Data frame handling
+I0222 16:44:03.973841   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream removed, broadcasting: 89
+I0222 16:44:03.973846   73315 log.go:194] (0x140007d0140) (93) Data frame handling
+I0222 16:44:03.973851   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream removed, broadcasting: 93
+I0222 16:44:03.973855   73315 log.go:194] (0x1400043aaa0) (91) Data frame handling
+I0222 16:44:03.973859   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream removed, broadcasting: 91
+I0222 16:44:07.898736   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:44:07.915041   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:44:07.915186   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:44:07.915231   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:44:07.929388   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:44:07.929495   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:44:07.929524   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:44:17.895749   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:44:17.982477   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:44:17.982564   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:44:17.982588   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:44:18.009550   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:44:18.009980   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:44:18.010019   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:44:27.896503   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:44:27.945673   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:44:27.945777   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:44:27.945825   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:44:27.978542   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:44:27.978638   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:44:27.978675   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:44:37.896332   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:44:37.935196   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:44:37.935223   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:44:37.935239   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:44:37.937779   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:44:37.937804   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:44:37.937811   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:44:47.896811   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:44:47.926382   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:44:47.926420   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:44:47.926432   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:44:47.942564   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:44:47.942607   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:44:47.942617   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:44:57.896338   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:44:57.928017   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:44:57.928098   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:44:57.928126   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:44:57.949421   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:44:57.949456   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:44:57.949471   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:45:07.897595   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:45:07.926789   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:45:07.926832   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:45:07.926845   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:45:07.958425   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:45:07.958467   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:45:07.958477   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:45:17.897070   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:45:17.926462   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:45:17.926553   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:45:17.926567   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:45:17.972040   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:45:17.972076   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:45:17.972090   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:45:27.897271   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:45:27.927307   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:45:27.927328   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:45:27.927339   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:45:27.972888   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:45:27.972946   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:45:27.972956   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:45:37.897110   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:45:37.932234   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:45:37.932276   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:45:37.932293   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:45:37.983742   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:45:37.983783   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:45:37.983794   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:45:47.897264   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:45:47.927476   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:45:47.927520   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:45:47.927531   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:45:47.996772   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:45:47.996806   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:45:47.996816   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:45:57.897539   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:45:57.928378   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:45:57.928424   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:45:57.928558   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:45:57.997162   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:45:57.997198   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:45:57.997206   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:46:07.897312   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:46:07.925335   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:46:07.925644   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:46:07.925664   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:46:08.080537   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:46:08.080628   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:46:08.080647   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:46:17.897789   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:46:17.929519   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:46:17.929610   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:46:17.929646   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:46:18.041002   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:46:18.041103   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:46:18.041127   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+Handling connection for 27017
+I0222 16:46:19.355608   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Create stream
+I0222 16:46:19.355622   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream added, broadcasting: 105
+I0222 16:46:19.388867   73315 log.go:194] (0x1400016d1e0) Reply frame received for 105
+I0222 16:46:19.388906   73315 log.go:194] (0x140007d0140) (105) Writing data frame
+I0222 16:46:19.388999   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Create stream
+I0222 16:46:19.389010   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream added, broadcasting: 107
+I0222 16:46:19.427453   73315 log.go:194] (0x1400016d1e0) Reply frame received for 107
+I0222 16:46:19.427941   73315 log.go:194] (0x140007d01e0) (107) Writing data frame
+Handling connection for 27017
+I0222 16:46:19.459292   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Create stream
+I0222 16:46:19.459304   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Stream added, broadcasting: 109
+Handling connection for 27017
+I0222 16:46:19.459673   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Create stream
+I0222 16:46:19.459681   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream added, broadcasting: 111
+I0222 16:46:19.468097   73315 log.go:194] (0x1400016d1e0) Data frame received for 107
+I0222 16:46:19.468125   73315 log.go:194] (0x140007d01e0) (107) Data frame handling
+I0222 16:46:19.468134   73315 log.go:194] (0x140007d01e0) (107) Data frame sent
+I0222 16:46:19.468567   73315 log.go:194] (0x140007d01e0) (107) Writing data frame
+Handling connection for 27017
+I0222 16:46:19.469384   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Create stream
+I0222 16:46:19.469392   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream added, broadcasting: 113
+I0222 16:46:19.509019   73315 log.go:194] (0x1400016d1e0) Reply frame received for 111
+I0222 16:46:19.509046   73315 log.go:194] (0x1400043aaa0) (111) Writing data frame
+I0222 16:46:19.509058   73315 log.go:194] (0x1400016d1e0) Reply frame received for 109
+I0222 16:46:19.509077   73315 log.go:194] (0x140007d0320) (109) Writing data frame
+I0222 16:46:19.509127   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Create stream
+I0222 16:46:19.509136   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Stream added, broadcasting: 115
+I0222 16:46:19.509238   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Create stream
+I0222 16:46:19.509248   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Stream added, broadcasting: 117
+I0222 16:46:19.518633   73315 log.go:194] (0x1400016d1e0) Reply frame received for 113
+I0222 16:46:19.518667   73315 log.go:194] (0x14000250d20) (113) Writing data frame
+I0222 16:46:19.518763   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Create stream
+I0222 16:46:19.518772   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream added, broadcasting: 119
+I0222 16:46:19.629215   73315 log.go:194] (0x1400016d1e0) Reply frame received for 117
+I0222 16:46:19.629278   73315 log.go:194] (0x1400016d1e0) Reply frame received for 119
+I0222 16:46:19.629343   73315 log.go:194] (0x1400016d1e0) Reply frame received for 115
+I0222 16:46:19.629384   73315 log.go:194] (0x140007d0460) (117) Writing data frame
+I0222 16:46:19.629414   73315 log.go:194] (0x140002514a0) (119) Writing data frame
+I0222 16:46:19.629429   73315 log.go:194] (0x140007d03c0) (115) Writing data frame
+I0222 16:46:19.661482   73315 log.go:194] (0x1400016d1e0) Data frame received for 117
+I0222 16:46:19.661517   73315 log.go:194] (0x140007d0460) (117) Data frame handling
+I0222 16:46:19.661524   73315 log.go:194] (0x140007d0460) (117) Data frame sent
+I0222 16:46:19.661529   73315 log.go:194] (0x1400016d1e0) Data frame received for 119
+I0222 16:46:19.661534   73315 log.go:194] (0x140002514a0) (119) Data frame handling
+I0222 16:46:19.661538   73315 log.go:194] (0x140002514a0) (119) Data frame sent
+I0222 16:46:19.661545   73315 log.go:194] (0x1400016d1e0) Data frame received for 115
+I0222 16:46:19.661576   73315 log.go:194] (0x140007d03c0) (115) Data frame handling
+I0222 16:46:19.661603   73315 log.go:194] (0x140007d03c0) (115) Data frame sent
+I0222 16:46:19.662054   73315 log.go:194] (0x140007d03c0) (115) Writing data frame
+I0222 16:46:19.963928   73315 log.go:194] (0x140007d03c0) (115) Writing data frame
+I0222 16:46:19.963978   73315 log.go:194] (0x140007d0460) (117) Writing data frame
+I0222 16:46:21.013241   73315 log.go:194] (0x1400016d1e0) Data frame received for 111
+I0222 16:46:21.013273   73315 log.go:194] (0x1400043aaa0) (111) Data frame handling
+I0222 16:46:21.013327   73315 log.go:194] (0x1400016d1e0) Data frame received for 115
+I0222 16:46:21.013364   73315 log.go:194] (0x1400016d1e0) Data frame received for 117
+I0222 16:46:21.013372   73315 log.go:194] (0x1400016d1e0) Data frame received for 109
+I0222 16:46:21.013387   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream removed, broadcasting: 111
+I0222 16:46:21.013396   73315 log.go:194] (0x140007d0320) (109) Data frame handling
+I0222 16:46:21.013403   73315 log.go:194] (0x140007d03c0) (115) Data frame handling
+I0222 16:46:21.013422   73315 log.go:194] (0x140007d0460) (117) Data frame handling
+I0222 16:46:21.013809   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Stream removed, broadcasting: 109
+I0222 16:46:21.013824   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Stream removed, broadcasting: 115
+I0222 16:46:21.013831   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Stream removed, broadcasting: 117
+I0222 16:46:22.802633   73315 log.go:194] (0x140007d01e0) (107) Writing data frame
+I0222 16:46:22.802669   73315 log.go:194] (0x140002514a0) (119) Writing data frame
+I0222 16:46:23.839568   73315 log.go:194] (0x1400016d1e0) Data frame received for 113
+I0222 16:46:23.839688   73315 log.go:194] (0x14000250d20) (113) Data frame handling
+I0222 16:46:23.839721   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream removed, broadcasting: 113
+I0222 16:46:23.839758   73315 log.go:194] (0x1400016d1e0) Data frame received for 105
+I0222 16:46:23.839793   73315 log.go:194] (0x140007d0140) (105) Data frame handling
+I0222 16:46:23.839810   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream removed, broadcasting: 105
+I0222 16:46:23.839828   73315 log.go:194] (0x1400016d1e0) Data frame received for 119
+I0222 16:46:23.839842   73315 log.go:194] (0x140002514a0) (119) Data frame handling
+I0222 16:46:23.839857   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream removed, broadcasting: 119
+I0222 16:46:23.840036   73315 log.go:194] (0x1400016d1e0) Data frame received for 107
+I0222 16:46:23.840052   73315 log.go:194] (0x140007d01e0) (107) Data frame handling
+I0222 16:46:23.840066   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream removed, broadcasting: 107
+I0222 16:46:27.897603   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:46:28.001861   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:46:28.001898   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:46:28.001956   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:46:28.039956   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:46:28.040018   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:46:28.041171   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:46:37.897918   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:46:37.993269   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:46:37.993309   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:46:37.993323   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:46:38.032417   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:46:38.032477   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:46:38.032495   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:46:47.897944   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:46:47.952056   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:46:47.952137   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:46:47.952192   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:46:48.039767   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:46:48.039893   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:46:48.039942   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+Handling connection for 27017
+I0222 16:46:55.828480   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Create stream
+I0222 16:46:55.828497   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream added, broadcasting: 121
+I0222 16:46:55.858232   73315 log.go:194] (0x1400016d1e0) Reply frame received for 121
+I0222 16:46:55.858271   73315 log.go:194] (0x140000ca000) (121) Writing data frame
+I0222 16:46:55.858357   73315 log.go:194] (0x1400016d1e0) (0x140007d0500) Create stream
+I0222 16:46:55.858369   73315 log.go:194] (0x1400016d1e0) (0x140007d0500) Stream added, broadcasting: 123
+I0222 16:46:55.889216   73315 log.go:194] (0x1400016d1e0) Reply frame received for 123
+I0222 16:46:55.889343   73315 log.go:194] (0x140007d0500) (123) Writing data frame
+I0222 16:46:55.920660   73315 log.go:194] (0x1400016d1e0) Data frame received for 123
+I0222 16:46:55.920688   73315 log.go:194] (0x140007d0500) (123) Data frame handling
+I0222 16:46:55.920699   73315 log.go:194] (0x140007d0500) (123) Data frame sent
+I0222 16:46:55.921125   73315 log.go:194] (0x140007d0500) (123) Writing data frame
+Handling connection for 27017
+I0222 16:46:55.921983   73315 log.go:194] (0x1400016d1e0) (0x140007d05a0) Create stream
+I0222 16:46:55.921997   73315 log.go:194] (0x1400016d1e0) (0x140007d05a0) Stream added, broadcasting: 125
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:46:55.922971   73315 log.go:194] (0x1400016d1e0) (0x140007d0640) Create stream
+I0222 16:46:55.922982   73315 log.go:194] (0x1400016d1e0) (0x140007d0640) Stream added, broadcasting: 127
+I0222 16:46:55.923060   73315 log.go:194] (0x1400016d1e0) (0x140007d06e0) Create stream
+I0222 16:46:55.923067   73315 log.go:194] (0x1400016d1e0) (0x140007d06e0) Stream added, broadcasting: 129
+I0222 16:46:55.952574   73315 log.go:194] (0x1400016d1e0) Reply frame received for 127
+I0222 16:46:55.952618   73315 log.go:194] (0x140007d0640) (127) Writing data frame
+I0222 16:46:55.952658   73315 log.go:194] (0x1400016d1e0) Reply frame received for 129
+I0222 16:46:55.952692   73315 log.go:194] (0x140007d06e0) (129) Writing data frame
+I0222 16:46:55.952705   73315 log.go:194] (0x1400016d1e0) Reply frame received for 125
+I0222 16:46:55.952725   73315 log.go:194] (0x140007d05a0) (125) Writing data frame
+I0222 16:46:55.952733   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Create stream
+I0222 16:46:55.952750   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream added, broadcasting: 131
+I0222 16:46:55.952884   73315 log.go:194] (0x1400016d1e0) (0x140007d0780) Create stream
+I0222 16:46:55.952897   73315 log.go:194] (0x1400016d1e0) (0x140007d0780) Stream added, broadcasting: 133
+I0222 16:46:55.952955   73315 log.go:194] (0x1400016d1e0) (0x140007d0820) Create stream
+I0222 16:46:55.952962   73315 log.go:194] (0x1400016d1e0) (0x140007d0820) Stream added, broadcasting: 135
+I0222 16:46:55.984434   73315 log.go:194] (0x1400016d1e0) Reply frame received for 133
+I0222 16:46:55.984499   73315 log.go:194] (0x1400016d1e0) Reply frame received for 131
+I0222 16:46:55.984523   73315 log.go:194] (0x1400016d1e0) Reply frame received for 135
+I0222 16:46:55.984561   73315 log.go:194] (0x140007d0780) (133) Writing data frame
+I0222 16:46:55.984643   73315 log.go:194] (0x140007d0820) (135) Writing data frame
+I0222 16:46:55.984759   73315 log.go:194] (0x140000ca140) (131) Writing data frame
+I0222 16:46:56.017136   73315 log.go:194] (0x1400016d1e0) Data frame received for 133
+I0222 16:46:56.017162   73315 log.go:194] (0x140007d0780) (133) Data frame handling
+I0222 16:46:56.017172   73315 log.go:194] (0x140007d0780) (133) Data frame sent
+I0222 16:46:56.023639   73315 log.go:194] (0x1400016d1e0) Data frame received for 135
+I0222 16:46:56.023660   73315 log.go:194] (0x140007d0820) (135) Data frame handling
+I0222 16:46:56.023666   73315 log.go:194] (0x140007d0820) (135) Data frame sent
+I0222 16:46:56.023671   73315 log.go:194] (0x1400016d1e0) Data frame received for 131
+I0222 16:46:56.023674   73315 log.go:194] (0x140000ca140) (131) Data frame handling
+I0222 16:46:56.023681   73315 log.go:194] (0x140000ca140) (131) Data frame sent
+I0222 16:46:56.024036   73315 log.go:194] (0x140000ca140) (131) Writing data frame
+I0222 16:46:56.413157   73315 log.go:194] (0x140000ca140) (131) Writing data frame
+I0222 16:46:56.413197   73315 log.go:194] (0x140007d0780) (133) Writing data frame
+I0222 16:46:57.446001   73315 log.go:194] (0x1400016d1e0) Data frame received for 129
+I0222 16:46:57.446040   73315 log.go:194] (0x140007d06e0) (129) Data frame handling
+I0222 16:46:57.446054   73315 log.go:194] (0x1400016d1e0) Data frame received for 133
+I0222 16:46:57.446066   73315 log.go:194] (0x1400016d1e0) Data frame received for 127
+I0222 16:46:57.446072   73315 log.go:194] (0x1400016d1e0) Data frame received for 131
+I0222 16:46:57.446083   73315 log.go:194] (0x1400016d1e0) (0x140007d06e0) Stream removed, broadcasting: 129
+I0222 16:46:57.446090   73315 log.go:194] (0x140000ca140) (131) Data frame handling
+I0222 16:46:57.446096   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream removed, broadcasting: 131
+I0222 16:46:57.446100   73315 log.go:194] (0x140007d0780) (133) Data frame handling
+I0222 16:46:57.446105   73315 log.go:194] (0x1400016d1e0) (0x140007d0780) Stream removed, broadcasting: 133
+I0222 16:46:57.446113   73315 log.go:194] (0x140007d0640) (127) Data frame handling
+I0222 16:46:57.446148   73315 log.go:194] (0x1400016d1e0) (0x140007d0640) Stream removed, broadcasting: 127
+I0222 16:46:57.897825   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:46:57.927857   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:46:57.927880   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:46:57.927889   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:46:58.050963   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:46:58.050989   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:46:58.050999   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:46:58.936897   73315 log.go:194] (0x140007d0820) (135) Writing data frame
+I0222 16:46:58.936946   73315 log.go:194] (0x140007d0500) (123) Writing data frame
+I0222 16:46:59.997605   73315 log.go:194] (0x1400016d1e0) Data frame received for 123
+I0222 16:46:59.997670   73315 log.go:194] (0x140007d0500) (123) Data frame handling
+I0222 16:46:59.997699   73315 log.go:194] (0x1400016d1e0) Data frame received for 121
+I0222 16:46:59.997727   73315 log.go:194] (0x1400016d1e0) Data frame received for 135
+I0222 16:46:59.997788   73315 log.go:194] (0x1400016d1e0) (0x140007d0500) Stream removed, broadcasting: 123
+I0222 16:46:59.997816   73315 log.go:194] (0x140007d0820) (135) Data frame handling
+I0222 16:46:59.997846   73315 log.go:194] (0x140000ca000) (121) Data frame handling
+I0222 16:46:59.997880   73315 log.go:194] (0x1400016d1e0) (0x140007d0820) Stream removed, broadcasting: 135
+I0222 16:46:59.997914   73315 log.go:194] (0x1400016d1e0) Data frame received for 125
+I0222 16:46:59.997944   73315 log.go:194] (0x140007d05a0) (125) Data frame handling
+I0222 16:46:59.997969   73315 log.go:194] (0x1400016d1e0) (0x140007d05a0) Stream removed, broadcasting: 125
+I0222 16:46:59.998045   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream removed, broadcasting: 121
+I0222 16:47:07.897076   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:47:07.927030   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:47:07.927071   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:47:07.927081   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:47:08.059530   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:47:08.059630   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:47:08.059675   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:47:17.898278   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:47:17.928474   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:47:17.928510   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:47:17.928525   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:47:18.070420   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:47:18.070470   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:47:18.070478   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:47:27.900136   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:47:27.931467   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:47:27.931557   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:47:27.931598   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:47:28.081250   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:47:28.081295   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:47:28.081308   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:47:37.898169   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:47:37.930484   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:47:37.930511   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:47:37.930521   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:47:38.090508   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:47:38.090549   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:47:38.090559   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:47:47.897540   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:47:47.928013   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:47:47.928054   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:47:47.928066   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:47:48.096742   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:47:48.096786   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:47:48.096799   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:47:57.897622   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:47:57.943823   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:47:57.943865   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:47:57.943877   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:47:58.178723   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:47:58.178777   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:47:58.178793   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:48:07.898635   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:48:07.928638   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:48:07.928670   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:48:07.928687   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:48:08.138607   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:48:08.138644   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:48:08.138657   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:48:17.898813   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:48:17.934308   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:48:17.934358   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:48:17.934390   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:48:18.124264   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:48:18.124296   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:48:18.124306   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:48:27.908967   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:48:27.942218   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:48:27.942257   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:48:27.942281   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:48:28.139193   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:48:28.139351   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:48:28.139440   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:48:37.898982   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:48:37.941573   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:48:37.944703   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:48:37.944760   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:48:38.144676   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:48:38.144759   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:48:38.144779   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:48:47.899195   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:48:48.024118   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:48:48.024212   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:48:48.024257   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:48:48.149380   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:48:48.149422   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:48:48.149431   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:48:57.900471   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:48:57.973577   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:48:57.973770   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:48:57.973800   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:48:58.156101   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:48:58.156139   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:48:58.156150   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:49:07.899311   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:49:07.932313   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:49:07.932355   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:49:07.932370   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:49:08.166324   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:49:08.166409   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:49:08.166433   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:49:17.899325   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:49:17.929254   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:49:17.929803   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:49:17.929885   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:49:18.169461   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:49:18.169515   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:49:18.169525   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:49:27.899245   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:49:27.932644   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:49:27.932721   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:49:27.932750   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:49:28.180450   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:49:28.181922   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:49:28.181972   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:49:37.899303   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:49:37.931400   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:49:37.931440   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:49:37.931455   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:49:38.189080   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:49:38.189121   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:49:38.189129   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:49:47.899531   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:49:47.928975   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:49:47.929016   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:49:47.929045   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:49:48.275724   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:49:48.275806   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:49:48.275828   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+Handling connection for 27017
+I0222 16:49:57.792384   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Create stream
+I0222 16:49:57.792424   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream added, broadcasting: 137
+I0222 16:49:57.823545   73315 log.go:194] (0x1400016d1e0) Reply frame received for 137
+I0222 16:49:57.823584   73315 log.go:194] (0x14000250d20) (137) Writing data frame
+I0222 16:49:57.823713   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Create stream
+I0222 16:49:57.823722   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream added, broadcasting: 139
+I0222 16:49:57.855415   73315 log.go:194] (0x1400016d1e0) Reply frame received for 139
+I0222 16:49:57.855532   73315 log.go:194] (0x1400043aaa0) (139) Writing data frame
+I0222 16:49:57.885879   73315 log.go:194] (0x1400016d1e0) Data frame received for 139
+I0222 16:49:57.885917   73315 log.go:194] (0x1400043aaa0) (139) Data frame handling
+I0222 16:49:57.885927   73315 log.go:194] (0x1400043aaa0) (139) Data frame sent
+I0222 16:49:57.886465   73315 log.go:194] (0x1400043aaa0) (139) Writing data frame
+Handling connection for 27017
+I0222 16:49:57.887450   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Create stream
+I0222 16:49:57.887457   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream added, broadcasting: 141
+I0222 16:49:57.899310   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:49:57.909069   73315 log.go:194] (0x1400016d1e0) (0x14000251cc0) Create stream
+I0222 16:49:57.909093   73315 log.go:194] (0x1400016d1e0) (0x14000251cc0) Stream added, broadcasting: 143
+I0222 16:49:57.909252   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Create stream
+I0222 16:49:57.909262   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream added, broadcasting: 145
+I0222 16:49:57.916225   73315 log.go:194] (0x1400016d1e0) Reply frame received for 141
+I0222 16:49:57.916269   73315 log.go:194] (0x140002514a0) (141) Writing data frame
+I0222 16:49:57.916361   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Create stream
+I0222 16:49:57.916381   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream added, broadcasting: 147
+I0222 16:49:57.927730   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:49:57.927759   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:49:57.927768   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:49:57.940944   73315 log.go:194] (0x1400016d1e0) Reply frame received for 143
+I0222 16:49:57.940982   73315 log.go:194] (0x14000251cc0) (143) Writing data frame
+I0222 16:49:57.941097   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Create stream
+I0222 16:49:57.941115   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream added, broadcasting: 149
+I0222 16:49:57.944195   73315 log.go:194] (0x1400016d1e0) Reply frame received for 145
+I0222 16:49:57.944220   73315 log.go:194] (0x140000ca000) (145) Writing data frame
+I0222 16:49:57.944283   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Create stream
+I0222 16:49:57.944293   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream added, broadcasting: 151
+I0222 16:49:57.948087   73315 log.go:194] (0x1400016d1e0) Reply frame received for 147
+I0222 16:49:57.948329   73315 log.go:194] (0x140007d0140) (147) Writing data frame
+I0222 16:49:57.974713   73315 log.go:194] (0x1400016d1e0) Reply frame received for 151
+I0222 16:49:57.974781   73315 log.go:194] (0x1400016d1e0) Reply frame received for 149
+I0222 16:49:57.974878   73315 log.go:194] (0x140000ca140) (151) Writing data frame
+I0222 16:49:57.974945   73315 log.go:194] (0x1400043b400) (149) Writing data frame
+I0222 16:49:57.979858   73315 log.go:194] (0x1400016d1e0) Data frame received for 147
+I0222 16:49:57.979927   73315 log.go:194] (0x140007d0140) (147) Data frame handling
+I0222 16:49:57.979936   73315 log.go:194] (0x140007d0140) (147) Data frame sent
+I0222 16:49:58.006502   73315 log.go:194] (0x1400016d1e0) Data frame received for 151
+I0222 16:49:58.006536   73315 log.go:194] (0x140000ca140) (151) Data frame handling
+I0222 16:49:58.006547   73315 log.go:194] (0x140000ca140) (151) Data frame sent
+I0222 16:49:58.006616   73315 log.go:194] (0x1400016d1e0) Data frame received for 149
+I0222 16:49:58.006629   73315 log.go:194] (0x1400043b400) (149) Data frame handling
+I0222 16:49:58.006636   73315 log.go:194] (0x1400043b400) (149) Data frame sent
+I0222 16:49:58.007300   73315 log.go:194] (0x1400043b400) (149) Writing data frame
+I0222 16:49:58.235360   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:49:58.235393   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:49:58.235401   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:49:59.406688   73315 log.go:194] (0x140000ca140) (151) Writing data frame
+I0222 16:49:59.406741   73315 log.go:194] (0x1400043b400) (149) Writing data frame
+I0222 16:50:00.440210   73315 log.go:194] (0x1400016d1e0) Data frame received for 149
+I0222 16:50:00.440245   73315 log.go:194] (0x1400043b400) (149) Data frame handling
+I0222 16:50:00.440266   73315 log.go:194] (0x1400016d1e0) Data frame received for 143
+I0222 16:50:00.440284   73315 log.go:194] (0x1400016d1e0) Data frame received for 151
+I0222 16:50:00.440379   73315 log.go:194] (0x1400016d1e0) Data frame received for 145
+I0222 16:50:00.440423   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream removed, broadcasting: 149
+I0222 16:50:00.440445   73315 log.go:194] (0x140000ca000) (145) Data frame handling
+I0222 16:50:00.440456   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream removed, broadcasting: 145
+I0222 16:50:00.440464   73315 log.go:194] (0x14000251cc0) (143) Data frame handling
+I0222 16:50:00.440481   73315 log.go:194] (0x1400016d1e0) (0x14000251cc0) Stream removed, broadcasting: 143
+I0222 16:50:00.440488   73315 log.go:194] (0x140000ca140) (151) Data frame handling
+I0222 16:50:00.440495   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream removed, broadcasting: 151
+I0222 16:50:02.500385   73315 log.go:194] (0x1400043aaa0) (139) Writing data frame
+I0222 16:50:02.500546   73315 log.go:194] (0x140007d0140) (147) Writing data frame
+Handling connection for 27017
+I0222 16:50:02.563396   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Create stream
+I0222 16:50:02.563412   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Stream added, broadcasting: 153
+Handling connection for 27017
+I0222 16:50:02.588180   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Create stream
+Handling connection for 27017
+I0222 16:50:02.588194   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream added, broadcasting: 155
+I0222 16:50:02.588369   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Create stream
+I0222 16:50:02.588381   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Stream added, broadcasting: 157
+I0222 16:50:02.593224   73315 log.go:194] (0x1400016d1e0) Reply frame received for 153
+I0222 16:50:02.593266   73315 log.go:194] (0x14000140320) (153) Writing data frame
+I0222 16:50:02.593362   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Create stream
+I0222 16:50:02.593372   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream added, broadcasting: 159
+I0222 16:50:02.619328   73315 log.go:194] (0x1400016d1e0) Reply frame received for 155
+I0222 16:50:02.619368   73315 log.go:194] (0x1400043b9a0) (155) Writing data frame
+I0222 16:50:02.619381   73315 log.go:194] (0x1400016d1e0) Reply frame received for 157
+I0222 16:50:02.619402   73315 log.go:194] (0x1400043bf40) (157) Writing data frame
+I0222 16:50:02.619448   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Create stream
+I0222 16:50:02.619457   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Stream added, broadcasting: 161
+I0222 16:50:02.619583   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Create stream
+I0222 16:50:02.619609   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Stream added, broadcasting: 163
+I0222 16:50:02.627131   73315 log.go:194] (0x1400016d1e0) Reply frame received for 159
+I0222 16:50:02.627228   73315 log.go:194] (0x140007d01e0) (159) Writing data frame
+I0222 16:50:02.651309   73315 log.go:194] (0x1400016d1e0) Reply frame received for 161
+I0222 16:50:02.651366   73315 log.go:194] (0x1400016d1e0) Reply frame received for 163
+I0222 16:50:02.652262   73315 log.go:194] (0x140001403c0) (161) Writing data frame
+I0222 16:50:02.652285   73315 log.go:194] (0x14000140500) (163) Writing data frame
+I0222 16:50:02.656114   73315 log.go:194] (0x1400016d1e0) Data frame received for 159
+I0222 16:50:02.656140   73315 log.go:194] (0x140007d01e0) (159) Data frame handling
+I0222 16:50:02.656149   73315 log.go:194] (0x140007d01e0) (159) Data frame sent
+I0222 16:50:02.656652   73315 log.go:194] (0x140007d01e0) (159) Writing data frame
+Handling connection for 27017
+I0222 16:50:02.657474   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Create stream
+I0222 16:50:02.657484   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Stream added, broadcasting: 165
+I0222 16:50:02.680940   73315 log.go:194] (0x1400016d1e0) Data frame received for 163
+I0222 16:50:02.680975   73315 log.go:194] (0x14000140500) (163) Data frame handling
+I0222 16:50:02.680983   73315 log.go:194] (0x14000140500) (163) Data frame sent
+I0222 16:50:02.680988   73315 log.go:194] (0x1400016d1e0) Data frame received for 161
+I0222 16:50:02.680999   73315 log.go:194] (0x140001403c0) (161) Data frame handling
+I0222 16:50:02.681011   73315 log.go:194] (0x140001403c0) (161) Data frame sent
+I0222 16:50:02.681422   73315 log.go:194] (0x14000140500) (163) Writing data frame
+I0222 16:50:02.686438   73315 log.go:194] (0x1400016d1e0) Reply frame received for 165
+I0222 16:50:02.686462   73315 log.go:194] (0x14000530460) (165) Writing data frame
+I0222 16:50:02.686523   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Create stream
+I0222 16:50:02.686531   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Stream added, broadcasting: 167
+I0222 16:50:02.715157   73315 log.go:194] (0x1400016d1e0) Reply frame received for 167
+I0222 16:50:02.715221   73315 log.go:194] (0x140007d0320) (167) Writing data frame
+I0222 16:50:02.743106   73315 log.go:194] (0x1400016d1e0) Data frame received for 167
+I0222 16:50:02.743142   73315 log.go:194] (0x140007d0320) (167) Data frame handling
+I0222 16:50:02.743151   73315 log.go:194] (0x140007d0320) (167) Data frame sent
+I0222 16:50:02.900925   73315 log.go:194] (0x140001403c0) (161) Writing data frame
+I0222 16:50:02.900990   73315 log.go:194] (0x14000140500) (163) Writing data frame
+I0222 16:50:03.529659   73315 log.go:194] (0x1400016d1e0) Data frame received for 137
+I0222 16:50:03.529702   73315 log.go:194] (0x14000250d20) (137) Data frame handling
+I0222 16:50:03.529713   73315 log.go:194] (0x1400016d1e0) Data frame received for 141
+I0222 16:50:03.529732   73315 log.go:194] (0x1400016d1e0) Data frame received for 139
+I0222 16:50:03.529741   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream removed, broadcasting: 137
+I0222 16:50:03.529755   73315 log.go:194] (0x1400016d1e0) Data frame received for 147
+I0222 16:50:03.529762   73315 log.go:194] (0x140007d0140) (147) Data frame handling
+I0222 16:50:03.529769   73315 log.go:194] (0x1400043aaa0) (139) Data frame handling
+I0222 16:50:03.529786   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream removed, broadcasting: 147
+I0222 16:50:03.529794   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream removed, broadcasting: 139
+I0222 16:50:03.529799   73315 log.go:194] (0x140002514a0) (141) Data frame handling
+I0222 16:50:03.529807   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream removed, broadcasting: 141
+I0222 16:50:04.008077   73315 log.go:194] (0x1400016d1e0) Data frame received for 157
+I0222 16:50:04.008348   73315 log.go:194] (0x1400043bf40) (157) Data frame handling
+I0222 16:50:04.008378   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Stream removed, broadcasting: 157
+I0222 16:50:04.008388   73315 log.go:194] (0x1400016d1e0) Data frame received for 163
+I0222 16:50:04.008393   73315 log.go:194] (0x14000140500) (163) Data frame handling
+I0222 16:50:04.008400   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Stream removed, broadcasting: 163
+I0222 16:50:04.008409   73315 log.go:194] (0x1400016d1e0) Data frame received for 155
+I0222 16:50:04.008435   73315 log.go:194] (0x1400043b9a0) (155) Data frame handling
+I0222 16:50:04.008444   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream removed, broadcasting: 155
+I0222 16:50:04.008451   73315 log.go:194] (0x1400016d1e0) Data frame received for 161
+I0222 16:50:04.008457   73315 log.go:194] (0x140001403c0) (161) Data frame handling
+I0222 16:50:04.008462   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Stream removed, broadcasting: 161
+I0222 16:50:05.448704   73315 log.go:194] (0x140007d0320) (167) Writing data frame
+I0222 16:50:05.448759   73315 log.go:194] (0x140007d01e0) (159) Writing data frame
+Handling connection for 27017
+I0222 16:50:05.490742   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Create stream
+I0222 16:50:05.490754   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Stream added, broadcasting: 169
+Handling connection for 27017
+I0222 16:50:05.511469   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Create stream
+Handling connection for 27017
+I0222 16:50:05.511482   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Stream added, broadcasting: 171
+I0222 16:50:05.511691   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Create stream
+I0222 16:50:05.511701   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Stream added, broadcasting: 173
+I0222 16:50:05.604840   73315 log.go:194] (0x1400016d1e0) Reply frame received for 171
+I0222 16:50:05.604885   73315 log.go:194] (0x1400016d1e0) Reply frame received for 173
+I0222 16:50:05.604902   73315 log.go:194] (0x14000531860) (173) Writing data frame
+I0222 16:50:05.604922   73315 log.go:194] (0x1400016d1e0) Reply frame received for 169
+I0222 16:50:05.604932   73315 log.go:194] (0x140007d03c0) (169) Writing data frame
+I0222 16:50:05.604938   73315 log.go:194] (0x140005312c0) (171) Writing data frame
+I0222 16:50:05.604977   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Create stream
+I0222 16:50:05.604985   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Stream added, broadcasting: 175
+I0222 16:50:05.605090   73315 log.go:194] (0x1400016d1e0) (0x14000140780) Create stream
+I0222 16:50:05.605097   73315 log.go:194] (0x1400016d1e0) (0x14000140780) Stream added, broadcasting: 177
+I0222 16:50:05.605151   73315 log.go:194] (0x1400016d1e0) (0x140001408c0) Create stream
+I0222 16:50:05.605158   73315 log.go:194] (0x1400016d1e0) (0x140001408c0) Stream added, broadcasting: 179
+I0222 16:50:05.645109   73315 log.go:194] (0x1400016d1e0) Reply frame received for 177
+I0222 16:50:05.645150   73315 log.go:194] (0x1400016d1e0) Reply frame received for 179
+I0222 16:50:05.645186   73315 log.go:194] (0x1400016d1e0) Reply frame received for 175
+I0222 16:50:05.645212   73315 log.go:194] (0x14000140780) (177) Writing data frame
+I0222 16:50:05.645275   73315 log.go:194] (0x140001408c0) (179) Writing data frame
+I0222 16:50:05.645534   73315 log.go:194] (0x140007d0460) (175) Writing data frame
+I0222 16:50:05.676004   73315 log.go:194] (0x1400016d1e0) Data frame received for 177
+I0222 16:50:05.676045   73315 log.go:194] (0x14000140780) (177) Data frame handling
+I0222 16:50:05.676053   73315 log.go:194] (0x14000140780) (177) Data frame sent
+I0222 16:50:05.676501   73315 log.go:194] (0x14000140780) (177) Writing data frame
+Handling connection for 27017
+I0222 16:50:05.677256   73315 log.go:194] (0x1400016d1e0) (0x140007d0500) Create stream
+I0222 16:50:05.677265   73315 log.go:194] (0x1400016d1e0) (0x140007d0500) Stream added, broadcasting: 181
+I0222 16:50:05.677798   73315 log.go:194] (0x1400016d1e0) Data frame received for 179
+I0222 16:50:05.677808   73315 log.go:194] (0x140001408c0) (179) Data frame handling
+I0222 16:50:05.677814   73315 log.go:194] (0x140001408c0) (179) Data frame sent
+I0222 16:50:05.677834   73315 log.go:194] (0x1400016d1e0) Data frame received for 175
+I0222 16:50:05.677840   73315 log.go:194] (0x140007d0460) (175) Data frame handling
+I0222 16:50:05.677846   73315 log.go:194] (0x140007d0460) (175) Data frame sent
+I0222 16:50:05.678359   73315 log.go:194] (0x140001408c0) (179) Writing data frame
+I0222 16:50:05.707163   73315 log.go:194] (0x1400016d1e0) Reply frame received for 181
+I0222 16:50:05.707200   73315 log.go:194] (0x140007d0500) (181) Writing data frame
+I0222 16:50:05.707299   73315 log.go:194] (0x1400016d1e0) (0x140007d05a0) Create stream
+I0222 16:50:05.707308   73315 log.go:194] (0x1400016d1e0) (0x140007d05a0) Stream added, broadcasting: 183
+I0222 16:50:05.739175   73315 log.go:194] (0x1400016d1e0) Reply frame received for 183
+I0222 16:50:05.739526   73315 log.go:194] (0x140007d05a0) (183) Writing data frame
+I0222 16:50:05.770346   73315 log.go:194] (0x1400016d1e0) Data frame received for 183
+I0222 16:50:05.770386   73315 log.go:194] (0x140007d05a0) (183) Data frame handling
+I0222 16:50:05.770397   73315 log.go:194] (0x140007d05a0) (183) Data frame sent
+I0222 16:50:05.851401   73315 log.go:194] (0x140001408c0) (179) Writing data frame
+I0222 16:50:05.851442   73315 log.go:194] (0x140007d0460) (175) Writing data frame
+I0222 16:50:06.479044   73315 log.go:194] (0x1400016d1e0) Data frame received for 165
+I0222 16:50:06.479085   73315 log.go:194] (0x14000530460) (165) Data frame handling
+I0222 16:50:06.479095   73315 log.go:194] (0x1400016d1e0) Data frame received for 167
+I0222 16:50:06.479112   73315 log.go:194] (0x1400016d1e0) Data frame received for 153
+I0222 16:50:06.479134   73315 log.go:194] (0x1400016d1e0) Data frame received for 159
+I0222 16:50:06.479151   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Stream removed, broadcasting: 165
+I0222 16:50:06.479161   73315 log.go:194] (0x140007d01e0) (159) Data frame handling
+I0222 16:50:06.479171   73315 log.go:194] (0x14000140320) (153) Data frame handling
+I0222 16:50:06.479221   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream removed, broadcasting: 159
+I0222 16:50:06.479258   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Stream removed, broadcasting: 153
+I0222 16:50:06.480608   73315 log.go:194] (0x140007d0320) (167) Data frame handling
+I0222 16:50:06.480630   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Stream removed, broadcasting: 167
+I0222 16:50:06.883973   73315 log.go:194] (0x1400016d1e0) Data frame received for 171
+I0222 16:50:06.884018   73315 log.go:194] (0x140005312c0) (171) Data frame handling
+I0222 16:50:06.884041   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Stream removed, broadcasting: 171
+I0222 16:50:06.884050   73315 log.go:194] (0x1400016d1e0) Data frame received for 179
+I0222 16:50:06.884060   73315 log.go:194] (0x140001408c0) (179) Data frame handling
+I0222 16:50:06.884067   73315 log.go:194] (0x1400016d1e0) (0x140001408c0) Stream removed, broadcasting: 179
+I0222 16:50:06.884080   73315 log.go:194] (0x1400016d1e0) Data frame received for 173
+I0222 16:50:06.884107   73315 log.go:194] (0x14000531860) (173) Data frame handling
+I0222 16:50:06.884126   73315 log.go:194] (0x1400016d1e0) Data frame received for 175
+I0222 16:50:06.884146   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Stream removed, broadcasting: 173
+I0222 16:50:06.884158   73315 log.go:194] (0x140007d0460) (175) Data frame handling
+I0222 16:50:06.884165   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Stream removed, broadcasting: 175
+I0222 16:50:07.904158   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:50:07.934777   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:50:07.934853   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:50:07.934878   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:50:08.212879   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:50:08.212901   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:50:08.212913   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:50:08.277188   73315 log.go:194] (0x140007d05a0) (183) Writing data frame
+I0222 16:50:08.277246   73315 log.go:194] (0x14000140780) (177) Writing data frame
+I0222 16:50:09.309661   73315 log.go:194] (0x1400016d1e0) Data frame received for 169
+I0222 16:50:09.309753   73315 log.go:194] (0x140007d03c0) (169) Data frame handling
+I0222 16:50:09.309789   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Stream removed, broadcasting: 169
+I0222 16:50:09.309811   73315 log.go:194] (0x1400016d1e0) Data frame received for 183
+I0222 16:50:09.309826   73315 log.go:194] (0x140007d05a0) (183) Data frame handling
+I0222 16:50:09.309843   73315 log.go:194] (0x1400016d1e0) (0x140007d05a0) Stream removed, broadcasting: 183
+I0222 16:50:09.309922   73315 log.go:194] (0x1400016d1e0) Data frame received for 177
+I0222 16:50:09.309939   73315 log.go:194] (0x14000140780) (177) Data frame handling
+I0222 16:50:09.309971   73315 log.go:194] (0x1400016d1e0) Data frame received for 181
+I0222 16:50:09.309999   73315 log.go:194] (0x1400016d1e0) (0x14000140780) Stream removed, broadcasting: 177
+I0222 16:50:09.310019   73315 log.go:194] (0x140007d0500) (181) Data frame handling
+I0222 16:50:09.310036   73315 log.go:194] (0x1400016d1e0) (0x140007d0500) Stream removed, broadcasting: 181
+I0222 16:50:17.900075   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:50:17.934147   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:50:17.934227   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:50:17.934274   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:50:18.222221   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:50:18.222312   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:50:18.222345   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:50:27.902203   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:50:27.932362   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:50:27.932449   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:50:27.932522   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:50:28.231846   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:50:28.231889   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:50:28.231898   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:50:37.899933   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:50:37.934954   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:50:37.934990   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:50:37.935004   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:50:38.231973   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:50:38.232012   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:50:38.232021   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:50:47.900139   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:50:47.932435   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:50:47.932479   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:50:47.932495   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:50:48.235939   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:50:48.235976   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:50:48.235987   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:50:57.900690   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:50:58.002685   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:50:58.002707   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:50:58.002719   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:50:58.245063   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:50:58.245134   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:50:58.245149   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:51:07.900697   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:51:07.992546   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:51:07.992581   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:51:07.992596   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:51:08.255460   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:51:08.255503   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:51:08.255513   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:51:17.899558   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:51:17.955291   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:51:17.955331   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:51:17.955344   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:51:18.265437   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:51:18.265474   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:51:18.265485   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:51:27.900513   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:51:27.931726   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:51:27.931812   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:51:27.931839   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:51:28.269711   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:51:28.269747   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:51:28.269759   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:51:37.900572   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:51:37.932684   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:51:37.932721   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:51:37.932737   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:51:38.279607   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:51:38.279648   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:51:38.279657   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:51:47.900686   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:51:47.929421   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:51:47.929454   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:51:47.929468   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:51:48.333905   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:51:48.333997   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:51:48.334018   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:51:57.900652   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:51:57.930915   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:51:57.930952   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:51:57.930968   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:51:58.295535   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:51:58.295581   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:51:58.295591   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:52:07.900614   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:52:07.932370   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:52:07.932415   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:52:07.932425   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:52:08.305838   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:52:08.305899   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:52:08.305921   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:52:17.900848   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:52:17.930544   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:52:17.930585   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:52:17.930598   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:52:18.299801   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:52:18.299836   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:52:18.299844   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:52:27.902223   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:52:27.934081   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:52:27.934184   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:52:27.934227   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:52:28.308565   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:52:28.308597   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:52:28.308610   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:52:37.900963   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:52:37.932517   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:52:37.932553   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:52:37.932571   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:52:38.315656   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:52:38.315689   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:52:38.315697   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:52:47.901549   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:52:47.931798   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:52:47.931842   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:52:47.931902   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:52:48.326313   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:52:48.326352   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:52:48.326361   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:52:57.901278   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:52:57.931780   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:52:57.931819   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:52:57.931851   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:52:58.330486   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:52:58.330535   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:52:58.330544   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:53:07.900863   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:53:08.022879   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:53:08.022922   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:53:08.022935   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:53:08.340408   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:53:08.340444   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:53:08.340455   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:53:17.901296   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:53:18.013016   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:53:18.013095   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:53:18.013174   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:53:18.344853   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:53:18.346094   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:53:18.346117   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:53:27.901601   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:53:27.978166   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:53:27.978247   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:53:27.978295   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:53:28.349108   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:53:28.349155   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:53:28.349163   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:53:37.901648   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:53:37.940426   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:53:37.940465   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:53:37.940476   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:53:38.436411   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:53:38.436477   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:53:38.436497   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:53:47.902860   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:53:47.934591   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:53:47.934686   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:53:47.934720   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:53:48.392362   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:53:48.392441   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:53:48.392460   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:53:57.908302   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:53:57.938324   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:53:57.938401   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:53:57.938439   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:53:58.371994   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:53:58.372026   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:53:58.372037   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:54:07.902000   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:54:07.933142   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:54:07.933183   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:54:07.933209   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:54:08.382749   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:54:08.382793   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:54:08.382802   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:54:17.901825   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:54:17.933536   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:54:17.933580   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:54:17.933596   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:54:18.393194   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:54:18.393225   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:54:18.393236   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:54:27.901087   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:54:27.931558   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:54:27.931596   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:54:27.931604   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:54:28.401429   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:54:28.401475   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:54:28.401488   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:54:37.903065   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:54:37.942029   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:54:37.942154   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:54:37.942306   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:54:38.408495   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:54:38.408542   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:54:38.408866   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:54:47.901893   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:54:47.937534   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:54:47.937574   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:54:47.937582   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:54:48.418601   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:54:48.418646   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:54:48.418659   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:54:57.903235   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:54:57.933721   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:54:57.933765   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:54:57.933790   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:54:58.424788   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:54:58.425975   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:54:58.425995   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:55:07.902728   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:55:07.933471   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:55:07.933514   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:55:07.933530   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:55:08.434449   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:55:08.434496   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:55:08.434506   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:55:17.902350   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:55:17.936821   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:55:17.936857   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:55:17.936871   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:55:18.441947   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:55:18.441989   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:55:18.442000   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:55:27.901947   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:55:28.006040   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:55:28.006088   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:55:28.006105   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:55:28.527015   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:55:28.527054   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:55:28.527066   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:55:37.902838   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:55:37.992471   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:55:37.992523   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:55:37.992576   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:55:38.492288   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:55:38.492352   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:55:38.492382   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:55:47.902599   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:55:47.958822   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:55:47.958856   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:55:47.958880   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:55:48.472725   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:55:48.472763   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:55:48.472777   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:55:57.903080   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:55:57.934108   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:55:57.934146   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:55:57.934161   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:55:58.483081   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:55:58.483184   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:55:58.483224   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+Handling connection for 27017
+I0222 16:56:07.047757   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Create stream
+I0222 16:56:07.047786   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Stream added, broadcasting: 185
+I0222 16:56:07.078281   73315 log.go:194] (0x1400016d1e0) Reply frame received for 185
+I0222 16:56:07.078320   73315 log.go:194] (0x14000140320) (185) Writing data frame
+I0222 16:56:07.078418   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Create stream
+I0222 16:56:07.078431   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Stream added, broadcasting: 187
+I0222 16:56:07.108579   73315 log.go:194] (0x1400016d1e0) Reply frame received for 187
+I0222 16:56:07.109081   73315 log.go:194] (0x14000530460) (187) Writing data frame
+I0222 16:56:07.138127   73315 log.go:194] (0x1400016d1e0) Data frame received for 187
+I0222 16:56:07.138172   73315 log.go:194] (0x14000530460) (187) Data frame handling
+I0222 16:56:07.138183   73315 log.go:194] (0x14000530460) (187) Data frame sent
+I0222 16:56:07.138773   73315 log.go:194] (0x14000530460) (187) Writing data frame
+Handling connection for 27017
+I0222 16:56:07.141075   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Create stream
+I0222 16:56:07.141084   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream added, broadcasting: 189
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:56:07.160652   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Create stream
+I0222 16:56:07.160664   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream added, broadcasting: 191
+I0222 16:56:07.160839   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Create stream
+I0222 16:56:07.160847   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Stream added, broadcasting: 193
+I0222 16:56:07.175998   73315 log.go:194] (0x1400016d1e0) Reply frame received for 189
+I0222 16:56:07.176043   73315 log.go:194] (0x140007d0140) (189) Writing data frame
+I0222 16:56:07.176555   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Create stream
+I0222 16:56:07.176567   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream added, broadcasting: 195
+I0222 16:56:07.188644   73315 log.go:194] (0x1400016d1e0) Reply frame received for 191
+I0222 16:56:07.188690   73315 log.go:194] (0x140007d01e0) (191) Writing data frame
+I0222 16:56:07.188762   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Create stream
+I0222 16:56:07.188769   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Stream added, broadcasting: 197
+I0222 16:56:07.190130   73315 log.go:194] (0x1400016d1e0) Reply frame received for 193
+I0222 16:56:07.190142   73315 log.go:194] (0x140007d0320) (193) Writing data frame
+I0222 16:56:07.190182   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Create stream
+I0222 16:56:07.190189   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Stream added, broadcasting: 199
+I0222 16:56:07.205760   73315 log.go:194] (0x1400016d1e0) Reply frame received for 195
+I0222 16:56:07.205852   73315 log.go:194] (0x140000ca000) (195) Writing data frame
+I0222 16:56:07.216198   73315 log.go:194] (0x1400016d1e0) Reply frame received for 197
+I0222 16:56:07.216296   73315 log.go:194] (0x140007d03c0) (197) Writing data frame
+I0222 16:56:07.217395   73315 log.go:194] (0x1400016d1e0) Reply frame received for 199
+I0222 16:56:07.217452   73315 log.go:194] (0x140007d0460) (199) Writing data frame
+I0222 16:56:07.233966   73315 log.go:194] (0x1400016d1e0) Data frame received for 195
+I0222 16:56:07.233996   73315 log.go:194] (0x140000ca000) (195) Data frame handling
+I0222 16:56:07.234007   73315 log.go:194] (0x140000ca000) (195) Data frame sent
+I0222 16:56:07.328286   73315 log.go:194] (0x1400016d1e0) Data frame received for 199
+I0222 16:56:07.328311   73315 log.go:194] (0x140007d0460) (199) Data frame handling
+I0222 16:56:07.328318   73315 log.go:194] (0x140007d0460) (199) Data frame sent
+I0222 16:56:07.328359   73315 log.go:194] (0x1400016d1e0) Data frame received for 197
+I0222 16:56:07.328366   73315 log.go:194] (0x140007d03c0) (197) Data frame handling
+I0222 16:56:07.328371   73315 log.go:194] (0x140007d03c0) (197) Data frame sent
+I0222 16:56:07.329231   73315 log.go:194] (0x140007d03c0) (197) Writing data frame
+I0222 16:56:07.803627   73315 log.go:194] (0x140007d03c0) (197) Writing data frame
+I0222 16:56:07.803684   73315 log.go:194] (0x140007d0460) (199) Writing data frame
+I0222 16:56:07.902272   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:56:07.931922   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:56:07.931964   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:56:07.931976   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:56:08.493544   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:56:08.493581   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:56:08.493595   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:56:08.901265   73315 log.go:194] (0x1400016d1e0) Data frame received for 191
+I0222 16:56:08.901324   73315 log.go:194] (0x140007d01e0) (191) Data frame handling
+I0222 16:56:08.901351   73315 log.go:194] (0x1400016d1e0) Data frame received for 197
+I0222 16:56:08.901372   73315 log.go:194] (0x1400016d1e0) Data frame received for 193
+I0222 16:56:08.901380   73315 log.go:194] (0x1400016d1e0) Data frame received for 199
+I0222 16:56:08.901388   73315 log.go:194] (0x1400016d1e0) (0x140007d01e0) Stream removed, broadcasting: 191
+I0222 16:56:08.901399   73315 log.go:194] (0x140007d0460) (199) Data frame handling
+I0222 16:56:08.901418   73315 log.go:194] (0x140007d0320) (193) Data frame handling
+I0222 16:56:08.901434   73315 log.go:194] (0x1400016d1e0) (0x140007d0460) Stream removed, broadcasting: 199
+I0222 16:56:08.901446   73315 log.go:194] (0x1400016d1e0) (0x140007d0320) Stream removed, broadcasting: 193
+I0222 16:56:08.901452   73315 log.go:194] (0x140007d03c0) (197) Data frame handling
+I0222 16:56:08.901474   73315 log.go:194] (0x1400016d1e0) (0x140007d03c0) Stream removed, broadcasting: 197
+I0222 16:56:11.567842   73315 log.go:194] (0x14000530460) (187) Writing data frame
+I0222 16:56:11.567901   73315 log.go:194] (0x140000ca000) (195) Writing data frame
+Handling connection for 27017
+I0222 16:56:11.618468   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Create stream
+I0222 16:56:11.618482   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream added, broadcasting: 201
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:56:11.629964   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Create stream
+I0222 16:56:11.629991   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream added, broadcasting: 203
+I0222 16:56:11.630156   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Create stream
+I0222 16:56:11.630165   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream added, broadcasting: 205
+I0222 16:56:11.646790   73315 log.go:194] (0x1400016d1e0) Reply frame received for 201
+I0222 16:56:11.646834   73315 log.go:194] (0x140000ca140) (201) Writing data frame
+I0222 16:56:11.646877   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Create stream
+I0222 16:56:11.646885   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Stream added, broadcasting: 207
+I0222 16:56:11.658794   73315 log.go:194] (0x1400016d1e0) Reply frame received for 205
+I0222 16:56:11.658815   73315 log.go:194] (0x140002514a0) (205) Writing data frame
+I0222 16:56:11.658840   73315 log.go:194] (0x1400016d1e0) Reply frame received for 203
+I0222 16:56:11.658878   73315 log.go:194] (0x14000250d20) (203) Writing data frame
+I0222 16:56:11.658891   73315 log.go:194] (0x1400016d1e0) (0x140000ca3c0) Create stream
+I0222 16:56:11.658904   73315 log.go:194] (0x1400016d1e0) (0x140000ca3c0) Stream added, broadcasting: 209
+I0222 16:56:11.659022   73315 log.go:194] (0x1400016d1e0) (0x140000ca640) Create stream
+I0222 16:56:11.659029   73315 log.go:194] (0x1400016d1e0) (0x140000ca640) Stream added, broadcasting: 211
+I0222 16:56:11.676864   73315 log.go:194] (0x1400016d1e0) Reply frame received for 207
+I0222 16:56:11.676947   73315 log.go:194] (0x140005312c0) (207) Writing data frame
+I0222 16:56:11.690514   73315 log.go:194] (0x1400016d1e0) Reply frame received for 211
+I0222 16:56:11.690563   73315 log.go:194] (0x1400016d1e0) Reply frame received for 209
+I0222 16:56:11.690606   73315 log.go:194] (0x140000ca640) (211) Writing data frame
+I0222 16:56:11.690617   73315 log.go:194] (0x140000ca3c0) (209) Writing data frame
+I0222 16:56:11.707850   73315 log.go:194] (0x1400016d1e0) Data frame received for 207
+I0222 16:56:11.707889   73315 log.go:194] (0x140005312c0) (207) Data frame handling
+I0222 16:56:11.707898   73315 log.go:194] (0x140005312c0) (207) Data frame sent
+I0222 16:56:11.708301   73315 log.go:194] (0x140005312c0) (207) Writing data frame
+Handling connection for 27017
+I0222 16:56:11.709070   73315 log.go:194] (0x1400016d1e0) (0x14000251cc0) Create stream
+I0222 16:56:11.709079   73315 log.go:194] (0x1400016d1e0) (0x14000251cc0) Stream added, broadcasting: 213
+I0222 16:56:11.720721   73315 log.go:194] (0x1400016d1e0) Data frame received for 211
+I0222 16:56:11.720756   73315 log.go:194] (0x140000ca640) (211) Data frame handling
+I0222 16:56:11.720765   73315 log.go:194] (0x1400016d1e0) Data frame received for 209
+I0222 16:56:11.720780   73315 log.go:194] (0x140000ca3c0) (209) Data frame handling
+I0222 16:56:11.720788   73315 log.go:194] (0x140000ca3c0) (209) Data frame sent
+I0222 16:56:11.720794   73315 log.go:194] (0x140000ca640) (211) Data frame sent
+I0222 16:56:11.721098   73315 log.go:194] (0x140000ca640) (211) Writing data frame
+I0222 16:56:11.742467   73315 log.go:194] (0x1400016d1e0) Reply frame received for 213
+I0222 16:56:11.742496   73315 log.go:194] (0x14000251cc0) (213) Writing data frame
+I0222 16:56:11.742595   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Create stream
+I0222 16:56:11.742603   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream added, broadcasting: 215
+I0222 16:56:11.773874   73315 log.go:194] (0x1400016d1e0) Reply frame received for 215
+I0222 16:56:11.773956   73315 log.go:194] (0x1400043aaa0) (215) Writing data frame
+I0222 16:56:11.803810   73315 log.go:194] (0x1400016d1e0) Data frame received for 215
+I0222 16:56:11.803837   73315 log.go:194] (0x1400043aaa0) (215) Data frame handling
+I0222 16:56:11.803887   73315 log.go:194] (0x1400043aaa0) (215) Data frame sent
+I0222 16:56:11.955249   73315 log.go:194] (0x140000ca3c0) (209) Writing data frame
+I0222 16:56:11.955298   73315 log.go:194] (0x140000ca640) (211) Writing data frame
+I0222 16:56:12.600965   73315 log.go:194] (0x1400016d1e0) Data frame received for 195
+I0222 16:56:12.601807   73315 log.go:194] (0x140000ca000) (195) Data frame handling
+I0222 16:56:12.601892   73315 log.go:194] (0x1400016d1e0) (0x140000ca000) Stream removed, broadcasting: 195
+I0222 16:56:12.601921   73315 log.go:194] (0x1400016d1e0) Data frame received for 185
+I0222 16:56:12.601939   73315 log.go:194] (0x14000140320) (185) Data frame handling
+I0222 16:56:12.601955   73315 log.go:194] (0x1400016d1e0) (0x14000140320) Stream removed, broadcasting: 185
+I0222 16:56:12.601977   73315 log.go:194] (0x1400016d1e0) Data frame received for 189
+I0222 16:56:12.601993   73315 log.go:194] (0x140007d0140) (189) Data frame handling
+I0222 16:56:12.602010   73315 log.go:194] (0x1400016d1e0) (0x140007d0140) Stream removed, broadcasting: 189
+I0222 16:56:12.602037   73315 log.go:194] (0x1400016d1e0) Data frame received for 187
+I0222 16:56:12.602054   73315 log.go:194] (0x14000530460) (187) Data frame handling
+I0222 16:56:12.602075   73315 log.go:194] (0x1400016d1e0) (0x14000530460) Stream removed, broadcasting: 187
+I0222 16:56:13.096542   73315 log.go:194] (0x1400016d1e0) Data frame received for 209
+I0222 16:56:13.096603   73315 log.go:194] (0x140000ca3c0) (209) Data frame handling
+I0222 16:56:13.096627   73315 log.go:194] (0x1400016d1e0) Data frame received for 211
+I0222 16:56:13.096673   73315 log.go:194] (0x1400016d1e0) Data frame received for 205
+I0222 16:56:13.096683   73315 log.go:194] (0x1400016d1e0) Data frame received for 203
+I0222 16:56:13.096925   73315 log.go:194] (0x1400016d1e0) (0x140000ca3c0) Stream removed, broadcasting: 209
+I0222 16:56:13.096941   73315 log.go:194] (0x14000250d20) (203) Data frame handling
+I0222 16:56:13.096948   73315 log.go:194] (0x1400016d1e0) (0x14000250d20) Stream removed, broadcasting: 203
+I0222 16:56:13.096954   73315 log.go:194] (0x140000ca640) (211) Data frame handling
+I0222 16:56:13.096962   73315 log.go:194] (0x1400016d1e0) (0x140000ca640) Stream removed, broadcasting: 211
+I0222 16:56:13.096979   73315 log.go:194] (0x140002514a0) (205) Data frame handling
+I0222 16:56:13.096998   73315 log.go:194] (0x1400016d1e0) (0x140002514a0) Stream removed, broadcasting: 205
+I0222 16:56:14.386424   73315 log.go:194] (0x1400043aaa0) (215) Writing data frame
+I0222 16:56:14.386487   73315 log.go:194] (0x140005312c0) (207) Writing data frame
+Handling connection for 27017
+I0222 16:56:14.432649   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Create stream
+I0222 16:56:14.432661   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream added, broadcasting: 217
+Handling connection for 27017
+Handling connection for 27017
+I0222 16:56:14.452933   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Create stream
+I0222 16:56:14.452983   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Stream added, broadcasting: 219
+I0222 16:56:14.453139   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Create stream
+I0222 16:56:14.453148   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Stream added, broadcasting: 221
+I0222 16:56:14.463201   73315 log.go:194] (0x1400016d1e0) Reply frame received for 217
+I0222 16:56:14.463229   73315 log.go:194] (0x1400043b400) (217) Writing data frame
+I0222 16:56:14.463299   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Create stream
+I0222 16:56:14.463325   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream added, broadcasting: 223
+I0222 16:56:14.483929   73315 log.go:194] (0x1400016d1e0) Reply frame received for 219
+I0222 16:56:14.483971   73315 log.go:194] (0x140001403c0) (219) Writing data frame
+I0222 16:56:14.484033   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Create stream
+I0222 16:56:14.484042   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Stream added, broadcasting: 225
+I0222 16:56:14.484258   73315 log.go:194] (0x1400016d1e0) Reply frame received for 221
+I0222 16:56:14.484267   73315 log.go:194] (0x14000140500) (221) Writing data frame
+I0222 16:56:14.484410   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Create stream
+I0222 16:56:14.484439   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Stream added, broadcasting: 227
+I0222 16:56:14.495186   73315 log.go:194] (0x1400016d1e0) Reply frame received for 223
+I0222 16:56:14.495298   73315 log.go:194] (0x1400043b9a0) (223) Writing data frame
+I0222 16:56:14.515292   73315 log.go:194] (0x1400016d1e0) Reply frame received for 227
+I0222 16:56:14.515336   73315 log.go:194] (0x1400016d1e0) Reply frame received for 225
+I0222 16:56:14.515369   73315 log.go:194] (0x140005b2000) (227) Writing data frame
+I0222 16:56:14.515389   73315 log.go:194] (0x14000531860) (225) Writing data frame
+I0222 16:56:14.528566   73315 log.go:194] (0x1400016d1e0) Data frame received for 223
+I0222 16:56:14.528602   73315 log.go:194] (0x1400043b9a0) (223) Data frame handling
+I0222 16:56:14.528611   73315 log.go:194] (0x1400043b9a0) (223) Data frame sent
+I0222 16:56:14.529037   73315 log.go:194] (0x1400043b9a0) (223) Writing data frame
+Handling connection for 27017
+I0222 16:56:14.529950   73315 log.go:194] (0x1400016d1e0) (0x140005b2960) Create stream
+I0222 16:56:14.529957   73315 log.go:194] (0x1400016d1e0) (0x140005b2960) Stream added, broadcasting: 229
+I0222 16:56:14.545033   73315 log.go:194] (0x1400016d1e0) Data frame received for 227
+I0222 16:56:14.545065   73315 log.go:194] (0x140005b2000) (227) Data frame handling
+I0222 16:56:14.545089   73315 log.go:194] (0x140005b2000) (227) Data frame sent
+I0222 16:56:14.545731   73315 log.go:194] (0x140005b2000) (227) Writing data frame
+I0222 16:56:14.545815   73315 log.go:194] (0x1400016d1e0) Data frame received for 225
+I0222 16:56:14.545826   73315 log.go:194] (0x14000531860) (225) Data frame handling
+I0222 16:56:14.545864   73315 log.go:194] (0x14000531860) (225) Data frame sent
+I0222 16:56:14.559708   73315 log.go:194] (0x1400016d1e0) Reply frame received for 229
+I0222 16:56:14.559763   73315 log.go:194] (0x140005b2960) (229) Writing data frame
+I0222 16:56:14.559845   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Create stream
+I0222 16:56:14.559854   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Stream added, broadcasting: 231
+I0222 16:56:14.668607   73315 log.go:194] (0x1400016d1e0) Reply frame received for 231
+I0222 16:56:14.668703   73315 log.go:194] (0x1400043bf40) (231) Writing data frame
+I0222 16:56:14.697270   73315 log.go:194] (0x1400016d1e0) Data frame received for 231
+I0222 16:56:14.697330   73315 log.go:194] (0x1400043bf40) (231) Data frame handling
+I0222 16:56:14.697344   73315 log.go:194] (0x1400043bf40) (231) Data frame sent
+I0222 16:56:14.798614   73315 log.go:194] (0x14000531860) (225) Writing data frame
+I0222 16:56:14.798660   73315 log.go:194] (0x140005b2000) (227) Writing data frame
+I0222 16:56:15.418021   73315 log.go:194] (0x1400016d1e0) Data frame received for 201
+I0222 16:56:15.418073   73315 log.go:194] (0x140000ca140) (201) Data frame handling
+I0222 16:56:15.418091   73315 log.go:194] (0x1400016d1e0) Data frame received for 207
+I0222 16:56:15.418135   73315 log.go:194] (0x1400016d1e0) Data frame received for 213
+I0222 16:56:15.418146   73315 log.go:194] (0x1400016d1e0) Data frame received for 215
+I0222 16:56:15.418154   73315 log.go:194] (0x1400016d1e0) (0x140000ca140) Stream removed, broadcasting: 201
+I0222 16:56:15.418168   73315 log.go:194] (0x1400043aaa0) (215) Data frame handling
+I0222 16:56:15.418176   73315 log.go:194] (0x140005312c0) (207) Data frame handling
+I0222 16:56:15.418211   73315 log.go:194] (0x14000251cc0) (213) Data frame handling
+I0222 16:56:15.418262   73315 log.go:194] (0x1400016d1e0) (0x1400043aaa0) Stream removed, broadcasting: 215
+I0222 16:56:15.418299   73315 log.go:194] (0x1400016d1e0) (0x140005312c0) Stream removed, broadcasting: 207
+I0222 16:56:15.418313   73315 log.go:194] (0x1400016d1e0) (0x14000251cc0) Stream removed, broadcasting: 213
+I0222 16:56:15.829114   73315 log.go:194] (0x1400016d1e0) Data frame received for 225
+I0222 16:56:15.829159   73315 log.go:194] (0x14000531860) (225) Data frame handling
+I0222 16:56:15.829170   73315 log.go:194] (0x1400016d1e0) Data frame received for 227
+I0222 16:56:15.829188   73315 log.go:194] (0x1400016d1e0) Data frame received for 219
+I0222 16:56:15.829195   73315 log.go:194] (0x1400016d1e0) Data frame received for 221
+I0222 16:56:15.829204   73315 log.go:194] (0x1400016d1e0) (0x14000531860) Stream removed, broadcasting: 225
+I0222 16:56:15.829211   73315 log.go:194] (0x14000140500) (221) Data frame handling
+I0222 16:56:15.829217   73315 log.go:194] (0x140005b2000) (227) Data frame handling
+I0222 16:56:15.829252   73315 log.go:194] (0x140001403c0) (219) Data frame handling
+I0222 16:56:15.829300   73315 log.go:194] (0x1400016d1e0) (0x14000140500) Stream removed, broadcasting: 221
+I0222 16:56:15.829314   73315 log.go:194] (0x1400016d1e0) (0x140005b2000) Stream removed, broadcasting: 227
+I0222 16:56:15.829320   73315 log.go:194] (0x1400016d1e0) (0x140001403c0) Stream removed, broadcasting: 219
+I0222 16:56:17.357425   73315 log.go:194] (0x1400043bf40) (231) Writing data frame
+I0222 16:56:17.357481   73315 log.go:194] (0x1400043b9a0) (223) Writing data frame
+I0222 16:56:17.903297   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:56:17.939882   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:56:17.939974   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:56:17.940075   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:56:18.391291   73315 log.go:194] (0x1400016d1e0) Data frame received for 229
+I0222 16:56:18.391535   73315 log.go:194] (0x140005b2960) (229) Data frame handling
+I0222 16:56:18.391603   73315 log.go:194] (0x1400016d1e0) Data frame received for 223
+I0222 16:56:18.391625   73315 log.go:194] (0x1400016d1e0) Data frame received for 231
+I0222 16:56:18.391699   73315 log.go:194] (0x1400016d1e0) Data frame received for 217
+I0222 16:56:18.391727   73315 log.go:194] (0x1400016d1e0) (0x140005b2960) Stream removed, broadcasting: 229
+I0222 16:56:18.391750   73315 log.go:194] (0x1400043b400) (217) Data frame handling
+I0222 16:56:18.391785   73315 log.go:194] (0x1400043bf40) (231) Data frame handling
+I0222 16:56:18.391830   73315 log.go:194] (0x1400016d1e0) (0x1400043b400) Stream removed, broadcasting: 217
+I0222 16:56:18.391861   73315 log.go:194] (0x1400016d1e0) (0x1400043bf40) Stream removed, broadcasting: 231
+I0222 16:56:18.392053   73315 log.go:194] (0x1400043b9a0) (223) Data frame handling
+I0222 16:56:18.392099   73315 log.go:194] (0x1400016d1e0) (0x1400043b9a0) Stream removed, broadcasting: 223
+I0222 16:56:18.501192   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:56:18.501326   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:56:18.501352   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:56:27.902633   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:56:28.014138   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:56:28.014191   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:56:28.014220   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:56:28.507863   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:56:28.507942   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:56:28.507975   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:56:37.902736   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:56:37.976441   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:56:37.976469   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:56:37.976482   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:56:38.516706   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:56:38.516806   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:56:38.516845   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:56:47.908533   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:56:47.942332   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:56:47.942371   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:56:47.942390   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:56:48.522149   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:56:48.522214   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:56:48.522225   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:56:57.903658   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:56:57.932264   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:56:57.932296   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:56:57.932311   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:56:58.533351   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:56:58.533438   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:56:58.533461   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:57:07.903610   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:57:07.932169   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:57:07.932208   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:57:07.932220   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:57:08.545091   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:57:08.545178   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:57:08.545223   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:57:17.903729   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:57:17.944266   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:57:17.944356   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:57:17.944382   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:57:18.552126   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:57:18.552172   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:57:18.552183   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:57:27.904028   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:57:27.934982   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:57:27.935061   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:57:27.935094   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:57:28.558104   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:57:28.558152   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:57:28.558179   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:57:37.904169   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:57:37.932965   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:57:37.933007   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:57:37.933048   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:57:38.571344   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:57:38.571396   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:57:38.571406   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:57:47.903876   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:57:47.938161   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:57:47.938249   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:57:47.938287   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:57:48.574719   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:57:48.574808   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:57:48.574838   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:57:57.903132   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:57:57.935790   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:57:57.935830   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:57:57.935843   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:57:58.584465   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:57:58.584516   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:57:58.584530   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:58:07.904142   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:58:07.958307   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:58:07.958350   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:58:07.958368   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:58:08.647072   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:58:08.647122   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:58:08.647137   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:58:17.905569   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:58:17.935499   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:58:17.935575   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:58:17.935617   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:58:18.608644   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:58:18.608742   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:58:18.608771   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:58:27.906010   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:58:27.942361   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:58:27.942436   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:58:27.942467   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:58:28.609949   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:58:28.609994   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:58:28.610004   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:58:37.905153   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:58:38.006330   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:58:38.006448   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:58:38.006490   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:58:38.618891   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:58:38.618937   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:58:38.618947   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:58:47.904128   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:58:47.999314   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:58:47.999414   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:58:47.999464   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:58:48.621913   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:58:48.622824   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:58:48.622845   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:58:57.905132   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:58:57.956923   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:58:57.957025   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:58:57.957067   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:58:58.632828   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:58:58.632928   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:58:58.632960   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:59:07.906533   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:59:07.941004   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:59:07.941106   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:59:07.941150   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:59:08.645425   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:59:08.645472   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:59:08.645483   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:59:17.903896   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:59:17.933738   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:59:17.933810   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:59:17.933902   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:59:18.651872   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:59:18.651949   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:59:18.651969   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:59:27.904984   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:59:27.935980   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:59:27.936021   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:59:27.936039   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:59:28.664856   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:59:28.664929   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:59:28.664945   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:59:37.905276   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:59:37.933678   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:59:37.933710   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:59:37.933720   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:59:38.663517   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:59:38.663597   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:59:38.663619   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:59:47.904893   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:59:47.935859   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:59:47.935939   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:59:47.935962   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:59:48.667642   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:59:48.667681   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:59:48.667691   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 16:59:57.905650   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 16:59:57.936794   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 16:59:57.936847   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 16:59:57.936863   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 16:59:58.744472   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 16:59:58.744519   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 16:59:58.744530   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:00:07.906472   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:00:07.942429   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:00:07.942478   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:00:07.942498   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:00:08.705185   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:00:08.705237   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:00:08.705251   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:00:17.905238   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:00:17.936016   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:00:17.936087   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:00:17.936112   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:00:18.694390   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:00:18.694482   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:00:18.694505   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:00:27.905280   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:00:27.936311   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:00:27.936348   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:00:27.936411   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:00:28.702522   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:00:28.702570   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:00:28.702583   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:00:37.905979   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:00:37.934827   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:00:37.934861   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:00:37.934874   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:00:38.713831   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:00:38.713894   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:00:38.713914   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:00:47.905395   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:00:48.025525   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:00:48.025572   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:00:48.025584   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:00:48.714603   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:00:48.714650   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:00:48.714661   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:00:57.905083   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:00:58.029867   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:00:58.030014   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:00:58.030039   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:00:58.721558   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:00:58.721623   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:00:58.721639   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:01:07.908171   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:01:07.981795   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:01:07.981899   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:01:07.981968   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:01:08.731273   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:01:08.731356   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:01:08.731378   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:01:17.906074   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:01:17.948712   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:01:17.948829   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:01:17.948859   73315 log.go:194] (0x140007d00a0) (79) Data frame sent
+I0222 17:01:18.732706   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:01:18.732750   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:01:18.732765   73315 log.go:194] (0x140007d0000) (75) Data frame sent
+I0222 17:01:18.869548   73315 log.go:194] (0x140007d0000) (75) Writing data frame
+I0222 17:01:18.869621   73315 log.go:194] (0x140007d00a0) (79) Writing data frame
+I0222 17:01:20.008775   73315 log.go:194] (0x1400016d1e0) Data frame received for 73
+I0222 17:01:20.008841   73315 log.go:194] (0x1400043a0a0) (73) Data frame handling
+I0222 17:01:20.008925   73315 log.go:194] (0x1400016d1e0) Data frame received for 79
+I0222 17:01:20.008967   73315 log.go:194] (0x1400016d1e0) Data frame received for 77
+I0222 17:01:20.009000   73315 log.go:194] (0x1400016d1e0) Data frame received for 75
+I0222 17:01:20.009049   73315 log.go:194] (0x1400016d1e0) (0x1400043a0a0) Stream removed, broadcasting: 73
+I0222 17:01:20.009081   73315 log.go:194] (0x140007d0000) (75) Data frame handling
+I0222 17:01:20.010959   73315 log.go:194] (0x140007d00a0) (79) Data frame handling
+I0222 17:01:20.011041   73315 log.go:194] (0x14000250640) (77) Data frame handling
+I0222 17:01:20.011277   73315 log.go:194] (0x1400016d1e0) (0x140007d0000) Stream removed, broadcasting: 75
+I0222 17:01:20.011306   73315 log.go:194] (0x1400016d1e0) (0x140007d00a0) Stream removed, broadcasting: 79
+I0222 17:01:20.011329   73315 log.go:194] (0x1400016d1e0) (0x14000250640) Stream removed, broadcasting: 77

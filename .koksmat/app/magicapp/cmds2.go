@@ -1,0 +1,4 @@
+package magicapp
+
+func RegisterCmds() {
+}

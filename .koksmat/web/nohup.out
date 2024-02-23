@@ -1,0 +1,591 @@
+
+> my-app@0.1.0 dev /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web
+> next dev -p 4322
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::4322
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/start-server.js:278:16
+    at new Promise (<anonymous>)
+    at startServer (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/start-server.js:190:11)
+    at /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/start-server.js:308:52
+    at Span.traceAsyncFn (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/trace/trace.js:151:26)
+    at process.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/start-server.js:308:35)
+    at process.emit (node:events:514:28) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 4322
+}
+[?25h
+
+> my-app@0.1.0 dev /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web
+> next dev -p 4322
+
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:4322
+   - Environments: .env
+
+ ✓ Ready in 1775ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.1s (479 modules)
+ ✓ Compiled in 241ms (222 modules)
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 3.8s (1152 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:4322". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⨯ node_modules/.pnpm/next-auth@4.24.6_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-auth/react/index.js (119:10) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at ValidateEmailAccountForm (./src/app/profile/components/onboarding-form.tsx:36:80)
+null
+ ✓ Compiled /favicon.ico in 185ms (811 modules)
+MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+ ⨯ unhandledRejection: MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+ ⨯ unhandledRejection: MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+ ✓ Compiled in 418ms (383 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:4322". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⨯ node_modules/.pnpm/next-auth@4.24.6_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-auth/react/index.js (119:10) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at ValidateEmailAccountForm (./src/app/profile/components/onboarding-form.tsx:36:80)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.24.6_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-auth/react/index.js (119:10) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at ValidateEmailAccountForm (./src/app/profile/components/onboarding-form.tsx:36:80)
+null
+MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+ ⨯ unhandledRejection: MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+ ⨯ unhandledRejection: MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at EventTarget.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at TimeoutController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  reason: TopologyDescription {
+    type: 'Single',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+      at connectionFailureError (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:379:20)
+      at Socket.<anonymous> (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/mongodb@6.3.0/node_modules/mongodb/lib/cmap/connect.js:285:22)
+      at Object.onceWrapper (node:events:629:26)
+      at Socket.emit (node:events:514:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: AggregateError
+        at internalConnectMultiple (node:net:1114:18)
+        at afterConnectMultiple (node:net:1667:5)
+        at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      code: 'ECONNREFUSED',
+      [errors]: [Array]
+    }
+  }
+}
+ ✓ Compiled in 439ms (1188 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+digest: "191144690"
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+null
+TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at eval (webpack-internal:///(rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js:12:142)
+    at (rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/vendor-chunks/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0.js:30:1)
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eq (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:402221)
+    at async tr (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:405987)
+    at async tn (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:406537)
+    at async tu (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2057)
+    at async /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2564 {
+  digest: '2164958643'
+}
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at eval (webpack-internal:///(rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js:12:142)
+    at (rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/vendor-chunks/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0.js:30:1)
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eq (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:402221)
+    at async tr (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:405987)
+    at async tn (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:406537)
+    at async tu (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2057)
+    at async /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2564 {
+  digest: '2164958643',
+  page: '/profile'
+}
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+digest: "191144690"
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+null
+TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at eval (webpack-internal:///(rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js:12:142)
+    at (rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/vendor-chunks/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0.js:30:1)
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eq (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:402221)
+    at async tr (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:405987)
+    at async tn (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:406537)
+    at async tu (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2057)
+    at async /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2564 {
+  digest: '2164958643'
+}
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at eval (webpack-internal:///(rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js:12:142)
+    at (rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/vendor-chunks/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0.js:30:1)
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eq (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:402221)
+    at async tr (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:405987)
+    at async tn (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:406537)
+    at async tu (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2057)
+    at async /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2564 {
+  digest: '2164958643',
+  page: '/profile'
+}
+null
+ ○ Compiling /_error ...
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /_error in 1268ms (1336 modules)
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at eval (webpack-internal:///(rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js:12:142)
+    at (rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/vendor-chunks/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0.js:30:1)
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at async eq (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:402221)
+    at async rc (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:6371)
+    at async rf (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:11042)
+    at async rv (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:13203) {
+  page: '/profile'
+}
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+digest: "191144690"
+null
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+null
+TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at eval (webpack-internal:///(rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js:12:142)
+    at (rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/vendor-chunks/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0.js:30:1)
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eq (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:402221)
+    at async tr (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:405987)
+    at async tn (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:406537)
+    at async tu (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2057)
+    at async /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2564 {
+  digest: '2164958643'
+}
+ ⨯ node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (1:244) @ eval
+ ⨯ TypeError: (0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext) is not a function
+    at eval (webpack-internal:///(rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js:12:142)
+    at (rsc)/./node_modules/.pnpm/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next-themes/dist/index.module.js (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/vendor-chunks/next-themes@0.2.1_next@14.1.0_react-dom@18.2.0_react@18.2.0.js:30:1)
+    at __webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:11:69)
+    at (rsc)/./src/app/layout.tsx (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/app/profile/page.js:622:1)
+    at Function.__webpack_require__ (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/.next/server/webpack-runtime.js:33:43)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async eq (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:402221)
+    at async tr (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:405987)
+    at async tn (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:406537)
+    at async tu (/Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2057)
+    at async /Users/nielsgregersjohansen/kitchens/nexiintra-profile/.koksmat/web/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:2564 {
+  digest: '2164958643',
+  page: '/profile'
+}
+null
+[?25h
