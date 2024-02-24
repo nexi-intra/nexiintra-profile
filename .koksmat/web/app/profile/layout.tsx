@@ -29,7 +29,7 @@ export default async function SettingsLayout({
 }: SettingsLayoutProps) {
   return (
     <div>
-      <ToSmall />
+
       <div className="relative flex min-h-screen flex-col">
         <SiteHeader />
        {children}

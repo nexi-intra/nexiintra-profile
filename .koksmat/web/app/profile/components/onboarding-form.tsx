@@ -148,9 +148,9 @@ export function ValidateEmailAccountForm() {
           },
           parms
         )
-      } } cancel={function (): void {
+      }} cancel={function (): void {
         setisNewGuest(false)
-      } } SigninGuideHTML={guideHTML} />}
+      }} SigninGuideHTML={guideHTML} />}
     </div>
   )
 }
