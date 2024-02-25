@@ -6,12 +6,18 @@ import { ProfileForm } from "./components/firsttime-profile-form"
 
 import { getProfileCache } from "../data/cache"
 export const dynamic = 'force-dynamic'
-export default async function SettingsProfilePage() {
+export default  function SettingsProfilePage() {
 
-  const session = null //await getUserSession()
-  const upn ="" //session?.user?.email ?? ""
+useEffect(() => {
+  const load = async () => {
+    const data = await getProfileCache()
+  }
+
+  
+}, [])
+
   const existingProfile : any = {} //await getprofile(upn)
-  const data = await getProfileCache()
+  //const data = await getProfileCache()
   const country = existingProfile?.country ?? ""
   const unit = existingProfile?.unit ?? ""
   return (

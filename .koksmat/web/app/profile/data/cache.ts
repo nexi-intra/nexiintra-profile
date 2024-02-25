@@ -1,4 +1,4 @@
-
+"use server"
 
 import { getSpAuthToken } from "@/koksmat/officegraph"
 import {
@@ -49,7 +49,7 @@ export async function refreshProfileCache() {
 }
 
 export async function getProfileCache() {
-
+return refreshProfileCache()
   
-  return {} as any
+  //return {} as any
 }

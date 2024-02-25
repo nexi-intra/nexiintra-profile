@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 
-import ToSmall from "@/components/tosmall"
+import ToSmall from "@/koksmat/components/tosmall"
 
 import { SiteFooter as LocalSiteFooter } from "./components/site-footer"
 import { SiteHeader } from "./components/site-header"

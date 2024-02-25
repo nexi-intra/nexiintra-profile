@@ -1,7 +1,6 @@
-
-import React from "react"
-import { use } from "react";
-import { LoginButton, LogoutButton } from "@/components/login"
+"use client"
+import React, { useContext } from "react"
+import { LoginButton, LogoutButton } from "@/koksmat/components/login"
 
 import {
   Avatar,
@@ -19,14 +18,13 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { MagicboxContext } from "@/koksmat/magicbox-context"
 
-async function getSession(){
-  return {} as any //getUserSession()
-}
+
 export  function UserNav() {
-  const session = use(getSession())
+ const magicbox = useContext(MagicboxContext);
 
-  if (!session) {
+  if (!magicbox || !magicbox.user || !magicbox.user.email) {
     return (
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
@@ -52,7 +50,7 @@ export  function UserNav() {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="relative h-8 w-8 rounded-full">
           <Avatar className="h-6 w-6 ">
-            <AvatarImage  src={session?.user?.image as string} alt="@shadcn" />
+            <AvatarImage  src={magicbox.user.image} alt="@shadcn" />
             <AvatarFallback><AvatarImage src="/avatars/01.png" alt="@shadcn" /></AvatarFallback>
           </Avatar>
         </Button>
@@ -60,9 +58,9 @@ export  function UserNav() {
       <DropdownMenuContent className="w-56" align="end" forceMount>
         <DropdownMenuLabel className="font-normal">
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">{session?.user?.name}</p>
+            <p className="text-sm font-medium leading-none">{magicbox.user.name}</p>
             <p className="text-xs leading-none text-muted-foreground">
-            {session?.user?.email}
+            {magicbox.user.email}
             </p>
           </div>
         </DropdownMenuLabel>

@@ -29,6 +29,7 @@ import {
 import { set } from "date-fns"
 import { NewGuest } from "./NewGuest"
 import { MagicboxContext } from "@/koksmat/magicbox-context"
+import { redirect, useRouter } from "next/navigation"
 
 const profileFormSchema = z.object({
   email: z
@@ -58,10 +59,13 @@ export function ValidateEmailAccountForm() {
   const [isNewGuest, setisNewGuest] = useState(false)
   const [isUnknownDomain, setisUnknownDomain] = useState(false)
   const [guideHTML, setguideHTML] = useState("")
+  const router =  useRouter()
   useEffect(() => {
-    if (magicbox.session?.user?.email) {
-      if (magicbox.session.user.email.indexOf("#ext#@") < 0) {
-        form.setValue("email", magicbox.session?.user?.email ?? "")
+    if (!magicbox || magicbox==undefined) return
+    
+    if (magicbox.user) {
+      if (magicbox.user.email.indexOf("#ext#@") < 0) {
+        form.setValue("email", magicbox.user.email ?? "")
       }
     }
   }, [magicbox])
@@ -86,18 +90,23 @@ export function ValidateEmailAccountForm() {
     setguideHTML(x.data?.guideHTML ?? "")
     if (x.data?.valid) {
       setsigninEnabled(true)
-      const parms: URLSearchParams = new URLSearchParams()
-      parms.set("login_hint", form.getValues("email") as string)
-      magicbox.signIn(
-        "azure-ad",
-        {
-          callbackUrl: "/profile/router",
-        },
-        parms
-      )
+      const signedIn = await magicbox.signIn(
+          ["User.Read"],
+           form.getValues("email") as string
+        )
+      if (signedIn) {
+        toast({
+          title: "You are now signed in",
+          description: "You can now continue to the site",
+        })
+       
+      }
+      location.href = "/profile/router"
+      //router.push("/profile/router")
+      
     }
-    setProcessing(false)
-    console.log(x)
+
+    
   }
 
   return (
@@ -137,17 +146,19 @@ export function ValidateEmailAccountForm() {
 
         </Form>
       </form>
-      {isNewGuest && <NewGuest continueToSignin={function (): void {
-        setsigninEnabled(true)
-        const parms: URLSearchParams = new URLSearchParams()
-        parms.set("login_hint", form.getValues("email") as string)
-        magicbox.signIn(
-          "azure-ad",
-          {
-            callbackUrl: "/profile/router",
-          },
-          parms
+      {isNewGuest && <NewGuest continueToSignin={async function () {
+        const signedIn = await magicbox.signIn(
+          ["User.Read"],
+           form.getValues("email") as string
         )
+      if (signedIn) {
+        toast({
+          title: "You are now signed in",
+          description: "You can now continue to the site",
+        })
+       
+      }
+      location.href = "/profile/router"
       }} cancel={function (): void {
         setisNewGuest(false)
       }} SigninGuideHTML={guideHTML} />}

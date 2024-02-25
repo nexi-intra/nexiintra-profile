@@ -14,8 +14,8 @@ import { https } from "@/koksmat/httphelper"
 import { cn } from "@/koksmat/utils"
 import { IProgressProps, ProcessStatusOverlay } from "./progress"
 import { Checkbox } from "@/components/ui/checkbox"
-import { GenericTable } from "@/components/table"
-import { GenericItem } from "@/components/table/data/schema"
+import { GenericTable } from "@/koksmat/table"
+import { GenericItem } from "@/koksmat/table/data/schema"
 
 import {
   Command,
@@ -669,16 +669,16 @@ export function ProfileForm(props: {
                 return 0
               })
               .map((membership, key) => {
-                const item: GenericItem = {
+                const item: GenericItem<any> = {
                   link:
                     "https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Members/groupId/" +
                     membership.groupId,
                   id: membership.groupId,
                   details: membership.mailNickname + " " + membership.groupId,
                   title: membership.groupDisplayName,
-                  string1: null,
-                  string2: null,
-                  string3: null,
+                  string1: undefined,
+                  string2: undefined,
+                  string3: undefined,
                 }
                 return item
               })}

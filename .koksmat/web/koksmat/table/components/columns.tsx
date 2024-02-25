@@ -7,10 +7,10 @@ import { Checkbox } from "@/components/ui/checkbox"
 
 import { labels, priorities, statuses } from "../data/data"
 import { GenericItem } from "../data/schema"
-import { DataTableColumnHeader } from "@/components/data-table-column-header"
+import { DataTableColumnHeader } from "@/koksmat/components/data-table-column-header"
 import { DataTableRowActions } from "./data-table-row-actions"
 
-export const columns: ColumnDef<GenericItem>[] = [
+export const columns: ColumnDef<GenericItem<any>>[] = [
   {
     id: "select",
     header: ({ table }) => (

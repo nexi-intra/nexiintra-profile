@@ -5,7 +5,7 @@ import { Row, Table } from "@tanstack/react-table"
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { DataTableViewOptions } from "@/components/data-table-view-options"
+import { DataTableViewOptions } from "@/koksmat/components/data-table-view-options"
 
 import { GenericTableActions, ISelectedItemsActionsComponent ,IFilterAction} from "./GenericTableActions"
 interface DataTableToolbarProps<TData> {

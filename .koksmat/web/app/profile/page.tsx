@@ -1,4 +1,4 @@
-import Logo from "@/components/logo"
+import Logo from "@/koksmat/components/logo"
 
 import { ValidateEmailAccountForm } from "./components/onboarding-form"
 

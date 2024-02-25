@@ -1,6 +1,6 @@
 import { ColumnDef } from "@tanstack/react-table"
 
-import ToSmall from "@/components/tosmall"
+import ToSmall from "@/koksmat/components/tosmall"
 import { GenericTableActions } from "./components/GenericTableActions"
 import { columns } from "./components/columns"
 import { DataTable } from "./components/data-table"
@@ -11,8 +11,8 @@ export interface GenericTableProps {
   caption?: string
   description?: string
   data: any
-  addtionalColumns?: ColumnDef<GenericItem>[]
-  actions?: GenericTableActions<GenericItem>
+  addtionalColumns?: ColumnDef<GenericItem<any>>[]
+  actions?: GenericTableActions<GenericItem<any>>
 }
 
 export function GenericTable(params: GenericTableProps) {
@@ -25,8 +25,8 @@ export function GenericTable(params: GenericTableProps) {
   }
   return (
     <>
-      <ToSmall />
-      <div className="hidden h-full flex-1 flex-col   md:flex">
+    
+      <div className=" h-full flex-1 flex-col   flex">
         {params.caption && (
           <div className="mb-4 flex items-center  ">
           <div className="text-2xl font-bold">{params.caption}</div>

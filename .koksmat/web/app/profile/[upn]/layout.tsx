@@ -1,18 +1,12 @@
-import { Metadata } from "next"
-import Image from "next/image"
+"use client"
 
 import { Separator } from "@/components/ui/separator"
-import { SidebarNav } from "./components/sidebar-nav"
-
-import ToSmall from "@/components/tosmall"
-
+import { MagicboxContext } from "@/koksmat/magicbox-context"
+import { useContext } from "react"
 
 
 
-export const metadata: Metadata = {
-  title: "Profile",
-  description: "Here you can find profile informations",
-}
+
 
 const sidebarNavItems = (upn: string) => [
   {
@@ -43,16 +37,16 @@ interface SettingsLayoutProps {
 
 }
 
-export default async function SettingsLayout({ children }: SettingsLayoutProps) {
-  const session = null //await getUserSession()
+export default  function SettingsLayout({ children }: SettingsLayoutProps) {
+  const magicbox = useContext(MagicboxContext)
 
   return (
     <>
-      <ToSmall />
+
       <div className="flex  h-screen w-screen ">
         <div className="grow " />
           <div className="container mt-4 overflow-hidden rounded-[0.5rem] border bg-background shadow">
-            <div className="hidden space-y-6 p-10 pb-16 md:block">
+            <div className=" space-y-6 p-10 pb-16 ">
               <div className="space-y-0.5">
                 <h2 className="text-2xl font-bold tracking-tight">Your profile</h2>
                 <p className="text-muted-foreground">
@@ -65,12 +59,12 @@ export default async function SettingsLayout({ children }: SettingsLayoutProps) 
                 {/* <aside className="-mx-4 lg:w-1/5">
             <SidebarNav items={sidebarNavItems(params.upn)} />
           </aside> */}
-                {!session && <div className="flex-1 lg:max-w-2xl">
+                {!magicbox.user?.email && <div className="flex-1 lg:max-w-2xl">
                   You need to sign in to get access to the profile.
                 </div>
                 
                 }   
-                {session &&
+                {magicbox.user?.email &&
                   <div className="flex-1 lg:max-w-2xl">{children}</div>}
               </div>
             </div>

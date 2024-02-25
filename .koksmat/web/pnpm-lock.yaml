@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@azure/msal-browser':
+    specifier: ^3.10.0
+    version: 3.10.0
+  '@azure/msal-react':
+    specifier: ^2.0.12
+    version: 2.0.12(@azure/msal-browser@3.10.0)(react@18.2.0)
   '@hookform/resolvers':
     specifier: ^3.3.4
     version: 3.3.4(react-hook-form@7.50.1)
@@ -162,6 +168,29 @@ packages:
   /@alloc/quick-lru@5.2.0:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+    dev: false
+
+  /@azure/msal-browser@3.10.0:
+    resolution: {integrity: sha512-mnmi8dCXVNZI+AGRq0jKQ3YiodlIC4W9npr6FCB9WN6NQT+6rq+cIlxgUb//BjLyzKsnYo+i4LROGeMyU+6v1A==}
+    engines: {node: '>=0.8.0'}
+    dependencies:
+      '@azure/msal-common': 14.7.1
+    dev: false
+
+  /@azure/msal-common@14.7.1:
+    resolution: {integrity: sha512-v96btzjM7KrAu4NSEdOkhQSTGOuNUIIsUdB8wlyB9cdgl5KqEKnTonHUZ8+khvZ6Ap542FCErbnTyDWl8lZ2rA==}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
+  /@azure/msal-react@2.0.12(@azure/msal-browser@3.10.0)(react@18.2.0):
+    resolution: {integrity: sha512-23HKdajBWQ5SSzcwwFKHAWaOCpq4UCthoOBgKpab3UoHx0OuFMQiq6CrNBzBKtBFdyxCjadBGzWshRgl0Nvk1g==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      '@azure/msal-browser': ^3.10.0
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      '@azure/msal-browser': 3.10.0
+      react: 18.2.0
     dev: false
 
   /@babel/runtime@7.23.9:

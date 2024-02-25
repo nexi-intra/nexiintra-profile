@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import { MainNav } from "../[upn]/components/main-nav"
 import { MobileNav } from "../[upn]/components/mobile-nav"
-import { ModeToggle } from "@/components/mode-toggle"
+import { ModeToggle } from "@/koksmat/components/mode-toggle"
 import { UserNav } from "./user-nav"
 
 export function SiteHeader() {

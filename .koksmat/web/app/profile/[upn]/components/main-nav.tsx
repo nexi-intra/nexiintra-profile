@@ -5,7 +5,7 @@ import Link from "next/link"
 
 
 import { siteConfig } from "../config/site"
-import Logo from "@/components/logo"
+import Logo from "@/koksmat/components/logo"
 
 export function MainNav() {
   
