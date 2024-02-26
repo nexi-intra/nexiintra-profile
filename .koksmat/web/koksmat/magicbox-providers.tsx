@@ -2,13 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { MagicboxContextType, MagicboxContext, Session, User } from "./magicbox-context";
-import { de, th } from "date-fns/locale";
 import { IPublicClientApplication, PopupRequest } from "@azure/msal-browser";
-import { set } from "date-fns";
-
-
-
-
 
 type Props = {
   children?: React.ReactNode;
@@ -36,7 +30,7 @@ export const MagicboxProvider = ({ children }: Props) => {
 
       try {
         const result = await pca.loginPopup(request)
-        setuser({ name: result.account.name ?? result.account.username, email: result.account.username, image: "" });
+        setuser({ name: result.account.name ?? result.account.username, email: result.account.username, image: "", id: result.account.localAccountId});
         return true
       } catch (error) {
         return false
@@ -47,9 +41,9 @@ export const MagicboxProvider = ({ children }: Props) => {
     signOut: function (): void {
     pca?.loginRedirect()
     },
-    setAccount: function (username: string, email: string, image: string): void {
-      debugger;
-      setuser({ name: username, email: email, image: image });
+    setAccount: function (username: string, email: string, image: string, id: string): void {
+      
+      setuser({ name: username, email: email, image: image ,id});
     },
 
     user,

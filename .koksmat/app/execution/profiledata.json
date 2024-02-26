@@ -1,0 +1,1124 @@
+{
+  "countries": [
+    {
+      "Region": "Italy",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-it/SitePages/rollup-italy.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-it/SitePages/rollup-italy.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 1,
+      "Title": "Italy",
+      "RegionItem": {
+        "LookupId": 1,
+        "LookupValue": "Italy",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "DACH",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-de/SitePages/rollup.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-de/SitePages/rollup.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 2,
+      "Title": "Germany",
+      "RegionItem": {
+        "LookupId": 2,
+        "LookupValue": "DACH",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "DACH",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-de/SitePages/rollup-austria.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-de/SitePages/rollup-austria.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 3,
+      "Title": "Austria",
+      "RegionItem": {
+        "LookupId": 2,
+        "LookupValue": "DACH",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "DACH",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-ch/SitePages/rollup.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-ch/SitePages/rollup.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 4,
+      "Title": "Switzerland",
+      "RegionItem": {
+        "LookupId": 2,
+        "LookupValue": "DACH",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "Nordics",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-dk/SitePages/rollup.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-dk/SitePages/rollup.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 5,
+      "Title": "Denmark",
+      "RegionItem": {
+        "LookupId": 3,
+        "LookupValue": "Nordics",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "Nordics",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-fi/SitePages/Rollup.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-fi/SitePages/Rollup.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 6,
+      "Title": "Finland",
+      "RegionItem": {
+        "LookupId": 3,
+        "LookupValue": "Nordics",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "Nordics",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-se/SitePages/Rollup-Page.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-se/SitePages/Rollup-Page.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 7,
+      "Title": "Sweden",
+      "RegionItem": {
+        "LookupId": 3,
+        "LookupValue": "Nordics",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-greece/SitePages/rollup-greece.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-greece/SitePages/rollup-greece.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 8,
+      "Title": "Greece",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-hr-si/SitePages/rollup-croatia-slovenia.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-hr-si/SitePages/rollup-croatia-slovenia.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 10,
+      "Title": "Croatia",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-hr-si/SitePages/rollup-croatia-slovenia.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-hr-si/SitePages/rollup-croatia-slovenia.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 11,
+      "Title": "Slovenia",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "Nordics",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-no/SitePages/Rollup-Page.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-no/SitePages/Rollup-Page.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 13,
+      "Title": "Norway",
+      "RegionItem": {
+        "LookupId": 3,
+        "LookupValue": "Nordics",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "Italy",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-it/SitePages/rollup-southafrica.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-it/SitePages/rollup-southafrica.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 14,
+      "Title": "South Africa",
+      "RegionItem": {
+        "LookupId": 1,
+        "LookupValue": "Italy",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 16,
+      "Title": "Hungary",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-it/SitePages/rollup-italy.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-it/SitePages/rollup-italy.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 17,
+      "Title": "Romania",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 19,
+      "Title": "Serbia",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 21,
+      "Title": "Slovakia",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-centraleurope/SitePages/rollup-ce.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 22,
+      "Title": "Czechia",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-Poland-PeP-Group/SitePages/rollup-poland-pep-group.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-Poland-PeP-Group/SitePages/rollup-poland-pep-group.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 23,
+      "Title": "Poland - PeP Group",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    },
+    {
+      "Region": "CSEE",
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-Poland-P24/SitePages/rollup-poland-p24.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-country-Poland-P24/SitePages/rollup-poland-p24.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "ID": 26,
+      "Title": "Poland - p24",
+      "RegionItem": {
+        "LookupId": 4,
+        "LookupValue": "CSEE",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      }
+    }
+  ],
+  "units": [
+    {
+      "UnitType": "Business Unit",
+      "LookupValue": null,
+      "ID": 1,
+      "Title": "MS",
+      "SortOrder": 20,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-ms/SitePages/What's-up-in-MS.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-ms/SitePages/What's-up-in-MS.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-ms",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-ms",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Business Unit",
+      "LookupValue": null,
+      "ID": 2,
+      "Title": "Issuing Solutions",
+      "SortOrder": 10,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-is/SitePages/Rollup.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-is/SitePages/Rollup.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-is",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-is",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Business Unit",
+      "LookupValue": null,
+      "ID": 3,
+      "Title": "eCommerce",
+      "SortOrder": 30,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/eCom/SitePages/rollup.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/eCom/SitePages/rollup.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/eCom",
+        "Url": "https://christianiabpos.sharepoint.com/sites/eCom",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Business Unit",
+      "LookupValue": null,
+      "ID": 4,
+      "Title": "DBS",
+      "SortOrder": 40,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-dbs/SitePages/Rollup-page.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-dbs/SitePages/Rollup-page.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-dbs",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-dbs",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Group Function",
+      "LookupValue": "finance,%20strategy%20",
+      "ID": 5,
+      "Title": "Finance, Strategy & Transformation",
+      "SortOrder": 100,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-fst/SitePages/What's-up-in.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-fst/SitePages/What's-up-in.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-fst",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-fst",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Group Function",
+      "LookupValue": null,
+      "ID": 6,
+      "Title": "HR",
+      "SortOrder": 110,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-hr/SitePages/What's-up-in-HR-.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-hr/SitePages/What's-up-in-HR-.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-hr",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-hr",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Group Function",
+      "LookupValue": null,
+      "ID": 7,
+      "Title": "IT",
+      "SortOrder": 120,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-it/SitePages/Rollup-Page-for-Group-Function-IT.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-it/SitePages/Rollup-Page-for-Group-Function-IT.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-it",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-it",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Group Function",
+      "LookupValue": "group%20corporate%20",
+      "ID": 8,
+      "Title": "Group Corporate & Ext. Affairs and ESG",
+      "SortOrder": 130,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-gc-ea-esg/SitePages/What's-up-in.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-gc-ea-esg/SitePages/What's-up-in.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-gc-ea-esg",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-gc-ea-esg",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Group Function",
+      "LookupValue": null,
+      "ID": 9,
+      "Title": "Group Risk Management",
+      "SortOrder": 140,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-grm/SitePages/What's-up-in-Group-Risk-Management.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-grm/SitePages/What's-up-in-Group-Risk-Management.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-grm",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-grm",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Group Function",
+      "LookupValue": null,
+      "ID": 10,
+      "Title": "Operations Transformation",
+      "SortOrder": 160,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ot/SitePages/Rollup-page-ot.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ot/SitePages/Rollup-page-ot.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ot",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ot",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    },
+    {
+      "UnitType": "Group Function",
+      "LookupValue": null,
+      "ID": 11,
+      "Title": "Group Audit",
+      "SortOrder": 150,
+      "Rolluppage": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ga/SitePages/What's-up-in-Group-Audit-.aspx",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ga/SitePages/What's-up-in-Group-Audit-.aspx",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      },
+      "Site": {
+        "Description": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ga",
+        "Url": "https://christianiabpos.sharepoint.com/sites/nexiintra-unit-gf-ga",
+        "TypeId": "{fa8b44af-7b43-43f2-904a-bd319497011e}"
+      }
+    }
+  ],
+  "channels": [
+    {
+      "NewsCategory": {
+        "LookupId": 7,
+        "LookupValue": "Group News",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 7,
+      "Mandatory": true,
+      "RelevantCountires": [],
+      "GroupId": "d56bb9ec-0342-485f-af15-2c871232c04e",
+      "ID": 1,
+      "Title": "Group News",
+      "RegionID": null,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 1,
+        "LookupValue": "Business Units",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 1,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "5ef26780-15e7-481e-a538-dcde881d2e87",
+      "ID": 2,
+      "Title": "DBS",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 4,
+          "LookupValue": "DBS",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 1,
+        "LookupValue": "Business Units",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 1,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "e05a25df-83a4-486b-b0b4-1e9e044548b8",
+      "ID": 3,
+      "Title": "eCommerce",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 3,
+          "LookupValue": "eCommerce",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 1,
+        "LookupValue": "Business Units",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 1,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "fdd1851f-edf4-41a1-94ca-f7969c064115",
+      "ID": 4,
+      "Title": "Issuing Solutions",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 2,
+          "LookupValue": "Issuing Solutions",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 1,
+        "LookupValue": "Business Units",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 1,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "dedce82c-ae95-4155-aab7-f6c7134eb967",
+      "ID": 5,
+      "Title": "Merchant Solutions",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 1,
+          "LookupValue": "MS",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 2,
+        "LookupValue": "Group Functions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 2,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "bb6a6a29-9b3f-4ab1-b244-28d8332f3a02",
+      "ID": 6,
+      "Title": "Finance, Strategy & Transformation",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 5,
+          "LookupValue": "Finance, Strategy & Transformation",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 2,
+        "LookupValue": "Group Functions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 2,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "ca4f68c9-7f8f-4e53-91c1-06bb5a8b4b46",
+      "ID": 7,
+      "Title": "HR",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 6,
+          "LookupValue": "HR",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 2,
+        "LookupValue": "Group Functions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 2,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "1cc59695-3119-4f31-bd4b-fe36455b1f1c",
+      "ID": 8,
+      "Title": "IT",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 7,
+          "LookupValue": "IT",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 2,
+        "LookupValue": "Group Functions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 2,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "7cdcb645-4127-4660-9697-332dfc7cdd5c",
+      "ID": 9,
+      "Title": "Group Corporate & Ext. Affairs and ESG",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 8,
+          "LookupValue": "Group Corporate & Ext. Affairs and ESG",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 2,
+        "LookupValue": "Group Functions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 2,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "7beb6c16-df9f-4947-afca-1a2841f519d4",
+      "ID": 10,
+      "Title": "Group Risk Management",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 9,
+          "LookupValue": "Group Risk Management",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 2,
+        "LookupValue": "Group Functions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 2,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "8979fdbe-c2c7-42b1-b813-1229d72fc258",
+      "ID": 11,
+      "Title": "Group Audit",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 11,
+          "LookupValue": "Group Audit",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 2,
+        "LookupValue": "Group Functions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 2,
+      "Mandatory": false,
+      "RelevantCountires": [],
+      "GroupId": "b8c170ea-e202-4587-92ea-d04386de7596",
+      "ID": 12,
+      "Title": "Operations Transformation",
+      "RegionID": null,
+      "RelevantUnits": [
+        {
+          "LookupId": 10,
+          "LookupValue": "Operations Transformation",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ]
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 1,
+          "LookupValue": "Italy",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "b6c4d7de-874a-4b83-9a61-abdee52a4329",
+      "ID": 14,
+      "Title": "Italy",
+      "RegionID": 1,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 3,
+        "LookupValue": "Regions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 3,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 2,
+          "LookupValue": "Germany",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 4,
+          "LookupValue": "Switzerland",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 3,
+          "LookupValue": "Austria",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "ef9baa4b-3ee1-45b2-b72e-99fb763ca3e2",
+      "ID": 15,
+      "Title": "DACH",
+      "RegionID": 2,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 3,
+          "LookupValue": "Austria",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "93fffee0-eb94-4682-85e7-c3346f3ffc8b",
+      "ID": 16,
+      "Title": "Austria",
+      "RegionID": 2,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 2,
+          "LookupValue": "Germany",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "f0a771ed-1174-42ed-a9b3-24c18a7a06d5",
+      "ID": 17,
+      "Title": "Germany",
+      "RegionID": 2,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 4,
+          "LookupValue": "Switzerland",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "d42de3c0-6e05-481c-8b2c-5f9623a3ac81",
+      "ID": 18,
+      "Title": "Switzerland",
+      "RegionID": 2,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 3,
+        "LookupValue": "Regions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 3,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 5,
+          "LookupValue": "Denmark",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 6,
+          "LookupValue": "Finland",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 13,
+          "LookupValue": "Norway",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 7,
+          "LookupValue": "Sweden",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "0ab11ff4-0196-4768-9a7f-9b9f4df9d7c0",
+      "ID": 19,
+      "Title": "Nordics",
+      "RegionID": 3,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 5,
+          "LookupValue": "Denmark",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "4caa06ec-c8f4-4eba-97d5-99bb81442d6c",
+      "ID": 20,
+      "Title": "Denmark",
+      "RegionID": 3,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 6,
+          "LookupValue": "Finland",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "8c2535bd-29db-4475-bc80-81ad1f3ae982",
+      "ID": 21,
+      "Title": "Finland",
+      "RegionID": 3,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 13,
+          "LookupValue": "Norway",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "61fc5637-8e5f-41c5-9146-eb29ff785622",
+      "ID": 22,
+      "Title": "Norway",
+      "RegionID": 3,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 7,
+          "LookupValue": "Sweden",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "a1b5bb1e-0c91-4a88-8851-8744b0664020",
+      "ID": 23,
+      "Title": "Sweden",
+      "RegionID": 3,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 3,
+        "LookupValue": "Regions",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 3,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 10,
+          "LookupValue": "Croatia",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 8,
+          "LookupValue": "Greece",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 11,
+          "LookupValue": "Slovenia",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "201e70a7-3b65-4164-8bfa-10c846afb3fb",
+      "ID": 24,
+      "Title": "CSEE",
+      "RegionID": 4,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 16,
+          "LookupValue": "Hungary",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 17,
+          "LookupValue": "Romania",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 19,
+          "LookupValue": "Serbia",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 21,
+          "LookupValue": "Slovakia",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 22,
+          "LookupValue": "Czechia",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "5fe6d772-7f9d-4929-8db0-fe0d8b1fd88e",
+      "ID": 25,
+      "Title": "Central Europe",
+      "RegionID": 4,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 11,
+          "LookupValue": "Slovenia",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        },
+        {
+          "LookupId": 10,
+          "LookupValue": "Croatia",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "2694117c-8cb7-481b-b535-ca454df2fab6",
+      "ID": 26,
+      "Title": "Croatia/Slovenia",
+      "RegionID": 4,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": {
+        "LookupId": 6,
+        "LookupValue": "Countries",
+        "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+      },
+      "NewsCategoryID": 6,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 8,
+          "LookupValue": "Greece",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": "80a8ec07-ccb0-4b01-8e4b-da12ab4aa8be",
+      "ID": 27,
+      "Title": "Greece",
+      "RegionID": 4,
+      "RelevantUnits": []
+    },
+    {
+      "NewsCategory": null,
+      "NewsCategoryID": null,
+      "Mandatory": false,
+      "RelevantCountires": [
+        {
+          "LookupId": 23,
+          "LookupValue": "Poland - PeP Group",
+          "TypeId": "{f1d34cc0-9b50-4a78-be78-d5facfcccfb7}"
+        }
+      ],
+      "GroupId": null,
+      "ID": 35,
+      "Title": "PeP Group",
+      "RegionID": null,
+      "RelevantUnits": []
+    }
+  ],
+  "categories": [
+    {
+      "SortOrder": 10,
+      "ID": 1,
+      "Title": "Business Units"
+    },
+    {
+      "SortOrder": 20,
+      "ID": 2,
+      "Title": "Group Functions"
+    },
+    {
+      "SortOrder": 30,
+      "ID": 3,
+      "Title": "Regions"
+    },
+    {
+      "SortOrder": 35,
+      "ID": 6,
+      "Title": "Countries"
+    },
+    {
+      "SortOrder": 1,
+      "ID": 7,
+      "Title": "Group News"
+    }
+  ]
+}

@@ -68,7 +68,7 @@ const [hasLeftbar, sethasLeftbar] = useState(isLocalEnv??false)
  useEffect(() => {
   const load = async () => {
     if (!app) return
-    debugger
+   
     const map = await loadMap(app)
   setrootpath("/"+app+"/")
     setmap(map)

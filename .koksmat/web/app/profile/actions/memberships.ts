@@ -13,6 +13,7 @@ export async function setMemberships(memberId: string, membershipsToAdd: string[
 
     const accessToken = await getSpAuthToken()
     
+    
     const result : any[] = []
     for (let index = 0; index < membershipsToAdd.length; index++) {
         const membership = membershipsToAdd[index];

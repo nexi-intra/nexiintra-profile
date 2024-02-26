@@ -1,0 +1,715 @@
+[
+    {
+        "_id": {
+            "$oid": "65db7a6177cda80ea5c2b9bf"
+        },
+        "date": {
+            "$date": "2024-02-25T17:35:29.342Z"
+        },
+        "key": "profilecache",
+        "countries": [
+            {
+                "countryName": "Italy",
+                "countryCode": "Italy"
+            },
+            {
+                "countryName": "Germany",
+                "countryCode": "Germany"
+            },
+            {
+                "countryName": "Austria",
+                "countryCode": "Austria"
+            },
+            {
+                "countryName": "Switzerland",
+                "countryCode": "Switzerland"
+            },
+            {
+                "countryName": "Denmark",
+                "countryCode": "Denmark"
+            },
+            {
+                "countryName": "Finland",
+                "countryCode": "Finland"
+            },
+            {
+                "countryName": "Sweden",
+                "countryCode": "Sweden"
+            },
+            {
+                "countryName": "Greece",
+                "countryCode": "Greece"
+            },
+            {
+                "countryName": "Croatia",
+                "countryCode": "Croatia"
+            },
+            {
+                "countryName": "Slovenia",
+                "countryCode": "Slovenia"
+            },
+            {
+                "countryName": "Norway",
+                "countryCode": "Norway"
+            },
+            {
+                "countryName": "South Africa",
+                "countryCode": "South Africa"
+            },
+            {
+                "countryName": "Hungary",
+                "countryCode": "Hungary"
+            },
+            {
+                "countryName": "Romania",
+                "countryCode": "Romania"
+            },
+            {
+                "countryName": "Serbia",
+                "countryCode": "Serbia"
+            },
+            {
+                "countryName": "Slovakia",
+                "countryCode": "Slovakia"
+            },
+            {
+                "countryName": "Czechia",
+                "countryCode": "Czechia"
+            },
+            {
+                "countryName": "Poland - PeP Group",
+                "countryCode": "Poland - PeP Group"
+            },
+            {
+                "countryName": "Poland - p24",
+                "countryCode": "Poland - p24"
+            }
+        ],
+        "categories": [
+            {
+                "categoryName": "Business Units",
+                "categoryId": 1,
+                "sortOrder": 10
+            },
+            {
+                "categoryName": "Group Functions",
+                "categoryId": 2,
+                "sortOrder": 20
+            },
+            {
+                "categoryName": "Regions",
+                "categoryId": 3,
+                "sortOrder": 30
+            },
+            {
+                "categoryName": "Countries",
+                "categoryId": 6,
+                "sortOrder": 35
+            },
+            {
+                "categoryName": "Group News",
+                "categoryId": 7,
+                "sortOrder": 1
+            }
+        ],
+        "units": [
+            {
+                "unitName": "MS",
+                "unitCode": "MS",
+                "unitType": "Business Unit",
+                "sortOrder": 20
+            },
+            {
+                "unitName": "Issuing Solutions",
+                "unitCode": "Issuing Solutions",
+                "unitType": "Business Unit",
+                "sortOrder": 10
+            },
+            {
+                "unitName": "eCommerce",
+                "unitCode": "eCommerce",
+                "unitType": "Business Unit",
+                "sortOrder": 30
+            },
+            {
+                "unitName": "DBS",
+                "unitCode": "DBS",
+                "unitType": "Business Unit",
+                "sortOrder": 40
+            },
+            {
+                "unitName": "Finance, Strategy & Transformation",
+                "unitCode": "Finance, Strategy & Transformation",
+                "unitType": "Group Function",
+                "sortOrder": 100
+            },
+            {
+                "unitName": "HR",
+                "unitCode": "HR",
+                "unitType": "Group Function",
+                "sortOrder": 110
+            },
+            {
+                "unitName": "IT",
+                "unitCode": "IT",
+                "unitType": "Group Function",
+                "sortOrder": 120
+            },
+            {
+                "unitName": "Group Corporate & Ext. Affairs and ESG",
+                "unitCode": "Group Corporate & Ext. Affairs and ESG",
+                "unitType": "Group Function",
+                "sortOrder": 130
+            },
+            {
+                "unitName": "Group Risk Management",
+                "unitCode": "Group Risk Management",
+                "unitType": "Group Function",
+                "sortOrder": 140
+            },
+            {
+                "unitName": "Operations Transformation",
+                "unitCode": "Operations Transformation",
+                "unitType": "Group Function",
+                "sortOrder": 160
+            },
+            {
+                "unitName": "Group Audit",
+                "unitCode": "Group Audit",
+                "unitType": "Group Function",
+                "sortOrder": 150
+            }
+        ],
+        "channels": [
+            {
+                "id": "1",
+                "sortOrder": "Group News",
+                "channelName": "Group News",
+                "channelType": "Group News",
+                "channelCode": "Group News",
+                "GroupId": "d56bb9ec-0342-485f-af15-2c871232c04e",
+                "RelevantUnits": [],
+                "Mandatory": true,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 7
+            },
+            {
+                "id": "2",
+                "sortOrder": "DBS",
+                "channelName": "DBS",
+                "channelType": "DBS",
+                "channelCode": "DBS",
+                "GroupId": "5ef26780-15e7-481e-a538-dcde881d2e87",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 4,
+                        "LookupValue": "DBS"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 1
+            },
+            {
+                "id": "3",
+                "sortOrder": "eCommerce",
+                "channelName": "eCommerce",
+                "channelType": "eCommerce",
+                "channelCode": "eCommerce",
+                "GroupId": "e05a25df-83a4-486b-b0b4-1e9e044548b8",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 3,
+                        "LookupValue": "eCommerce"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 1
+            },
+            {
+                "id": "4",
+                "sortOrder": "Issuing Solutions",
+                "channelName": "Issuing Solutions",
+                "channelType": "Issuing Solutions",
+                "channelCode": "Issuing Solutions",
+                "GroupId": "fdd1851f-edf4-41a1-94ca-f7969c064115",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 2,
+                        "LookupValue": "Issuing Solutions"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 1
+            },
+            {
+                "id": "5",
+                "sortOrder": "Merchant Solutions",
+                "channelName": "Merchant Solutions",
+                "channelType": "Merchant Solutions",
+                "channelCode": "Merchant Solutions",
+                "GroupId": "dedce82c-ae95-4155-aab7-f6c7134eb967",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 1,
+                        "LookupValue": "MS"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 1
+            },
+            {
+                "id": "6",
+                "sortOrder": "Finance, Strategy & Transformation",
+                "channelName": "Finance, Strategy & Transformation",
+                "channelType": "Finance, Strategy & Transformation",
+                "channelCode": "Finance, Strategy & Transformation",
+                "GroupId": "bb6a6a29-9b3f-4ab1-b244-28d8332f3a02",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 5,
+                        "LookupValue": "Finance, Strategy & Transformation"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 2
+            },
+            {
+                "id": "7",
+                "sortOrder": "HR",
+                "channelName": "HR",
+                "channelType": "HR",
+                "channelCode": "HR",
+                "GroupId": "ca4f68c9-7f8f-4e53-91c1-06bb5a8b4b46",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 6,
+                        "LookupValue": "HR"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 2
+            },
+            {
+                "id": "8",
+                "sortOrder": "IT",
+                "channelName": "IT",
+                "channelType": "IT",
+                "channelCode": "IT",
+                "GroupId": "1cc59695-3119-4f31-bd4b-fe36455b1f1c",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 7,
+                        "LookupValue": "IT"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 2
+            },
+            {
+                "id": "9",
+                "sortOrder": "Group Corporate & Ext. Affairs and ESG",
+                "channelName": "Group Corporate & Ext. Affairs and ESG",
+                "channelType": "Group Corporate & Ext. Affairs and ESG",
+                "channelCode": "Group Corporate & Ext. Affairs and ESG",
+                "GroupId": "7cdcb645-4127-4660-9697-332dfc7cdd5c",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 8,
+                        "LookupValue": "Group Corporate & Ext. Affairs and ESG"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 2
+            },
+            {
+                "id": "10",
+                "sortOrder": "Group Risk Management",
+                "channelName": "Group Risk Management",
+                "channelType": "Group Risk Management",
+                "channelCode": "Group Risk Management",
+                "GroupId": "7beb6c16-df9f-4947-afca-1a2841f519d4",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 9,
+                        "LookupValue": "Group Risk Management"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 2
+            },
+            {
+                "id": "11",
+                "sortOrder": "Group Audit",
+                "channelName": "Group Audit",
+                "channelType": "Group Audit",
+                "channelCode": "Group Audit",
+                "GroupId": "8979fdbe-c2c7-42b1-b813-1229d72fc258",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 11,
+                        "LookupValue": "Group Audit"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 2
+            },
+            {
+                "id": "12",
+                "sortOrder": "Operations Transformation",
+                "channelName": "Operations Transformation",
+                "channelType": "Operations Transformation",
+                "channelCode": "Operations Transformation",
+                "GroupId": "b8c170ea-e202-4587-92ea-d04386de7596",
+                "RelevantUnits": [
+                    {
+                        "LookupId": 10,
+                        "LookupValue": "Operations Transformation"
+                    }
+                ],
+                "Mandatory": false,
+                "RelevantCountires": [],
+                "RegionId": 0,
+                "NewsCategoryId": 2
+            },
+            {
+                "id": "14",
+                "sortOrder": "Italy",
+                "channelName": "Italy",
+                "channelType": "Italy",
+                "channelCode": "Italy",
+                "GroupId": "b6c4d7de-874a-4b83-9a61-abdee52a4329",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 1,
+                        "LookupValue": "Italy"
+                    }
+                ],
+                "RegionId": 1,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "15",
+                "sortOrder": "DACH",
+                "channelName": "DACH",
+                "channelType": "DACH",
+                "channelCode": "DACH",
+                "GroupId": "ef9baa4b-3ee1-45b2-b72e-99fb763ca3e2",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 2,
+                        "LookupValue": "Germany"
+                    },
+                    {
+                        "LookupId": 4,
+                        "LookupValue": "Switzerland"
+                    },
+                    {
+                        "LookupId": 3,
+                        "LookupValue": "Austria"
+                    }
+                ],
+                "RegionId": 2,
+                "NewsCategoryId": 3
+            },
+            {
+                "id": "16",
+                "sortOrder": "Austria",
+                "channelName": "Austria",
+                "channelType": "Austria",
+                "channelCode": "Austria",
+                "GroupId": "93fffee0-eb94-4682-85e7-c3346f3ffc8b",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 3,
+                        "LookupValue": "Austria"
+                    }
+                ],
+                "RegionId": 2,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "17",
+                "sortOrder": "Germany",
+                "channelName": "Germany",
+                "channelType": "Germany",
+                "channelCode": "Germany",
+                "GroupId": "f0a771ed-1174-42ed-a9b3-24c18a7a06d5",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 2,
+                        "LookupValue": "Germany"
+                    }
+                ],
+                "RegionId": 2,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "18",
+                "sortOrder": "Switzerland",
+                "channelName": "Switzerland",
+                "channelType": "Switzerland",
+                "channelCode": "Switzerland",
+                "GroupId": "d42de3c0-6e05-481c-8b2c-5f9623a3ac81",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 4,
+                        "LookupValue": "Switzerland"
+                    }
+                ],
+                "RegionId": 2,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "19",
+                "sortOrder": "Nordics",
+                "channelName": "Nordics",
+                "channelType": "Nordics",
+                "channelCode": "Nordics",
+                "GroupId": "0ab11ff4-0196-4768-9a7f-9b9f4df9d7c0",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 5,
+                        "LookupValue": "Denmark"
+                    },
+                    {
+                        "LookupId": 6,
+                        "LookupValue": "Finland"
+                    },
+                    {
+                        "LookupId": 13,
+                        "LookupValue": "Norway"
+                    },
+                    {
+                        "LookupId": 7,
+                        "LookupValue": "Sweden"
+                    }
+                ],
+                "RegionId": 3,
+                "NewsCategoryId": 3
+            },
+            {
+                "id": "20",
+                "sortOrder": "Denmark",
+                "channelName": "Denmark",
+                "channelType": "Denmark",
+                "channelCode": "Denmark",
+                "GroupId": "4caa06ec-c8f4-4eba-97d5-99bb81442d6c",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 5,
+                        "LookupValue": "Denmark"
+                    }
+                ],
+                "RegionId": 3,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "21",
+                "sortOrder": "Finland",
+                "channelName": "Finland",
+                "channelType": "Finland",
+                "channelCode": "Finland",
+                "GroupId": "8c2535bd-29db-4475-bc80-81ad1f3ae982",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 6,
+                        "LookupValue": "Finland"
+                    }
+                ],
+                "RegionId": 3,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "22",
+                "sortOrder": "Norway",
+                "channelName": "Norway",
+                "channelType": "Norway",
+                "channelCode": "Norway",
+                "GroupId": "61fc5637-8e5f-41c5-9146-eb29ff785622",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 13,
+                        "LookupValue": "Norway"
+                    }
+                ],
+                "RegionId": 3,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "23",
+                "sortOrder": "Sweden",
+                "channelName": "Sweden",
+                "channelType": "Sweden",
+                "channelCode": "Sweden",
+                "GroupId": "a1b5bb1e-0c91-4a88-8851-8744b0664020",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 7,
+                        "LookupValue": "Sweden"
+                    }
+                ],
+                "RegionId": 3,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "24",
+                "sortOrder": "CSEE",
+                "channelName": "CSEE",
+                "channelType": "CSEE",
+                "channelCode": "CSEE",
+                "GroupId": "201e70a7-3b65-4164-8bfa-10c846afb3fb",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 10,
+                        "LookupValue": "Croatia"
+                    },
+                    {
+                        "LookupId": 8,
+                        "LookupValue": "Greece"
+                    },
+                    {
+                        "LookupId": 11,
+                        "LookupValue": "Slovenia"
+                    }
+                ],
+                "RegionId": 4,
+                "NewsCategoryId": 3
+            },
+            {
+                "id": "25",
+                "sortOrder": "Central Europe",
+                "channelName": "Central Europe",
+                "channelType": "Central Europe",
+                "channelCode": "Central Europe",
+                "GroupId": "5fe6d772-7f9d-4929-8db0-fe0d8b1fd88e",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 16,
+                        "LookupValue": "Hungary"
+                    },
+                    {
+                        "LookupId": 17,
+                        "LookupValue": "Romania"
+                    },
+                    {
+                        "LookupId": 19,
+                        "LookupValue": "Serbia"
+                    },
+                    {
+                        "LookupId": 21,
+                        "LookupValue": "Slovakia"
+                    },
+                    {
+                        "LookupId": 22,
+                        "LookupValue": "Czechia"
+                    }
+                ],
+                "RegionId": 4,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "26",
+                "sortOrder": "Croatia/Slovenia",
+                "channelName": "Croatia/Slovenia",
+                "channelType": "Croatia/Slovenia",
+                "channelCode": "Croatia/Slovenia",
+                "GroupId": "2694117c-8cb7-481b-b535-ca454df2fab6",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 11,
+                        "LookupValue": "Slovenia"
+                    },
+                    {
+                        "LookupId": 10,
+                        "LookupValue": "Croatia"
+                    }
+                ],
+                "RegionId": 4,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "27",
+                "sortOrder": "Greece",
+                "channelName": "Greece",
+                "channelType": "Greece",
+                "channelCode": "Greece",
+                "GroupId": "80a8ec07-ccb0-4b01-8e4b-da12ab4aa8be",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 8,
+                        "LookupValue": "Greece"
+                    }
+                ],
+                "RegionId": 4,
+                "NewsCategoryId": 6
+            },
+            {
+                "id": "35",
+                "sortOrder": "PeP Group",
+                "channelName": "PeP Group",
+                "channelType": "PeP Group",
+                "channelCode": "PeP Group",
+                "GroupId": "",
+                "RelevantUnits": [],
+                "Mandatory": false,
+                "RelevantCountires": [
+                    {
+                        "LookupId": 23,
+                        "LookupValue": "Poland - PeP Group"
+                    }
+                ],
+                "RegionId": 0,
+                "NewsCategoryId": 0
+            }
+        ]
+    }
+]

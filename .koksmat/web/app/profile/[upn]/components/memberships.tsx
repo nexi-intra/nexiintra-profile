@@ -37,13 +37,13 @@ export function MyMemberships() {
       {memberships && 
       <div>
 
-  {memberships.filter((a)=>{return a.mailNickname?.startsWith("nexiintra-newschannel-")}).sort((a,b)=>{
+  {memberships.sort((a,b)=>{
     if (a.groupDisplayName>b.groupDisplayName) return 1
     if (a.groupDisplayName<b.groupDisplayName) return -1
     return 0
   }).map((membership, key) => {
         return <div key={key} >
-          {membership.groupDisplayName} [{membership.mailNickname}]  
+          {membership.groupDisplayName} [{membership.groupId}]  
         </div>
       })}    
       </div>

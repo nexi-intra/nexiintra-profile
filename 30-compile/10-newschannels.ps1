@@ -3,7 +3,7 @@ title: Compile Lookup values
 connection: sharepoint
 api: post
 tag: lookupvalues
-input: 
+multiinput: 
     categories.json
     countries.json
     channels.json

@@ -1,8 +1,8 @@
 <#---
-title: Publish Blob Storage
+title: Generate SAS URL
 connection: sharepoint
 api: post
-tag: geturl
+tag: sasurl
 out: profiledataurl.json
 ---#>
 

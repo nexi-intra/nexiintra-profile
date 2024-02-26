@@ -71,6 +71,7 @@ const profileFormSchema = z.object({
 
 type ProfileFormValues = z.infer<typeof profileFormSchema>
 
+
 function match(channel: NewsChannel, unit: string, country: string): boolean {
   let found = false
   channel?.RelevantUnits?.forEach((relevantUnit) => {
@@ -94,8 +95,9 @@ export function ProfileForm(props: {
   newsChannels: NewsChannel[]
   countries: Country[]
   units: Unit[]
+  memberships: Membership[]
 }) {
-  const { newsCategories, newsChannels, countries, units } = props
+  const { newsCategories, newsChannels, countries, units,memberships } = props
   const magicbox = useContext(MagicboxContext)
   const [showCountries, setshowCountries] = useState(false)
   const [showUnits, setshowUnits] = useState(false)
@@ -113,7 +115,7 @@ export function ProfileForm(props: {
 
   const accessToken = magicbox.session?.accessToken ?? ""
 
-  const [memberships, setmemberships] = useState<Membership[]>()
+  //const [memberships, setmemberships] = useState<Membership[]>()
   const [stringMemberships, setstringMemberships] = useState<string[]>([])
   const [keepOld, setkeepOld] = useState<boolean>(true)
 
@@ -128,17 +130,12 @@ export function ProfileForm(props: {
     }
   }, [])
 
-  useEffect(() => {
-    const load = async () => {
-      setmemberships(await getMemberOfs(magicbox.session?.accessToken ?? ""))
-    }
-    if (magicbox.session?.accessToken) load()
-  }, [magicbox.session?.accessToken])
+
 
   useEffect(() => {
     const names: string[] = []
     for (const obj of (memberships ?? []).filter((a) => {
-      return a.mailNickname?.startsWith("nexiintra-newschannel-")
+      return true
     })) {
       names.push(obj.groupDisplayName.replace("News Channel - ", ""))
     }
@@ -192,25 +189,13 @@ export function ProfileForm(props: {
   })
 
   async function onSubmit(data: ProfileFormValues) {
+    debugger
     setProcessTitle("Saving profile")
     setProcessDescription("Please wait while we save your profile.")
     setProcessPercentage(0)
     setProcessing(true)
 
-    const meResponse = await https<Me>(
-      magicbox.session?.accessToken ?? "",
-      "GET",
-      "https://graph.microsoft.com/v1.0/me"
-    )
-    if (meResponse.hasError) {
-      toast({
-        title: "Error:",
-        variant: "destructive",
-        description: meResponse.errorMessage,
-      })
-      return
-    }
-    const me = meResponse.data
+
     const oldMemberShips =
       stringMemberships
         ?.map((channel) => {
@@ -238,43 +223,23 @@ export function ProfileForm(props: {
     const membershipsToAdd = membershipsToBe.filter(
       (i) => !oldMemberShips.includes(i)
     )
-    // LogToMongo("logs-niels", "createGroups", { upn, membershipsToBe })
+    
     localStorage.setItem(
       "user",
       JSON.stringify({ country: data.country, unit: data.unit })
     )
 
     const redirectto = await saveProfile(
-      me?.id ?? "",
+      magicbox.user?.id ?? "",
       data.country,
       data.unit,
       membershipsToAdd,
       membershipsToRemove
     )
 
-    // toast({
-    //   title: "You will be redirected to:",
-    //   description: (
-    //     <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-    //       <code className="text-white">
-    //         {JSON.stringify(
-    //           {
-    //             redirectto,
-    //           },
-    //           null,
-    //           2
-    //         )}
-    //       </code>
-    //     </pre>
-    //   ),
-    // })
+   
     setlastResult(redirectto)
-    // await new Promise((r) => setTimeout(r, 1500))
-    // setProcessPercentage(33)
 
-    // await new Promise((r) => setTimeout(r, 1500))
-    // setProcessPercentage(66)
-    // await new Promise((r) => setTimeout(r, 1500))
     setProcessPercentage(100)
     setProcessDescription("Profile saved, you will be redirected.")
     await new Promise((r) => setTimeout(r, 1500))
@@ -660,9 +625,7 @@ export function ProfileForm(props: {
 
           <GenericTable
             data={(memberships ?? [])
-              .filter((a) => {
-                return a.mailNickname?.startsWith("nexiintra-newschannel-")
-              })
+          
               .sort((a, b) => {
                 if (a.groupDisplayName > b.groupDisplayName) return 1
                 if (a.groupDisplayName < b.groupDisplayName) return -1
@@ -674,7 +637,7 @@ export function ProfileForm(props: {
                     "https://portal.azure.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Members/groupId/" +
                     membership.groupId,
                   id: membership.groupId,
-                  details: membership.mailNickname + " " + membership.groupId,
+                  details:  membership.groupId,
                   title: membership.groupDisplayName,
                   string1: undefined,
                   string2: undefined,

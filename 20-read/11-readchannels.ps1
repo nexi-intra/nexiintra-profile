@@ -20,18 +20,20 @@ $listItems = Get-PnpListItem -List "News Channels"
 write-host "Items in list: $($listItems.Count)"
 $items = @()
 foreach ($item in $listItems) {
-    $item = @{
+    $mappeditem = @{
         ID = $item.FieldValues.ID
         Title = $item.FieldValues.Title
         RelevantUnits = $item.FieldValues.RelevantUnits
         Mandatory = $item.FieldValues.Mandatory
         RelevantCountires = $item.FieldValues.RelevantCountires
         NewsCategory = $item.FieldValues.NewsCategory
+        GroupId = $item.FieldValues.GroupID
+        NewsCategoryID = $item.FieldValues.NewsCategory.LookupId
 
-       
+        RegionID = $item.FieldValues.Region.LookupId
        
     }
-    $items += $item
+    $items += $mappeditem
    
 }
 

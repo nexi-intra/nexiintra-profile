@@ -10,6 +10,7 @@ import {
 } from "@/app/profile/data/sharepoint"
 
 import { Country, NewsCategory, NewsChannel, Unit } from "./schemas"
+import { https } from "@/koksmat/httphelper"
 
 const KEY = "profilecache"
 export interface ProfileCache {
@@ -39,17 +40,15 @@ export async function readProfileData() {
   }
   return cache
 }
-export async function refreshProfileCache() {
-    console.log("Refreshing profile cache")
-  //const client = await connect()
-  const cache = await readProfileData()
-
-
-  return cache
-}
 
 export async function getProfileCache() {
-return refreshProfileCache()
-  
-  //return {} as any
+
+  const href = process.env.NEWSCHANNELSBLOB
+  if (!href) {
+    throw new Error("No newschannels blob, specify a value in the environment for NEWSCHANNELSBLOB")
+  }
+
+  const data = await https<ProfileCache>("", "GET", href)
+  return data
+
 }

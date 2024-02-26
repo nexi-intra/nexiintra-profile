@@ -20,7 +20,7 @@ $listItems = Get-PnpListItem -List Countries
 write-host "Items in list: $($listItems.Count)"
 $items = @()
 foreach ($item in $listItems) {
-    $item = @{
+    $mappeditem = @{
         ID = $item.FieldValues.ID
         Title = $item.FieldValues.Title
         Region = $item.FieldValues.Region
@@ -28,7 +28,7 @@ foreach ($item in $listItems) {
         Rolluppage = $item.FieldValues.Rolluppage
        
     }
-    $items += $item
+    $items += $mappeditem
    
 }
 

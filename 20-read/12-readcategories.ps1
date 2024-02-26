@@ -20,12 +20,12 @@ $listItems = Get-PnpListItem -List "News Categories"
 write-host "Items in list: $($listItems.Count)"
 $items = @()
 foreach ($item in $listItems) {
-    $item = @{
+    $mappeditem = @{
         ID = $item.FieldValues.ID
         Title = $item.FieldValues.Title
         SortOrder = [int]::Parse( $item.FieldValues.SortOrder)
     }
-    $items += $item
+    $items += $mappeditem
    
 }
 

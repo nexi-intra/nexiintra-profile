@@ -10,7 +10,7 @@ export const LoginButton = () => {
   return (
     <button style={{ marginRight: 10 }} onClick={() => {
       
-      magicbox.signIn("azure-ad")
+      magicbox.signIn(["azure-ad"],"")
       }}>
       Sign in
     </button>

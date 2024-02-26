@@ -13,6 +13,7 @@ export interface User {
   name: string;
   email: string;
   image: string;
+  id: string;
 }
 
 
@@ -20,7 +21,7 @@ export type  MagicboxContextType= {
   session?:Session,
   version:number,
   user?:User,
-  setAccount:(username: string,email:string,image:string)=>void,
+  setAccount:(username: string,email:string,image:string,id:string)=>void,
   registerAuth : (pca : IPublicClientApplication) => void,
   signIn : (scopes: string[], loginHint: string) => Promise<boolean>,
   signOut : () => void,
@@ -28,7 +29,10 @@ export type  MagicboxContextType= {
 
 }
 export const MagicboxContext = createContext<MagicboxContextType>({
-  session: { user: { name: "", email: "", image: "" }, expires: "", roles: [], accessToken: "" }, version: 0, refresh: () => { },
+  session: { user: {
+    name: "", email: "", image: "",
+    id: ""
+  }, expires: "", roles: [], accessToken: "" }, version: 0, refresh: () => { },
   signIn: function (scopes: string[], loginHint?: string): Promise<boolean> {
     throw new Error("Function not implemented.");
   },

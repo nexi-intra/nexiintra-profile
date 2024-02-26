@@ -22,7 +22,7 @@ export const saveProfile = async (
 
   cookies().set("user", JSON.stringify({ country, unit }), { path: "/" })
 
-  return { href: "/load", target: "_self", setMembershipsResuls }
+  return { href: "/load", target: "_top", setMembershipsResuls }
 }
 
 

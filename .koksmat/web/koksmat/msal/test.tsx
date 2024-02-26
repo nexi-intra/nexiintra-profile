@@ -24,7 +24,10 @@ const cases : CaseProps[]=[
 "testurl":"https://graph.microsoft.com/v1.0/me/messages"},
 {scopes:["User.Read","Group.Read.All"],
   title:"Get memberships",
-"testurl":"https://graph.microsoft.com/v1.0/me/memberOf?$count=true"}
+"testurl":"https://graph.microsoft.com/v1.0/me/memberOf?$count=true"},
+{ title:"Get note books",
+  "testurl":"https://graph.microsoft.com/v1.0/me/onenote/notebooks", scopes:["Notes.Read.All"]
+}
 ]
 
 
@@ -152,7 +155,7 @@ const [latestError, setlatestError] = useState<any>()
                   const items = params.rows.map((r) => {
                     return r.original
                   })
-                  debugger
+                  
                 }}
               >
                 Actions

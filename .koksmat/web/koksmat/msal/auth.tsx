@@ -2,10 +2,10 @@
 
 import { MsalProvider, useMsal } from "@azure/msal-react";
 import { useContext, useEffect, useMemo, useState } from "react";
-import { AuthenticationResult, EventMessage, EventType, PublicClientApplication } from "@azure/msal-browser";
+import { AccountInfo, AuthenticationResult, EventMessage, EventType, PublicClientApplication } from "@azure/msal-browser";
 import { msalConfig } from "@/koksmat/msal/config";
 import { MagicboxContext } from "@/koksmat/magicbox-context";
-
+import { https } from "../httphelper";
 
 
 
@@ -38,7 +38,7 @@ export  function MSALWrapper({
 
             if (accounts.length > 0) {
                 msalInstance.setActiveAccount(accounts[0]);
-                magicbox.setAccount(accounts[0].name ?? "", accounts[0].username ?? "", "")
+                magicbox.setAccount(accounts[0].name ?? "", accounts[0].username ?? "", "", accounts[0].localAccountId ?? "")
 
             }
 
@@ -50,7 +50,7 @@ export  function MSALWrapper({
                     const payload = event.payload as AuthenticationResult;
                     const account = payload.account;
                     msalInstance.setActiveAccount(account);
-                    magicbox.setAccount(accounts[0].name ?? "", accounts[0].username ?? "", "")
+                    magicbox.setAccount(accounts[0].name ?? "", accounts[0].username ?? "", "", accounts[0].localAccountId ?? "")
                 }
             });
 

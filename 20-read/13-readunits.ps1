@@ -20,7 +20,7 @@ $listItems = Get-PnpListItem -List Units
 write-host "Items in list: $($listItems.Count)"
 $items = @()
 foreach ($item in $listItems) {
-    $item = @{
+    $mappeditem = @{
         ID = $item.FieldValues.ID
         Title = $item.FieldValues.Title
         UnitType = $item.FieldValues.UnitType
@@ -29,7 +29,7 @@ foreach ($item in $listItems) {
         Site = $item.FieldValues.Site
         LookupValue = $item.FieldValues.LookupValue
     }
-    $items += $item
+    $items += $mappeditem
    
 }
 
