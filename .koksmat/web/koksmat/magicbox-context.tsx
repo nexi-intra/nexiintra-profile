@@ -16,7 +16,7 @@ export interface User {
   id: string;
 }
 
-
+export type AuthSource = "MSAL" | "SharePoint" | ""
 export type  MagicboxContextType= {
   session?:Session,
   version:number,
@@ -26,13 +26,18 @@ export type  MagicboxContextType= {
   signIn : (scopes: string[], loginHint: string) => Promise<boolean>,
   signOut : () => void,
   refresh:()=>void
+  setAuthToken:(token:string,source: AuthSource)=>void
+  authtoken:string
+  authSource:AuthSource
 
 }
 export const MagicboxContext = createContext<MagicboxContextType>({
-  session: { user: {
-    name: "", email: "", image: "",
-    id: ""
-  }, expires: "", roles: [], accessToken: "" }, version: 0, refresh: () => { },
+  session: {
+    user: {
+      name: "", email: "", image: "",
+      id: ""
+    }, expires: "", roles: [], accessToken: ""
+  }, version: 0, refresh: () => { },
   signIn: function (scopes: string[], loginHint?: string): Promise<boolean> {
     throw new Error("Function not implemented.");
   },
@@ -44,7 +49,12 @@ export const MagicboxContext = createContext<MagicboxContextType>({
   },
   registerAuth: function (pca: IPublicClientApplication): void {
     throw new Error("Function not implemented.");
-  }
+  },
+  authtoken: "",
+  setAuthToken: function (token: string, source: AuthSource): void {
+    throw new Error("Function not implemented.");
+  },
+  authSource: ""
 });
 
 

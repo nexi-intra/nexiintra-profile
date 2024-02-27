@@ -1,12 +1,17 @@
+"use client"
 import Link from "next/link"
 
 import { MainNav } from "../[upn]/components/main-nav"
 import { MobileNav } from "../[upn]/components/mobile-nav"
 import { ModeToggle } from "@/koksmat/components/mode-toggle"
 import { UserNav } from "./user-nav"
+import { useEffect, useState } from "react"
+import HideIfFramed from "@/koksmat/hide-if-iframed"
 
 export function SiteHeader() {
+
   return (
+    <HideIfFramed>
     <header className="supports-backdrop-blur:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur">
       <div className="container flex h-14 items-center">
         <MainNav />
@@ -24,5 +29,6 @@ export function SiteHeader() {
         </div>
       </div>
     </header>
+    </HideIfFramed>
   )
 }

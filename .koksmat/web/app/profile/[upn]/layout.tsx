@@ -45,7 +45,7 @@ export default  function SettingsLayout({ children }: SettingsLayoutProps) {
 
       <div className="flex  h-screen w-screen ">
         <div className="grow " />
-          <div className="container mt-4 overflow-hidden rounded-[0.5rem] border bg-background shadow">
+          <div className="container mt-4 overflow-auto rounded-[0.5rem] border bg-background shadow">
             <div className=" space-y-6 p-10 pb-16 ">
               <div className="space-y-0.5">
                 <h2 className="text-2xl font-bold tracking-tight">Your profile</h2>
@@ -59,6 +59,7 @@ export default  function SettingsLayout({ children }: SettingsLayoutProps) {
                 {/* <aside className="-mx-4 lg:w-1/5">
             <SidebarNav items={sidebarNavItems(params.upn)} />
           </aside> */}
+
                 {!magicbox.user?.email && <div className="flex-1 lg:max-w-2xl">
                   You need to sign in to get access to the profile.
                 </div>
