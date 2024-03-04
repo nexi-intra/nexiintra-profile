@@ -17,7 +17,7 @@ foreach ($item in (Get-Item -Path Env:)) {
 }
   $r = @"
   - name: $name
-  value: $value
+         value: $value
 "@ 
  
  return $r
@@ -28,7 +28,7 @@ We start by finding which version tag to use
 #>
 
 $inputFile = join-path  $env:KITCHENROOT "nexiintra-profile" ".koksmat","koksmat.json"
-
+$port = "4323"
 if (!(Test-Path -Path $inputFile) ) {
    Throw "Cannot find file at expected path: $inputFile"
 } 
@@ -40,7 +40,7 @@ The we build the deployment file
 #>
 $appname = "nexiintra-profile"
 
-$image = "ghcr.io/koksmat-com/$($appname):$($version)"
+$image = "ghcr.io/koksmat-com/$($appname)-web:$($version)"
 
 $deployment = @"
 apiVersion: apps/v1
@@ -61,7 +61,7 @@ spec:
       - name: $appname
         image: $image
         ports:
-          - containerPort: 4322
+          - containerPort: $port
         env:
         - name: SPAUTH_TENANTID
           value: $($env:SPAUTH_DOMAIN)
@@ -85,10 +85,27 @@ spec:
   ports:
   - name: http
     port: 5301
-    targetPort: 4322
+    targetPort: $port
   selector:
     app: $appname
-
+---    
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: $appname
+spec:
+  rules:
+  - host: me.nexi-intra.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: $appname
+            port:
+              number: 5301
+    
 "@
 
 

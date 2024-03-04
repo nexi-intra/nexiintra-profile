@@ -6,7 +6,6 @@ tag: sasurl
 out: profiledataurl.json
 ---#>
 
-$result = "$env:WORKDIR/profiledataurl.json"
 $expiry = (Get-Date).AddMonths(30).ToString("yyyy-MM-ddTHH:mm:ssZ")
 
 $sasurl = az storage blob generate-sas  `
@@ -18,4 +17,5 @@ $sasurl = az storage blob generate-sas  `
 --permissions r `
 --expiry  $expiry
 
-$sasurl | Out-File -FilePath $result -Encoding utf8NoBOM
+write-host "SASURL > " $sasurl "<"
+$sasurl | Out-File -FilePath (join-path $env:WORKDIR "profiledataurl.json") -Encoding utf8NoBOM
