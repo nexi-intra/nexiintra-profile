@@ -4,7 +4,15 @@ input: profiledataurl.json
 output: web.yaml
 tag: createdeploymentfile
 api: post
----#>
+---
+
+
+
+NEWSCHANNELSBLOB=https://magicbox.blob.core.windows.net/cache/profiledata.json?se=2026-08-25T19%3A55%3A34Z&sp=r&sv=2022-11-02&sr=b&sig=%2B%2FkGv%2FTNHoK9cI%2BHdvVxCbCJXv4C8k8kL5nify3F0Cg%3D
+VALIDDOMAINSBLOB=https://magicbox.blob.core.windows.net/cache/whilelisteddomains.json?se=2026-08-25T20%3A10%3A05Z&sp=r&sv=2022-11-02&sr=b&sig=13rv5iigS8u5jdoqvtCkl8j%2Bokc0iZLkl33kR%2BUekyI%3D
+
+
+#>
 
 
 $inputFile = join-path  $env:KITCHENROOT "nexiintra-profile" ".koksmat","koksmat.json"
@@ -48,8 +56,10 @@ spec:
           value: $($env:SPAUTH_CLIENTID)
         - name: SPAUTH_CLIENTSECRET
           value: $$($env:SPAUTH_CLIENTSECRET)
-
-      
+        - name: NEWSCHANNELSBLOB
+          value: $($env:NEWSCHANNELSBLOB)
+        - name: VALIDDOMAINSBLOB
+          value: $($env:VALIDDOMAINSBLOB)      
 ---
 apiVersion: v1
 kind: Service
