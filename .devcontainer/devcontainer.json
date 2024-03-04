@@ -1,4 +1,7 @@
 {
     "name": "Koksmat",
+    "features": {
+		"ghcr.io/devcontainers/features/powershell:1": {}
+	},
     "postCreateCommand": "go install github.com/koksmat-com/koksmat@v2.0.0.6"
 }
