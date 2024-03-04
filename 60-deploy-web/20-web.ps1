@@ -2,63 +2,69 @@
 title: Create Web deployment file
 input: profiledataurl.json
 output: web.yaml
-connection: sharepoint
 tag: createdeploymentfile
 api: post
 ---#>
-param (
-    $name = "nexiintra-profile",
-    $image = "ghcr.io/koksmat-com/ui:v1.0.0.profile-3"
-)
 
-$SPAUTH_TENANTID=$env:SPAUTH_TENANTID
-$SPAUTH_CLIENTID=$env:SPAUTH_CLIENTID
-$SPAUTH_CLIENTSECRET=$env:SPAUTH_CLIENTSECRET
+
+$inputFile = join-path  $env:KITCHENROOT "nexiintra-profile" ".koksmat","koksmat.json"
+
+
+
+if (!(Test-Path -Path $inputFile) ) {
+   Throw "Cannot find file at expected path: $inputFile"
+} 
+
+$version = "v$($json.version.major).$($json.version.minor).$($json.version.patch).$($json.version.build)"
+
+$appname = "nexiintra-profile"
+
+$image = "ghcr.io/koksmat-com/$($appname):$($version)"
 
 $deployment = @"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: $name
+  name: $appname
 spec:
   selector:
     matchLabels:
-      app: $name
+      app: $appname
   replicas: 1
   template:
     metadata:
       labels:
-        app: $name
+        app: $appname
     spec: 
       containers:
-      - name: $name
+      - name: $appname
         image: $image
         ports:
           - containerPort: 3001
         env:
         - name: SPAUTH_TENANTID
-          value: $SPAUTH_TENANTID
+          value: $($env:SPAUTH_DOMAIN)
         - name: SPAUTH_CLIENTID
-          value: $SPAUTH_CLIENTID
+          value: $($env:SPAUTH_CLIENTID)
         - name: SPAUTH_CLIENTSECRET
-          value: $SPAUTH_CLIENTSECRET
+          value: $$($env:SPAUTH_CLIENTSECRET)
 
       
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: $name
+  name: $appname
   labels:
-    app: $name
-    service: $name
+    app: $appname
+    service: $appname
 spec:
   ports:
   - name: http
     port: 5301
     targetPort: 3001
   selector:
-    app: $name
+    app: $appname
 
 "@
 
