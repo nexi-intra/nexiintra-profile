@@ -12,7 +12,6 @@ import (
 	swgui "github.com/swaggest/swgui/v4emb"
 
 	"github.com/365admin/nexiintra-profile/endpoints"
-	"github.com/365admin/nexiintra-profile/execution"
 )
 
 func StartAPIServer(title string, version string, description string, port int) {
@@ -52,23 +51,4 @@ func RegisterServeCmd(title string, description string, version string, port int
 		},
 	}
 	RootCmd.AddCommand(listCmd)
-}
-
-func init() {
-	washCmd := &cobra.Command{
-		Use:   "wash [inputfilename] [outputfilename]",
-		Short: "Wash the data",
-		Long:  ``,
-		Args:  cobra.MinimumNArgs(2),
-
-		Run: func(cmd *cobra.Command, args []string) {
-			err := execution.Wash(args[0], args[1])
-			if err != nil {
-				log.Fatalln("Error washing data", err)
-			}
-			fmt.Println("Washing the data")
-
-		},
-	}
-	RootCmd.AddCommand(washCmd)
 }

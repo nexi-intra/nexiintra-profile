@@ -44,6 +44,6 @@ func ReadUnitsPost() usecase.Interactor {
 	})
 	u.SetTitle("Read Units")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("20-read")
+	u.SetTags("Configuration Data")
 	return u
 }

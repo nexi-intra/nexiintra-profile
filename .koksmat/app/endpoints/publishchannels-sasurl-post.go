@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Get SAS URL
+title: Generate SAS URL
 ---
 */
 package endpoints
@@ -16,12 +16,12 @@ import (
 	"github.com/365admin/nexiintra-profile/execution"
 )
 
-func PublishdomainsGeturlPost() usecase.Interactor {
+func PublishchannelsSasurlPost() usecase.Interactor {
 	type Request struct {
 	}
 	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *string) error {
 
-		_, err := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "41-publish-domains", "20-getsasurl.ps1", "")
+		_, err := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "40-publish-channels", "20-getsasurl.ps1", "")
 		if err != nil {
 			return err
 		}
@@ -29,8 +29,8 @@ func PublishdomainsGeturlPost() usecase.Interactor {
 		return err
 
 	})
-	u.SetTitle("Get SAS URL")
+	u.SetTitle("Generate SAS URL")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Publish Domains")
+	u.SetTags("Publish Channels")
 	return u
 }

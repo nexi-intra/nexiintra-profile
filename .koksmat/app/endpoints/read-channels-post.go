@@ -44,6 +44,6 @@ func ReadChannelsPost() usecase.Interactor {
 	})
 	u.SetTitle("Read Channels")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("20-read")
+	u.SetTags("Configuration Data")
 	return u
 }

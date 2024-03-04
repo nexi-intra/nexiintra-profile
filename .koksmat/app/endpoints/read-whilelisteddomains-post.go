@@ -44,6 +44,6 @@ func ReadWhilelisteddomainsPost() usecase.Interactor {
 	})
 	u.SetTitle("Read Whitelisted Guest Domains")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("20-read")
+	u.SetTags("Configuration Data")
 	return u
 }

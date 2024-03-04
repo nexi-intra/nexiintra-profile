@@ -40,6 +40,7 @@ type Channel struct {
 	RegionID          int    `json:"RegionId"`
 	NewsCategoryID    int    `json:"NewsCategoryId"`
 }
+
 type ProfileData struct {
 	ID struct {
 		Oid string `json:"$oid"`
@@ -82,17 +83,17 @@ func WashProfileData(profileData *schemas.Profiledata) (ProfileData, error) {
 
 	for _, channel := range profileData.Channels {
 		washedChannel := Channel{
-			ID:                fmt.Sprintf("%d", channel.ID),
-			SortOrder:         channel.Title,
-			ChannelName:       channel.Title,
-			ChannelType:       channel.Title,
-			ChannelCode:       channel.Title,
-			GroupID:           channel.GroupID,
+			ID:          fmt.Sprintf("%d", channel.ID),
+			SortOrder:   channel.Title,
+			ChannelName: channel.Title,
+			ChannelType: channel.Title,
+			ChannelCode: channel.Title,
+			//GroupID:           channel.GroupID,
 			RelevantUnits:     []any{},
 			Mandatory:         channel.Mandatory,
 			RelevantCountires: []any{},
-			RegionID:          channel.RegionID,
-			NewsCategoryID:    channel.NewsCategoryID,
+			//RegionID:          channel.RegionID,
+			NewsCategoryID: channel.NewsCategoryID,
 		}
 
 		for _, relevantCountry := range channel.RelevantCountires {
@@ -107,6 +108,7 @@ func WashProfileData(profileData *schemas.Profiledata) (ProfileData, error) {
 	return washedData, nil
 
 }
+
 func Wash(inputfilename string, outputfilename string) error {
 	profileData := schemas.Profiledata{}
 	data, err := os.ReadFile(inputfilename)

@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Compile Lookup values
+title: Wash Profile Data
 ---
 */
 package endpoints
@@ -21,28 +21,38 @@ import (
 	"github.com/365admin/nexiintra-profile/utils"
 )
 
-func CompileLookupvaluesPost() usecase.Interactor {
+func CompileWashPost() usecase.Interactor {
 	type Request struct {
+		Body schemas.Profiledata `json:"body" binding:"required"`
 	}
-	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *schemas.Profiledata) error {
+	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *schemas.Washedprofiledata) error {
+		body, inputErr := json.Marshal(input.Body)
+		if inputErr != nil {
+			return inputErr
+		}
 
-		_, err := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "30-compile", "10-newschannels.ps1", "")
+		inputErr = os.WriteFile(path.Join(utils.WorkDir("nexiintra-profile"), "profiledata.json"), body, 0644)
+		if inputErr != nil {
+			return inputErr
+		}
+
+		_, err := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "30-compile", "20-wash.ps1", "")
 		if err != nil {
 			return err
 		}
 
-		resultingFile := path.Join(utils.WorkDir("nexiintra-profile"), "profiledata.json")
+		resultingFile := path.Join(utils.WorkDir("nexiintra-profile"), "washedprofiledata.json")
 		data, err := os.ReadFile(resultingFile)
 		if err != nil {
 			return err
 		}
-		resultObject := schemas.Profiledata{}
+		resultObject := schemas.Washedprofiledata{}
 		err = json.Unmarshal(data, &resultObject)
 		*output = resultObject
 		return err
 
 	})
-	u.SetTitle("Compile Lookup values")
+	u.SetTitle("Wash Profile Data")
 	// u.SetExpectedErrors(status.InvalidArgument)
 	u.SetTags("Compile")
 	return u

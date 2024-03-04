@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Publish Blob Storage
+title: Create Kubernetes Deployment
 ---
 */
 package endpoints
@@ -21,9 +21,9 @@ import (
 	"github.com/365admin/nexiintra-profile/utils"
 )
 
-func PublishdomainsUploadblobPost() usecase.Interactor {
+func DeploywebCreatePost() usecase.Interactor {
 	type Request struct {
-		Body schemas.Whilelisteddomains `json:"body" binding:"required"`
+		Body schemas.WebYaml `json:"body" binding:"required"`
 	}
 	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *string) error {
 		body, inputErr := json.Marshal(input.Body)
@@ -31,12 +31,12 @@ func PublishdomainsUploadblobPost() usecase.Interactor {
 			return inputErr
 		}
 
-		inputErr = os.WriteFile(path.Join(utils.WorkDir("nexiintra-profile"), "whilelisteddomains.json"), body, 0644)
+		inputErr = os.WriteFile(path.Join(utils.WorkDir("nexiintra-profile"), "web.yaml"), body, 0644)
 		if inputErr != nil {
 			return inputErr
 		}
 
-		_, err := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "41-publish-domains", "10-blobstorage.ps1", "")
+		_, err := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "60-deploy-web", "50-create.ps1", "")
 		if err != nil {
 			return err
 		}
@@ -44,8 +44,8 @@ func PublishdomainsUploadblobPost() usecase.Interactor {
 		return err
 
 	})
-	u.SetTitle("Publish Blob Storage")
+	u.SetTitle("Create Kubernetes Deployment")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("Publish Domains")
+	u.SetTags("Deploy Web")
 	return u
 }

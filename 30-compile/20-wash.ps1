@@ -14,4 +14,4 @@ You find the source for this in .koksmat/app/execution/wash.go
 
 #>
 
-nexiintra-profile wash "$env:WORKDIR/profiledata.json" "$env:WORKDIR/washedprofiledata.json"
+nexiintra-profile wash run "$env:WORKDIR/profiledata.json" "$env:WORKDIR/washedprofiledata.json"

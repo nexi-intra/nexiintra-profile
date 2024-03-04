@@ -44,6 +44,6 @@ func ReadCountriesPost() usecase.Interactor {
 	})
 	u.SetTitle("Read Countries")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("20-read")
+	u.SetTags("Configuration Data")
 	return u
 }

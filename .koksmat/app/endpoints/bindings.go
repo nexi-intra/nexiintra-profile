@@ -25,10 +25,12 @@ func AddEndpoints(s *web.Service, jwtAuth func(http.Handler) http.Handler) {
 			r.Method(http.MethodPost, "/read/units", nethttp.NewHandler(ReadUnitsPost()))
 			r.Method(http.MethodPost, "/read/whilelisteddomains", nethttp.NewHandler(ReadWhilelisteddomainsPost()))
 			r.Method(http.MethodPost, "/compile/lookupvalues", nethttp.NewHandler(CompileLookupvaluesPost()))
+			r.Method(http.MethodPost, "/compile/wash", nethttp.NewHandler(CompileWashPost()))
 			r.Method(http.MethodPost, "/publishchannels/uploadblob", nethttp.NewHandler(PublishchannelsUploadblobPost()))
-			r.Method(http.MethodPost, "/publishchannels/geturl", nethttp.NewHandler(PublishchannelsGeturlPost()))
+			r.Method(http.MethodPost, "/publishchannels/sasurl", nethttp.NewHandler(PublishchannelsSasurlPost()))
 			r.Method(http.MethodPost, "/publishdomains/uploadblob", nethttp.NewHandler(PublishdomainsUploadblobPost()))
 			r.Method(http.MethodPost, "/publishdomains/geturl", nethttp.NewHandler(PublishdomainsGeturlPost()))
+			r.Method(http.MethodPost, "/deployweb/create", nethttp.NewHandler(DeploywebCreatePost()))
 
 		})
 	})

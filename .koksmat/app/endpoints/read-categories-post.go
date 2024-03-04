@@ -44,6 +44,6 @@ func ReadCategoriesPost() usecase.Interactor {
 	})
 	u.SetTitle("Read Categories")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("20-read")
+	u.SetTags("Configuration Data")
 	return u
 }

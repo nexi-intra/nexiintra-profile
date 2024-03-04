@@ -1,4 +1,4 @@
 ---
-title: Read
+title: Configuration Data
 tag: read
 ---

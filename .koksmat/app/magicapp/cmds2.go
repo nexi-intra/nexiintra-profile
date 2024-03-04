@@ -9,10 +9,24 @@ import (
 )
 
 func RegisterCmds() {
+	magicbuttonCmd := &cobra.Command{
+		Use:   "magicbutton",
+		Short: "Magic Buttons",
+		Long:  ``,
+	}
+
+	RootCmd.AddCommand(magicbuttonCmd)
+	developCmd := &cobra.Command{
+		Use:   "develop",
+		Short: "Developer",
+		Long:  ``,
+	}
+
+	RootCmd.AddCommand(developCmd)
 	readCmd := &cobra.Command{
 		Use:   "read",
-		Short: "20-read",
-		Long:  `Describe the main purpose of this kitchen`,
+		Short: "Configuration Data",
+		Long:  ``,
 	}
 	ReadCountriesPostCmd := &cobra.Command{
 		Use:   "countries",
@@ -73,8 +87,8 @@ func RegisterCmds() {
 	RootCmd.AddCommand(readCmd)
 	compileCmd := &cobra.Command{
 		Use:   "compile",
-		Short: "30-compile",
-		Long:  `Describe the main purpose of this kitchen`,
+		Short: "Compile",
+		Long:  ``,
 	}
 	CompileLookupvaluesPostCmd := &cobra.Command{
 		Use:   "lookupvalues",
@@ -87,12 +101,27 @@ func RegisterCmds() {
 		},
 	}
 	compileCmd.AddCommand(CompileLookupvaluesPostCmd)
+	CompileWashPostCmd := &cobra.Command{
+		Use:   "wash",
+		Short: "Wash Profile Data",
+		Long:  ``,
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+			body, err := os.ReadFile(args[0])
+			if err != nil {
+				panic(err)
+			}
+
+			cmds.CompileWashPost(ctx, body, args)
+		},
+	}
+	compileCmd.AddCommand(CompileWashPostCmd)
 
 	RootCmd.AddCommand(compileCmd)
 	publishchannelsCmd := &cobra.Command{
 		Use:   "publishchannels",
-		Short: "40-publish-channels",
-		Long:  `Describe the main purpose of this kitchen`,
+		Short: "Publish Channels",
+		Long:  ``,
 	}
 	PublishchannelsUploadblobPostCmd := &cobra.Command{
 		Use:   "uploadblob",
@@ -109,23 +138,23 @@ func RegisterCmds() {
 		},
 	}
 	publishchannelsCmd.AddCommand(PublishchannelsUploadblobPostCmd)
-	PublishchannelsGeturlPostCmd := &cobra.Command{
-		Use:   "geturl",
-		Short: "Publish Blob Storage",
+	PublishchannelsSasurlPostCmd := &cobra.Command{
+		Use:   "sasurl",
+		Short: "Generate SAS URL",
 		Long:  ``,
 		Run: func(cmd *cobra.Command, args []string) {
 			ctx := cmd.Context()
 
-			cmds.PublishchannelsGeturlPost(ctx, args)
+			cmds.PublishchannelsSasurlPost(ctx, args)
 		},
 	}
-	publishchannelsCmd.AddCommand(PublishchannelsGeturlPostCmd)
+	publishchannelsCmd.AddCommand(PublishchannelsSasurlPostCmd)
 
 	RootCmd.AddCommand(publishchannelsCmd)
 	publishdomainsCmd := &cobra.Command{
 		Use:   "publishdomains",
-		Short: "41-publish-domains",
-		Long:  `Describe the main purpose of this kitchen`,
+		Short: "Publish Domains",
+		Long:  ``,
 	}
 	PublishdomainsUploadblobPostCmd := &cobra.Command{
 		Use:   "uploadblob",
@@ -155,11 +184,26 @@ func RegisterCmds() {
 	publishdomainsCmd.AddCommand(PublishdomainsGeturlPostCmd)
 
 	RootCmd.AddCommand(publishdomainsCmd)
-	developCmd := &cobra.Command{
-		Use:   "develop",
-		Short: "50-develop",
-		Long:  `Describe the main purpose of this kitchen`,
+	deploywebCmd := &cobra.Command{
+		Use:   "deployweb",
+		Short: "Deploy Web",
+		Long:  ``,
 	}
+	DeploywebCreatePostCmd := &cobra.Command{
+		Use:   "create",
+		Short: "Create Kubernetes Deployment",
+		Long:  ``,
+		Run: func(cmd *cobra.Command, args []string) {
+			ctx := cmd.Context()
+			body, err := os.ReadFile(args[0])
+			if err != nil {
+				panic(err)
+			}
 
-	RootCmd.AddCommand(developCmd)
+			cmds.DeploywebCreatePost(ctx, body, args)
+		},
+	}
+	deploywebCmd.AddCommand(DeploywebCreatePostCmd)
+
+	RootCmd.AddCommand(deploywebCmd)
 }

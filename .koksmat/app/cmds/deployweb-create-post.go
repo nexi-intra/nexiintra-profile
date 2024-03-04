@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 /*
 ---
-title: Publish Blob Storage
+title: Create Kubernetes Deployment
 ---
 */
 package cmds
@@ -17,13 +17,13 @@ import (
 	"github.com/365admin/nexiintra-profile/utils"
 )
 
-func PublishchannelsUploadblobPost(ctx context.Context, body []byte, args []string) (*string, error) {
-	inputErr := os.WriteFile(path.Join(utils.WorkDir("nexiintra-profile"), "washedprofiledata.json"), body, 0644)
+func DeploywebCreatePost(ctx context.Context, body []byte, args []string) (*string, error) {
+	inputErr := os.WriteFile(path.Join(utils.WorkDir("nexiintra-profile"), "web.yaml"), body, 0644)
 	if inputErr != nil {
 		return nil, inputErr
 	}
 
-	_, pwsherr := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "40-publish-channels", "10-blobstorage.ps1", "")
+	_, pwsherr := execution.ExecutePowerShell("john", "*", "nexiintra-profile", "60-deploy-web", "50-create.ps1", "")
 	if pwsherr != nil {
 		return nil, pwsherr
 	}

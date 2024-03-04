@@ -11,5 +11,13 @@
             "cwd": "${workspaceFolder}/.koksmat/web",
             "command": "npm run dev"
           },
+          {
+            "name": "Publish Get URL",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/.koksmat/app",
+            "args": ["publishchannels","sasurl"]
+        }, 
     ]
 }

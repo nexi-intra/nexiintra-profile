@@ -23,7 +23,7 @@ import (
 
 func PublishchannelsUploadblobPost() usecase.Interactor {
 	type Request struct {
-		Body schemas.Profiledata `json:"body" binding:"required"`
+		Body schemas.Washedprofiledata `json:"body" binding:"required"`
 	}
 	u := usecase.NewInteractor(func(ctx context.Context, input Request, output *string) error {
 		body, inputErr := json.Marshal(input.Body)
@@ -31,7 +31,7 @@ func PublishchannelsUploadblobPost() usecase.Interactor {
 			return inputErr
 		}
 
-		inputErr = os.WriteFile(path.Join(utils.WorkDir("nexiintra-profile"), "profiledata.json"), body, 0644)
+		inputErr = os.WriteFile(path.Join(utils.WorkDir("nexiintra-profile"), "washedprofiledata.json"), body, 0644)
 		if inputErr != nil {
 			return inputErr
 		}
@@ -46,6 +46,6 @@ func PublishchannelsUploadblobPost() usecase.Interactor {
 	})
 	u.SetTitle("Publish Blob Storage")
 	// u.SetExpectedErrors(status.InvalidArgument)
-	u.SetTags("40-publish-channels")
+	u.SetTags("Publish Channels")
 	return u
 }
