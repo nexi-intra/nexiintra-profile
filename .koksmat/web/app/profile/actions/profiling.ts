@@ -22,7 +22,7 @@ export const saveProfile = async (
 
   cookies().set("user", JSON.stringify({ country, unit }), { path: "/" })
 
-  return { href: "/load", target: "_top", setMembershipsResuls }
+  return { href: "https://christianiabpos.sharepoint.com/sites/nexiintra-home?country=" + country +"&unit="+unit, target: "_top", setMembershipsResuls }
 }
 
 
