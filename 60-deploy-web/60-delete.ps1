@@ -1,6 +1,6 @@
 <#---
-title: Create Kubernetes Deployment 
-tag: create
+title: Delete Kubernetes Deployment 
+tag: delete
 api: post
 input: web.yaml
 ---#>
@@ -11,4 +11,4 @@ param (
 
 $deploymentFile = "$env:WORKDIR/web.yaml"
 
-kubectl create -f $deploymentFile --namespace $namespace
+kubectl delete -f $deploymentFile --namespace $namespace

@@ -5,29 +5,12 @@ output: web.yaml
 tag: createdeploymentfile
 api: post
 ---
-#>
-function EnvValue($name) {
-
-$value = "****MISSING****"
-
-foreach ($item in (Get-Item -Path Env:)) {
-  if ($item.Key -eq $name) {
-    $value = $item.Value
-  }
-}
-  $r = @"
-  - name: $name
-         value: $value
-"@ 
- 
- return $r
-}
-
-<#
 We start by finding which version tag to use
 #>
 
-$inputFile = join-path  $env:KITCHENROOT "nexiintra-profile" ".koksmat","koksmat.json"
+$appname = "nexiintra-profile"
+$dnsname = "me.nexi-intra.com"
+$inputFile = join-path  $env:KITCHENROOT $appname ".koksmat","koksmat.json"
 $port = "4323"
 if (!(Test-Path -Path $inputFile) ) {
    Throw "Cannot find file at expected path: $inputFile"
@@ -38,11 +21,10 @@ $version = "v$($json.version.major).$($json.version.minor).$($json.version.patch
 <#
 The we build the deployment file
 #>
-$appname = "nexiintra-profile"
 
 $image = "ghcr.io/koksmat-com/$($appname)-web:$($version)"
 
-$deployment = @"
+$config = @"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -64,14 +46,21 @@ spec:
           - containerPort: $port
         env:
         - name: SPAUTH_TENANTID
-          value: $($env:SPAUTH_DOMAIN)
-        $(EnvValue "SPAUTH_CLIENTID")
-        $(EnvValue "NEWSCHANNELSBLOB")
-        $(EnvValue "VALIDDOMAINSBLOB")
-        $(EnvValue "AZURE_AD_CLIENT_ID")
-        $(EnvValue "AZURE_AD_CLIENT_SECRET")
-        $(EnvValue "AZURE_AD_TENANT_ID")
-        $(EnvValue "SPAUTH_CLIENTSECRET")
+          value: $($env:SPAUTH_TENANTID)
+        - name: SPAUTH_CLIENTID
+          value: $($env:SPAUTH_CLIENTID)
+        - name: NEWSCHANNELSBLOB
+          value: $($env:NEWSCHANNELSBLOB)
+        - name: VALIDDOMAINSBLOB
+          value: $($env:VALIDDOMAINSBLOB)
+        - name: AZURE_AD_CLIENT_ID
+          value: $($env:AZURE_AD_CLIENT_ID)
+        - name: AZURE_AD_CLIENT_SECRET
+          value: $($env:AZURE_AD_CLIENT_SECRET)
+        - name: AZURE_AD_TENANT_ID
+          value: $($env:AZURE_AD_TENANT_ID)
+        - name: SPAUTH_CLIENTSECRET
+          value: $($env:SPAUTH_CLIENTSECRET)
         
 ---
 apiVersion: v1
@@ -95,7 +84,7 @@ metadata:
   name: $appname
 spec:
   rules:
-  - host: me.nexi-intra.com
+  - host: $dnsname
     http:
       paths:
       - path: /
@@ -106,7 +95,11 @@ spec:
             port:
               number: 5301
     
+
 "@
 
+write-host "Applying config" -ForegroundColor Green
 
-$deployment | Out-File -FilePath "$env:WORKDIR/web.yaml" -Encoding utf8
+write-host $config -ForegroundColor Gray
+
+$config |  kubectl apply -f -
