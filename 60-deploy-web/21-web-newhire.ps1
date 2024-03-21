@@ -1,5 +1,5 @@
 <#---
-title: Web deploy to production
+title: Web (new hire) deploy to production
 input: profiledataurl.json
 tag: webdeployproduction
 api: post
@@ -9,11 +9,11 @@ We start by finding which version tag to use
 
 $appname = "nexiintra-profile"
 $imagename = "nexiintra-profile"
-$dnsname = "home.nexi-intra.com"
-$inputFile = join-path  $env:KITCHENROOT $appname ".koksmat","koksmat.json"
+$dnsname = "newhire.home.nexi-intra.com"
+$inputFile = join-path  $env:KITCHENROOT $appname ".koksmat", "koksmat.json"
 $port = "4323"
 if (!(Test-Path -Path $inputFile) ) {
-   Throw "Cannot find file at expected path: $inputFile"
+  Throw "Cannot find file at expected path: $inputFile"
 } 
 $json = Get-Content -Path $inputFile | ConvertFrom-Json
 $version = "v$($json.version.major).$($json.version.minor).$($json.version.patch).$($json.version.build)"
@@ -28,19 +28,19 @@ $config = @"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: $appname
+  name: $appname-newhire
 spec:
   selector:
     matchLabels:
-      app: $appname
+      app: $appname-newhire
   replicas: 1
   template:
     metadata:
       labels:
-        app: $appname
+        app: $appname-newhire
     spec: 
       containers:
-      - name: $appname
+      - name: $appname-newhire
         image: $image
         ports:
           - containerPort: $port
@@ -61,27 +61,29 @@ spec:
           value: $($env:AZURE_AD_TENANT_ID)
         - name: SPAUTH_CLIENTSECRET
           value: $($env:SPAUTH_CLIENTSECRET)
+        - name: NEXT_PUBLIC_TYPE
+          value: newhire
         
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: $appname
+  name: $appname-newhire
   labels:
-    app: $appname
-    service: $appname
+    app: $appname-newhire
+    service: $appname-newhire
 spec:
   ports:
   - name: http
     port: 5301
     targetPort: $port
   selector:
-    app: $appname
+    app: $appname-newhire
 ---    
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: $appname
+  name: $appname-newhire
 spec:
   rules:
   - host: $dnsname
@@ -91,7 +93,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: $appname
+            name: $appname-newhire
             port:
               number: 5301
     

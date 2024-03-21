@@ -1,16 +1,17 @@
 <#---
-title: Web deploy to production
+title: Web deploy to test
 input: profiledataurl.json
-tag: webdeployproduction
+tag: webdeploytest
 api: post
 ---
 We start by finding which version tag to use
 #>
 
-$appname = "nexiintra-profile"
+$appname = "test-nexiintra-profile"
 $imagename = "nexiintra-profile"
-$dnsname = "home.nexi-intra.com"
-$inputFile = join-path  $env:KITCHENROOT $appname ".koksmat","koksmat.json"
+
+$dnsname = "test.home.nexi-intra.com"
+$inputFile = join-path  $env:KITCHENROOT $imagename ".koksmat","koksmat.json"
 $port = "4323"
 if (!(Test-Path -Path $inputFile) ) {
    Throw "Cannot find file at expected path: $inputFile"
@@ -33,7 +34,7 @@ spec:
   selector:
     matchLabels:
       app: $appname
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
