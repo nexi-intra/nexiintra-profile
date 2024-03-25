@@ -61,7 +61,7 @@ spec:
           value: $($env:AZURE_AD_TENANT_ID)
         - name: SPAUTH_CLIENTSECRET
           value: $($env:SPAUTH_CLIENTSECRET)
-        - name: NEXT_PUBLIC_TYPE
+        - name: PROFILETYPE
           value: newhire
         
 ---
