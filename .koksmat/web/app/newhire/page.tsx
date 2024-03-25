@@ -1,9 +1,6 @@
 import Logo from "@/koksmat/components/logo";
 
-import {
-  ValidateEmailAccountForm,
-  ValidateNewHireEmailAccountForm,
-} from "./components/onboarding-form";
+import { ValidateNewHireEmailAccountForm } from "./components/onboarding-form";
 
 export const dynamic = "force-dynamic";
 

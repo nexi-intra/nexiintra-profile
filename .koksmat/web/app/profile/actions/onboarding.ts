@@ -17,7 +17,7 @@ export interface CreateInvitationResult {
 
 export async function createInvitation(
   data: any,
-  isNewHire?: boolean
+  isNewHire: boolean
 ): Promise<Result<CreateInvitationResult>> {
   const token = await getSpAuthToken();
 
